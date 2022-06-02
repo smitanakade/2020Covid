@@ -1,0 +1,95 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="color:#000000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference&nbsp;{{{case.CaseNumber}}}</span></span></span></p>
+
+<p dir="ltr"><span style="color:#000000;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">{{{case.Account}}}</span></span></span></p>
+
+<p dir="ltr"><span style="color:#000000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></span></p>
+
+<p dir="ltr"><span style="color:#000000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}} </span></span></span></p>
+
+<p dir="ltr"><br />
+<b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Re: Notification - Novel Coronavirus (2019-nCoV) — Case ID {{{case.CaseNumber}}}&nbsp;</span></span></b></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><i>This Notice is issued in accordance with Directions issued under s200 of the Public Health and Wellbeing Act 2008 (Vic)&nbsp;</i></span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear<span style="color:#000000;"> {{{case.Account}}}</span></span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">This is notification that you have tested positive for coronavirus (COVID-19).&nbsp;</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">There is now a high risk of spreading coronavirus (COVID-19) to other people, including those you live with. To keep yourself and others safe we have outlined important measures for you to follow.</span></span></p>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">WHAT SHOULD I DO NOW?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Continue to isolate at home or in your accommodation, away from other people, including those you live with as much as possible.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department will be in regular contact with you through either a text messaging service or phone calls to support you. Please respond to the text messages and answer the calls.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department will work with you to determine when your isolation can end. They will provide you with written clearance.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Read the confirmed case factsheet Coronavirus (COVID-19) confirmed case – what you need to know (Word) to ensure you meet isolation requirements: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">HOW DO I ISOLATE?</span></span></b></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>You must stay at home or in your accommodation.</b></span></span></p>
+
+<ul>
+	<li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">You must isolate yourself at home or in your accommodation until you receive clearance from the department or an authorised clinician that you can return to your usual activities. This direction is compulsory for anyone with a confirmed diagnosis of coronavirus (COVID-19) and penalties apply to those who refuse or fail to comply with this direction.</span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must not leave your house or accommodation for any reason, except:</span></span>
+	<ul>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are admitted to a hospital or other facility for the purposes of receiving medical care.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are obtaining medical care, medical supplies or medical testing e.g. COVID-19.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are in any emergency.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are required to do so by law.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are visiting a patient in hospital and permitted to do so under the Hospital Visitor Directions (No 9).</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are working in a care facility and permitted to do so under the Care Facilities Directions (No 9).&nbsp;</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must not go to work, school, university, work or attend public places or events.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You should stay and sleep in a different room to other people you live with as much as possible. Use a separate bathroom if available.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are going to seek medical attention or get tested, you must not use public transport, taxi or any rideshare services. If you do not have your own car, in-home testing can be arranged by calling 1300 651 160.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Always wear a face covering if you cannot avoid being in the same room as another person and when seeking medical care.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You cannot leave your home for exercise. If you live in a private house, then it is safe for you to go outside into your own garden, balcony or courtyard. If you live in an apartment it is safe for you to go outside onto your private balcony. You can also go into a communal garden or courtyard area but will need to wear a face covering. You should, however, go quickly through any common areas on the way. You must always wear a face covering if you have to move through any communal areas.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ask others such as friends or family, who are not required to be in quarantine or isolation, to drop off food or other things you need. Anyone delivering these items should not enter your home or come in contact with you – if possible, they should leave the supplies at the front of your door.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you have difficulties accessing food or the things you need, call the coronavirus hotline on 1800 675 398 for support.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you need a translator, call TIS National on 131 450 then request the coronavirus hotline on 1800 675 398.&nbsp;</span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><b style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">For more detailed information about how to isolate and what support is available to you, please visit:</b><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;"> </span><a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19" style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><br />
+<b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">WHERE CAN I FIND MORE INFORMATION?</span></span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Factsheets for people with coronavirus (COVID-19): <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hygiene and physical distancing information: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Financial and other support for people affected by coronavirus (COVID-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">General coronavirus (COVID-19) information: <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Please do not hesitate to contact the department if you have any further questions on 1300 651 160.&nbsp;</span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Kind Regards,</span><br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Yours sincerely</span>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="image1" class="" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 1530.45px; width: 199px; height: 42px;" title="image1" /></span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Deputy Chief Health Officer (Case, Contact and Outbreak Management)&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health and Human Services&nbsp;</span></span></p>
+
+<div id="gtx-trans" style="position: absolute; left: 310px; top: 130.5px;">
+<div class="gtx-trans-icon">&nbsp;</div>
+</div>
+
+
+
+<div id="" style="left: 8px; top: 1173.5px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 1173.5px;">&nbsp;</div></body></html>

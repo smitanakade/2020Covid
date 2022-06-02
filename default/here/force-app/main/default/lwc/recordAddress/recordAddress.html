@@ -1,0 +1,363 @@
+<template>
+    <lightning-card icon-name="standard:address" title="Current Address">
+    <lightning-button-icon icon-name="utility:refresh" alternative-text="Refresh" class="slds-m-left_xx-small" title="Refresh" slot="actions" onclick={handleRefresh}></lightning-button-icon>
+    <div class="slds-m-vertical_medium slds-p-horizontal_small slds-is-relative ">
+        <template if:true={isloading}>
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </template>
+        <h1 class="slds-text-heading_small"><lightning-formatted-text value={headervalue}></lightning-formatted-text></h1>
+        <lightning-formatted-address
+            street={currentstreet}
+            city={currentcity}
+            country={currentcountry}
+            province={currentprovince}
+            postal-code={currentpostalcode}>
+        </lightning-formatted-address>
+        <lightning-button-icon icon-name="utility:edit" variant="bare" alternative-text="Edit" title="Edit Primary Address" onclick={handlecurrentaddressedit}></lightning-button-icon>
+        <p class="slds-text-body_small"><i>Note: If it’s known the person is at another location, please use the picklist below to add or select an existing address where they are located.</i></p>
+        <br/>
+        <b>Recent Addresses</b><br/>
+        <table class="slds-table slds-table_cell-buffer slds-table_fixed-layout  slds-table_header-hidden" aria-label=" Example headless table of Opportunities with no borders ">
+            <tbody>
+                <template for:each={addressvalues} for:item="AV">
+                    <tr class="slds-hint-parent" key={AV.Id}>
+                        <td data-label="Confidence" class="addresscol slds-cell-wrap">
+                        - {AV.displayvalue}
+                        </td>
+                        <td data-label="Amount" class="radiocol">
+                            <input data-type="selectbutton" data-id={AV.Id} data-recordtype={AV.type} type="radio" onchange={handleselectionchange} />
+                        </td>
+                        <td data-label="Contact" class="editcol">
+                            <span class="slds-icon_container slds-icon-utility-announcement"  data-id={AV.Id} data-recordtype={AV.type} onclick={handleeditclick}  title="Description of icon when needed">
+                                <lightning-icon icon-name="utility:edit" class=" slds-icon slds-icon-text-default" size="xx-small" alternative-text="edit" title="edit"></lightning-icon>
+                                <lightning-icon> </lightning-icon>
+                            </span>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+        <br/>
+        <b>Add New </b>
+        <br/>
+        <lightning-combobox
+            value={value}
+            placeholder="Create New Address"
+            options={createaddressoptions}
+            onchange={handleChange} >
+        </lightning-combobox>
+        <br/>
+        <div class="actiondiv">
+            <lightning-button label="Cancel" title="Non-primary action" onclick={handleformcancel} class="slds-float_right"></lightning-button>
+            <lightning-button variant="Brand" label="Save" title="Primary action" onclick={handleformsave} class=" slds-float_right slds-p-right_xx-small"></lightning-button>
+        </div>
+    </div>    
+    </lightning-card>
+
+    <template if:true={showcreateoredit}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container ">
+                <div class="slds-is-relative">
+                    <template if:true={isloading}>
+                        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                    </template>
+                <header class="slds-modal__header">
+                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closepopup}>
+                 <lightning-icon icon-name="utility:close" alternative-text="close" title="close" variant="inverse"></lightning-icon>
+                <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">{recordtype}</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium  slds-scrollable_y " id="modal-content-id-1">
+                <!-- primary/residential address -->
+                <template if:true={ispra}>
+                    <lightning-input-address
+                    address-label="Address"
+                    street-label="Street"
+                    city-label="City"
+                    country-label="Country"
+                    province-label="Province"
+                    postal-code-label="PostalCode"
+                    street={newstreet}
+                    city={newcity}
+                    country={newcountry}
+                    province={newprovince}
+                    postal-code={newpostalcode}
+                    onchange={handleaddresschange}
+                    show-address-lookup></lightning-input-address>
+                </template>
+
+                <!-- hospital and hotel presentation-->
+                <template if:true={ishmip}>
+                    <lightning-record-form
+                    object-api-name={objecttype}
+                    layout-type="Full"
+                    record-id={objectid} 
+                    columns="2"
+                    mode = "edit"
+                    onsuccess={handlesuccess}
+                    onerror={handleerror}
+                    onsubmit={handlesubmit}
+					oncancel={closepopup}>
+                    </lightning-record-form>
+                </template>
+
+                <!-- contact point address - create -->
+                <template if:true={iscpa}>
+                    <lightning-record-edit-form object-api-name={objecttype}
+                                                onsubmit={handlesubmit}  
+                                                onsuccess={handlesuccess}  
+                                                onerror={handleerror} 
+                                                oncancel={closepopup}>
+                        <lightning-messages></lightning-messages>
+                        <div class="slds-grid slds-wrap slds-p-around--medium">
+                            <div class="slds-col slds-box slds-size_12-of-12 slds-theme_shade slds-p-horizontal_small">
+                               <h1>Information..</h1>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Name"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="AddressType"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ParentId"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <!-- dummy-->
+                            </div>
+                            <div class="slds-col slds-box slds-size_12-of-12 slds-theme_shade slds-p-horizontal_small">
+                                <h1>Contact Point Details</h1>
+                             </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-address
+                                address-label="Address"
+                                street-label="Street"
+                                city-label="City"
+                                country-label="Country"
+                                province-label="State"
+                                postal-code-label="PostalCode"
+                                street={cpastreet}
+                                city={cpacity}
+                                country={cpacountry}
+                                province={cpaprovince}
+                                postal-code={cpapostalcode}
+                                onchange={handleCpaAddressChange}
+                                show-address-lookup></lightning-input-address>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Home_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="County__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="MatchingAddresses__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="VIC_Region__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Mobile_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="VIC_Region_Group__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Work_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Service_Area__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Fax__c"></lightning-input-field>
+                            </div>    
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="DHHS_Service_Area__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Pager__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Validation_Status__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Email__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Validation_Diffs__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Mobile_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ActiveFromDate"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ActiveToDate"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Email__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Save_with_blank_Active_To_Date__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Geocode_Status__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Official_Place__c"></lightning-input-field>
+                            </div>
+                        </div>
+                        <div class="slds-m-top_medium">
+                            <footer class="slds-modal__footer slds-align_absolute-center">
+                                <lightning-button class="slds-p-right_small" variant="neutral" name="Cancel" label="Cancel" onclick={closepopup}> </lightning-button>
+                                <lightning-button variant="brand" type="submit" name="save" label="save"> </lightning-button>
+                            </footer>
+                        </div>
+                   </lightning-record-edit-form>
+                </template>
+
+                <!-- contact point address - edit -->
+                <template if:true={iscpaedit}>
+                    <lightning-record-edit-form object-api-name={objecttype} 
+                                                record-id={objectid}
+                                                onsubmit={handlesubmit}  
+                                                onsuccess={handlesuccess}  
+                                                onerror={handleerror} 
+                                                oncancel={closepopup}>
+                        <lightning-messages></lightning-messages>
+                        <div class="slds-grid slds-wrap slds-p-around--medium">
+                            <div class="slds-col slds-box slds-size_12-of-12 slds-theme_shade slds-p-horizontal_small">
+                               <h1>Information..</h1>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Name"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="AddressType"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ParentId"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <!-- dummy-->
+                            </div>
+                            <div class="slds-col slds-box slds-size_12-of-12 slds-theme_shade slds-p-horizontal_small">
+                                <h1>Contact Point Details</h1>
+                             </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-address
+                                address-label="Address"
+                                street-label="Street"
+                                city-label="City"
+                                country-label="Country"
+                                province-label="State"
+                                postal-code-label="PostalCode"
+                                street={cpastreet}
+                                city={cpacity}
+                                country={cpacountry}
+                                province={cpaprovince}
+                                postal-code={cpapostalcode}
+                                onchange={handleCpaAddressChange}
+                                show-address-lookup></lightning-input-address>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Home_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="County__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="MatchingAddresses__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="VIC_Region__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Mobile_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="VIC_Region_Group__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Work_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Service_Area__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Fax__c"></lightning-input-field>
+                            </div>    
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="DHHS_Service_Area__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Pager__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Validation_Status__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Email__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Validation_Diffs__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Mobile_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ActiveFromDate"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Phone__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="ActiveToDate"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Other_Email__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Save_with_blank_Active_To_Date__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Geocode_Status__c"></lightning-input-field>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input-field field-name="Official_Place__c"></lightning-input-field>
+                            </div>
+                        </div>
+                        <div class="slds-m-top_medium">
+                            <footer class="slds-modal__footer slds-align_absolute-center">
+                                <lightning-button class="slds-p-right_small" variant="neutral" name="Cancel" label="Cancel" onclick={closepopup}> </lightning-button>
+                                <lightning-button variant="brand" type="submit" name="save" label="save"> </lightning-button>
+                            </footer>
+                        </div>
+                   </lightning-record-edit-form>
+                </template>
+                
+                <!-- primary/residential address footer-->
+                <template if:true={ispra}>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closepopup}>Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={handleprasave}>Save</button>
+                      </footer>
+                </template> 
+                </div>
+                </div>
+            </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+    </template> 
+</template>

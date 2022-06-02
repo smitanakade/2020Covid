@@ -1,0 +1,7 @@
+/* basic positioning */
+.legend { list-style: none; clear: both;}
+.legend li {  margin-right: 8px;float: left; width: 100%;}
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .treviLocations { background-color:rgb(243, 188, 9); }
+.legend .brpLocations { background-color:rgb(32, 163, 6); }

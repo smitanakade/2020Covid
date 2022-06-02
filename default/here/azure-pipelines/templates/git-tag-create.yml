@@ -1,0 +1,11 @@
+parameters: 
+  prefix: ''
+
+steps:
+- bash: |
+    old=$(git describe --match "${{ parameters.prefix }}*" --abbrev=0 --all)
+    git tag "${{ parameters.prefix }}_$(Build.SourceVersion)"
+    git push origin "${{ parameters.prefix }}_$(Build.SourceVersion)"
+    git push origin $old -d
+  condition: succeeded()
+  displayName: "Create git tag"

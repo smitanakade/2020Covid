@@ -1,0 +1,456 @@
+<apex:page standardController="Case" extensions="DHHSPrintCaseExtension" renderAs="pdf" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <html>
+    <head>
+        <style>
+            @page {
+                size: A4 portrait;
+                margin: 20mm;
+                font: 9pt;
+                @top-center {
+                    content: "DHHS Case Print";
+                }
+                @bottom-center {
+                    content: "COVID-19 (Novel Coronavirus) Questionaire July 2020         Page " counter(page) " of " counter(pages);
+                }
+            }
+            .page-break {
+                display:block;
+                page-break-after:always;
+            }
+            * {
+                font-family: Arial Unicode MS;
+                /* border: 0.1px solid blue; */
+            }
+            .pbHeader { background-color:#333; color:#fff; padding:0 20px; margin:20px 0 }
+            .pbSubsection table.detailList { width:640px }
+            .pbSubsection table.detailList tr th, .pbSubsection table.detailList tr td { width:320px; border-bottom:solid 1px #ccc; text-align:left; font-size:12px;padding:5px 0}
+            .heading h1 { display:inline-block; float:left; font-size: 24px; margin-top:0}
+            .heading img { margin-top: 20px; }
+            .heading { border-bottom:solid 2px #000; height:80px}
+            .pbHeader h2.mainTitle { font-size:18px; margin:10px 0 }
+            a { color:#000; text-decoration:none }
+            .caseBlock { margin-bottom:40px } /*space before section break*/
+            table tr > *:empty { display:none; } /* hide empty tables */
+        </style>
+    </head>
+    <body>
+    <div class="heading">
+        <h1>Case Questionnaire - Short version <br/>for non-DHHS staff COVID-19 - Part A</h1>
+        <img src="{!$Resource.DHHS_logo}" width="200" align="right"/>
+    </div>
+
+    <apex:pageBlock title="Details - Interview Information" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.WorkOrders}" var="Interview">
+                <apex:outputField value="{!Interview.Person_Interviewed__c}"/>
+                <apex:outputField value="{!Interview.Person_Interviewed_Detail__c}"/>
+                <apex:outputField value="{!Interview.Case_Interview_Completed__c}"/>
+                <apex:outputField value="{!Interview.Consent_Given__c}"/>
+                <apex:outputField value="{!Interview.Interviewed_By__c}"/>
+                <apex:outputField value="{!Interview.Date_of_Interview__c}"/> 
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Details - Clearance" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.DetailClearance}" var="Case">
+                <apex:outputField value="{!Case.Case_Cleared_from_Isolation__c}"/>
+                <apex:outputField value="{!Case.Date_Cleared_from_Isolation__c}"/>
+                <apex:outputField value="{!Case.Has_Clearance_Letter_Been_Sent__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Details - Privacy Statement" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.PrivacyStatement}" var="Case">
+                <apex:outputField value="{!Case.Statement_to_case_or_person_representing__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Details - Case Details" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.Details}" var="Case">
+                <apex:outputField value="{!Case.Account.LastName}" />
+                <apex:outputField value="{!Case.Account.FirstName}" />
+                <apex:outputField value="{!Case.Account.PersonBirthdate}"/>
+                <apex:outputField value="{!Case.Account.HealthCloudGA__Age__pc}" />
+                <apex:outputField value="{!Case.Account.Sex__c}" />
+                <apex:outputField value="{!Case.Account.HealthCloudGA__Gender__pc}" />
+                <apex:outputField value="{!Case.Account.PersonMailingStreet}" />
+                <apex:outputField value="{!Case.Account.PersonMailingCity}" />
+                <apex:outputField value="{!Case.Account.PersonMailingState}" />
+                <apex:outputField value="{!Case.Account.PersonMailingPostalCode}" />
+                <apex:outputField value="{!Case.Account.PersonMailingCountry}" /> 
+                <apex:outputField value="{!Case.Account.PersonOtherStreet}" />
+                <apex:outputField value="{!Case.Account.PersonOtherCity}" />
+                <apex:outputField value="{!Case.Account.PersonOtherState}" />
+                <apex:outputField value="{!Case.Account.PersonOtherPostalCode}" />
+                <apex:outputField value="{!Case.Account.PersonOtherCountry}" />
+                <apex:outputField value="{!Case.Account.PersonHomePhone}" /> 
+                <apex:outputField value="{!Case.Account.PersonMobilePhone}" />
+                <apex:outputField value="{!Case.Account.PersonEmail}" />
+                <apex:outputField value="{!Case.Account.Name_of_Parent__c}" />               
+                <apex:outputField value="{!Case.Case_Classification__c}"/>
+                <apex:outputField value="{!Case.Origin}"/>
+                <apex:outputField value="{!Case.Description}"/>
+                <apex:outputField value="{!Case.Include_In_Whispir_Communication__c}"/>
+                <apex:outputField value="{!Case.PHESS_ID__c}"/>
+                <apex:outputField value="{!Case.Symptoms_Onset_Date__c}"/>
+                <apex:outputField value="{!Case.Date_of_Test__c}"/>
+                <apex:outputField value="{!Case.Priority}"/>
+                <apex:outputField value="{!Case.Status}"/>
+                <apex:outputField value="{!Case.SubStatus__c}"/>
+                <apex:outputField value="{!Case.OwnerId}"/>
+                <apex:outputField value="{!Case.Confirmation_Date__c}"/>
+                <apex:outputField value="{!Case.Clearance_eligibility_assessment_date__c}"/>
+                <apex:outputField value="{!Case.Severely_Ill__c}"/>
+                <apex:outputField value="{!Case.Immunocompromised__c}"/>
+                <apex:outputField value="{!Case.Sensitive__c}"/>
+                <apex:outputField value="{!Case.Other_Sensitive_Settings__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Clinical Presentation - General Presentation" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.GeneralPresentation}" var="Case">
+                <apex:outputField value="{!Case.Doctor_Name_Instance__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Epi & Outbreaks - Epidemiological Risks" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.EpidemiologicalRisks}" var="Case">
+                <apex:outputField value="{!Case.Case_contact_with_confirmed_case__c}"/>
+                <!-- <apex:outputField value="{!Case.Case_contact_hospital_prior_symptoms__c}"/> -->
+                <apex:outputField value="{!Case.Contact_hospital_14_days_prior_symptoms__c}"/>
+                <apex:outputField value="{!Case.If_Yes_Specify_Setting__c}"/>
+                <!-- <apex:outputField value="{!Case.Case_contact_hospital_48h_prior_symptoms__c}"/>  -->
+                <apex:outputField value="{!Case.Contact_hospital_48_hours_prior_symptoms__c}"/>
+                <apex:outputField value="{!Case.If_Yes_Specify_Setting_48h__c}"/>
+                <apex:outputField value="{!Case.case_travel_in_AUS_14d_prior_symptoms__c}"/>
+                <apex:outputField value="{!Case.If_Yes_Choose_destination__c}"/>
+                <apex:outputField value="{!Case.Case_Travel_Overseas_14d_Prior_Symtoms__c}"/>
+                <apex:outputField value="{!Case.If_Overseas_Specify_Country__c}"/>
+                <apex:outputField value="{!Case.Prior_symptom_has_case_been_in_isolation__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Epi & Outbreaks - Outbreak Details" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.OutbreakDetails}" var="Case">
+                <apex:outputField value="{!Case.Outbreak_record__c}"/>
+                <apex:outputField value="{!Case.Investigation_Outbreak_PHESS_ID__c}"/>
+                <apex:outputField value="{!Case.Outbreak_setting_type__c}"/>
+                <apex:outputField value="{!Case.Relationship_to_outbreak__c}"/>
+                <apex:outputField value="{!Case.Other_Relationship_Details__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Contacts & Movements - COVIDSafe" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.ContactsAndMovements}" var="Case">
+                <apex:outputField value="{!Case.Case_have_the_COVID_Safe_app__c}"/>
+                <apex:outputField value="{!Case.Total_Number_of_Contacts_Identified__c}"/>
+                <apex:outputField value="{!Case.COVIDsafe_app__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Follow Up - Public health actions" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.PublicHealthActions}" var="Case">
+                <apex:outputField value="{!Case.Case_in_a_high_rist_occupation__c}"/>
+                <apex:outputField value="{!Case.if_Yes_Exclusion_discussed_with_case__c}" rendered="{!Case.Case_in_a_high_rist_occupation__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Date_of_exclusion_discussed__c}" rendered="{!Case.if_Yes_Exclusion_discussed_with_case__c}"/>
+                <apex:outputField value="{!Case.If_Yes_Exclusion_letter_sent_by_DHHS__c}" rendered="{!Case.Case_in_a_high_rist_occupation__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Date_exclusion_letter_sent_by_DHHS__c}" rendered="{!Case.If_Yes_Exclusion_letter_sent_by_DHHS__c}"/>
+                <apex:outputField value="{!Case.If_Yes_Infection_control_guidelines_sen__c}" rendered="{!Case.Case_in_a_high_rist_occupation__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Date_on_infection_control_guideline_sent__c}" rendered="{!Case.If_Yes_Infection_control_guidelines_sen__c}"/>
+                <apex:outputField value="{!Case.Part_of_Cluster_or_outbreak__c}"/>
+                <apex:outputField value="{!Case.If_Yes_PHESS_Exposure_site_ID__c}" rendered="{!Case.Part_of_Cluster_or_outbreak__c}"/>
+                <apex:outputField value="{!Case.Voluntary_home_quarantine_commenced__c}"/>
+                <apex:outputField value="{!Case.If_yes_Commenced_on__c}" rendered="{!Case.Voluntary_home_quarantine_commenced__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Notify_doctor_hospital_if_symptom_worsen__c}"/>
+                <apex:outputField value="{!Case.If_Yes_informed_on__c}" rendered="{!Case.Notify_doctor_hospital_if_symptom_worsen__c=='Yes'}"/>
+                <apex:outputField value="{!Case.All_close_contacts_contacted__c}"/>
+                <apex:outputField value="{!Case.All_close_contacts_identified__c}"/>
+                <apex:outputField value="{!Case.Public_exposure_sites_identified__c}"/>
+                <apex:outputField value="{!Case.Public_exposure_sites_documented__c}"/>
+                <apex:outputField value="{!Case.Has_a_PPE_request_been_lodged__c}"/>
+                <apex:outputField value="{!Case.PPE_request_lodged_on__c}" rendered="{!Case.Has_a_PPE_request_been_lodged__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Has_a_relief_accom_request_been_lodged__c}"/>
+                <apex:outputField value="{!Case.Relief_accom_lodged_on__c}" rendered="{!Case.Has_a_relief_accom_request_been_lodged__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Public_health_actions_completed__c}"/>
+                <apex:outputField value="{!Case.Other_actions__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Follow Up - Payments" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.FollowUpPayments}" var="Case">
+                <apex:outputField value="{!Case.Are_you_currently_working_from_home__c}"/>
+                <apex:outputField value="{!Case.Are_you_currently_taking_leave__c}"/>
+                <apex:outputField value="{!Case.Receive_financial_assistance__c}"/>
+                <apex:outputField value="{!Case.Receive_any_other_form_of_income__c}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Follow Up - Education" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.FollowUpEducation}" var="Case">
+                <apex:outputField value="{!Case.Preventing_transmission_of_COVID_19_disc__c}"/>
+                <apex:outputField value="{!Case.If_yes_Date_discussed__c}" rendered="{!Case.Preventing_transmission_of_COVID_19_disc__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Case_provided_with_factsheet__c}"/>
+                <apex:outputField value="{!Case.Fact_sheet_sent_on__c}" rendered="{!Case.Case_provided_with_factsheet__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Information_sent__c}"/>
+                <apex:outputField value="{!Case.Information_sent_on__c}" rendered="{!Case.Information_sent__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Privacy_information_requested_by_case__c}"/>
+                <apex:outputField value="{!Case.Privacy_information_sent_on__c}" rendered="{!Case.Privacy_information_requested_by_case__c=='Yes'}"/>
+                <apex:outputField value="{!Case.Directed_to_website_for_further_info__c}"/>
+                <apex:outputField value="{!Case.Website_information_sent_on__c}" rendered="{!Case.Directed_to_website_for_further_info__c=='Yes'}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Demographics" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.Demographics}" var="Case">
+                <apex:outputField value="{!Case.Account.Aboriginal_or_Torres_Strait_Islander__c}" />
+                <apex:outputField value="{!Case.Account.Country_of_birth__c}" />
+                <apex:outputField value="{!Case.Account.year_arrived_in_Australia__c}" />
+                <apex:outputField value="{!Case.Account.Language_spoken_at_home__c}" />
+                <apex:outputField value="{!Case.Account.Alive_deceased__c}" />
+                <apex:outputField value="{!Case.Account.Date_of_Death__c}" />
+                <apex:outputField value="{!Case.Account.Cause_of_death__c}" />
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <div style="page-break-after: always;"><!-- --></div>
+
+    <apex:variable value="{!0}" var="rowNumCE"/>
+    <apex:pageBlock title="Work/Study/Care" rendered="{!svc.hasContactEncounters}" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.ContactEncounters}" var="ce">
+                <apex:variable var="rowNumCE" value="{!rowNumCE + 1}"/>            
+                <apex:outputText style="color: red" value="Contact Encounter record # {!FLOOR(rowNumCE)}"/>
+                <apex:outputField value="{!ce.Name}"/>
+                <apex:outputField value="{!ce.StartTime}"/>
+                <apex:outputField value="{!ce.End_Time__c}"/>
+                <apex:outputField value="{!ce.Duration__c}"/>
+                <apex:outputField value="{!ce.EncounterDuration}"/>
+                <apex:outputField value="{!ce.Normal_Hours_of_Attendance__c}"/>
+                <apex:outputField value="{!ce.Contact_Person__r.Name}"/>
+                <apex:outputField value="{!ce.Employment_Status__c}"/>
+                <apex:outputField value="{!ce.Location__r.Address__c }" rendered="{!ce.Location__r.Address__c!=''}"/>
+                <apex:outputField value="{!ce.Location__r.City__c }" rendered="{!ce.Location__r.City__c!=''}"/>
+                <apex:outputField value="{!ce.Location__r.County__c }" rendered="{!ce.Location__r.County__c!=''}" />
+                <apex:outputField value="{!ce.Location__r.Postal_Code__c }" rendered="{!ce.Location__r.Postal_Code__c!=''}" />
+                <apex:outputField value="{!ce.Location__r.Country__c}" rendered="{!ce.Location__r.Country__c!=''}" />
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.Street}" rendered="{!ce.Location__r.VisitorAddress.Street!=''}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.City}" rendered="{!ce.Location__r.VisitorAddress.City!=''}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.State}" rendered="{!ce.Location__r.VisitorAddress.State!=''}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.PostalCode}" rendered="{!ce.Location__r.VisitorAddress.PostalCode!=''}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.Country}" rendered="{!ce.Location__r.VisitorAddress.Country!=''}"/>
+                <apex:outputField value="{!ce.Description}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:variable value="{!0}" var="rowNumCAR"/>
+    <apex:pageBlock title="Clinical Assessment Responses" rendered="{!svc.hasClinicalAssesmentResponses}" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.ClinicalAssesmentResponses}" var="ca">
+                <apex:variable var="rowNumCAR" value="{!rowNumCAR + 1}"/>            
+                <apex:outputText style="color: red" value="Clinical Assessment Response record # {!FLOOR(rowNumCAR)}"/>
+                <apex:outputField value="{!ca.Name}" />
+                <apex:outputField value="{!ca.HealthCloudGA__OnsetOfSymptoms__c}" />
+                <apex:outputField value="{!ca.Did_person_have_symptoms__c}" />
+                <apex:outputField value="{!ca.Acute_respiratory_distress_syndrome_ARD__c}" />
+                <apex:outputField value="{!ca.Cough__c}" />
+                <apex:outputField value="{!ca.Diarrhoea__c}" />
+                <apex:outputField value="{!ca.Fever__c}"/>
+                <apex:outputField value="{!ca.Measured_temp_or_self_reported_fever__c}"/>
+                <apex:outputField value="{!ca.Temperature__c}"/>
+                <apex:outputField value="{!ca.Pneumonia__c}" />
+                <apex:outputField value="{!ca.Pneumonia_diagnosed_by__c}" />
+                <apex:outputField value="{!ca.Pneumonitis__c}" />
+                <apex:outputField value="{!ca.Shortness_of_breath__c}" />
+                <apex:outputField value="{!ca.Sore_throat__c}" />
+                <apex:outputField value="{!ca.Specify_other_symptoms__c}" />
+                <apex:outputField value="{!ca.Clinical_Notes__c}" />
+                <apex:outputField value="{!ca.X1st_active_result_s_specimen_collectio__c}" />
+                <apex:outputField value="{!ca.Received_oxygen_therapy__c}" />
+                <apex:outputField value="{!ca.Intubated__c}" />
+                <apex:outputField value="{!ca.Received_ECMO__c}" />
+                <apex:outputField value="{!ca.No_Conditions_Identified__c}" />
+                <apex:outputField value="{!ca.Chronic_Respiratory_Conditions__c}" />
+                <apex:outputField value="{!ca.Cardiovascular_Disease__c}" />
+                <apex:outputField value="{!ca.Diabetes_mellitus_Type1__c}" />
+                <apex:outputField value="{!ca.Diabetesmellitus_Type2__c}" />
+                <apex:outputField value="{!ca.Immunosuppression__c}" />
+                <apex:outputField value="{!ca.Immunosuppressive_therapy__c}" />
+                <apex:outputField value="{!ca.Haemoglobinopathies__c}" />
+                <apex:outputField value="{!ca.NeurologicalDisability__c}" />
+                <apex:outputField value="{!ca.Renal_Failure__c}" />
+                <apex:outputField value="{!ca.Morbid_obesity__c}" />      
+                <apex:outputField value="{!ca.Metabolic_diseases__c}" />
+                <apex:outputField value="{!ca.Pregnancy__c}" />
+                <apex:outputField value="{!ca.HealthCloudGA__OtherChronicDiseases__c}" />
+                <apex:outputField value="{!ca.HealthCloudGA__OtherChronicDiseasesNotes__c}" />
+                <apex:outputField value="{!ca.Other_Conditions__c}" />
+                <apex:outputField value="{!ca.Specify_other_conditions__c}" />
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:variable value="{!0}" var="rowNumHP"/>
+    <apex:pageBlock title="Presentations" rendered="{!svc.hasEHREncouters}" >
+        <apex:pageBlockSection columns="1">        
+            <apex:repeat value="{!svc.EHREncouters}" var="hp">
+                <apex:variable var="rowNumHP" value="{!rowNumHP + 1}"/>
+                <apex:outputText style="color: red" value="Presentation record # {!FLOOR(rowNumHP)}"/>
+                <apex:outputField value="{!hp.Presented_to__c}" />
+                <apex:outputField value="{!hp.Admitted_to_Hospital__c}" />
+                <apex:outputField value="{!hp.Presented_due_to_2019__c}" />
+                <apex:outputField value="{!hp.StartDate__c}" />
+                <apex:outputField value="{!hp.End_Date__c}" />
+                <apex:outputField value="{!hp.Discharged_deceased__c}" />
+                <apex:outputField value="{!hp.Deceased_date__c}" />
+                <apex:outputField value="{!hp.Admitted_to_ICU__c}" />
+                <apex:outputField value="{!hp.Was_case_isolated_on_arrival__c}"/>
+                <apex:outputField value="{!hp.Were_they_ventilated__c}"/>
+                <apex:outputField value="{!hp.UR_number__c}"/>
+                <apex:outputField value="{!hp.Doctor_Name_c__c}"/>
+                <apex:outputField label="Account (Location)" value="{!hp.HealthCloudGA__Account__r.Name}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.Site}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.ShippingStreet}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.ShippingCity}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.ShippingState}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.ShippingCountry}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.ShippingPostalCode}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.Phone}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.Sic}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.Email_work__c}"/>
+                <apex:outputField value="{!hp.HealthCloudGA__Account__r.Fax}"/>
+                <apex:outputField value="{!hp.Infection_Control_Notified__c}" />
+                <apex:outputField value="{!hp.ICC_Notified_On__c}" />
+                <apex:outputField value="{!hp.ICC_Notified_Name__c}" />
+                <apex:outputField value="{!hp.ICC_Notified_Phone__c }" />
+                <apex:outputField value="{!hp.Notes__c}" />
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:variable value="{!0}" var="rowNumCE"/>
+    <apex:pageBlock title="Case Movements" rendered="{!svc.hasCaseMovements}" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.CaseMovements}" var="ce">
+                <apex:variable var="rowNumCE" value="{!rowNumCE + 1}"/>
+                <apex:outputText style="color: red" value="Contact Encounter record # {!FLOOR(rowNumCE)}"/>
+                <apex:outputField value="{!ce.NAME}"/>
+                <apex:outputField value="{!ce.StartTime}"/>
+                <apex:outputField value="{!ce.End_Time__c}"/>
+                <apex:outputField value="{!ce.Duration__c}"/>
+                <apex:outputField value="{!ce.Location__r.Name}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.Street}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.City}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.State}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.Country}"/>
+                <apex:outputField value="{!ce.Location__r.VisitorAddress.PostalCode}"/>
+                <apex:outputField value="{!ce.Description}"/>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:variable value="{!0}" var="rowNumCCC"/>
+    <apex:pageBlock title="Close Contacts" rendered="{!svc.hasCloseContacts}" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.CloseContacts}" var="ce">
+                <apex:repeat value="{!ce.ContactEncounterParticipants}" var="ccep">
+                    <apex:variable var="rowNumCCC" value="{!rowNumCCC + 1}"/>
+                    <apex:outputText style="color: red" value="Confirmed Case Contact with Others record # {!FLOOR(rowNumCCC)}"/>
+                    <apex:outputField value="{!ccep.Contact_Type__c}" />
+                    <apex:outputField value="{!ce.Location__r.VisitorAddress.Country}" />
+                    <apex:outputField value="{!ccep.StartTime}" />
+                    <apex:outputField value="{!ccep.EncounterDuration}" />
+                    <apex:outputField value="{!ccep.DateofEncounter__c}" />
+                    <apex:outputField value="{!ccep.Age}" />
+                    <apex:outputField value="{!ccep.Relationship_to_Case__c}"/>
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.Name}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMobilePhone}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.ShippingStreet}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.ShippingCity}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.ShippingState}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.ShippingPostalCode}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.ShippingCountry}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMailingStreet}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMailingCity}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMailingState}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMailingPostalCode}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonMailingCountry}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonOtherStreet}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonOtherCity}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonOtherState}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonOtherPostalCode}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonOtherCountry}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.PersonEmail}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.Account.Email_work__c}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.CaseNumber}" />
+                    <apex:outputField value="{!ccep.Close_Contact_Record__r.PHESS_ID__c}" />
+                </apex:repeat>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+    <apex:variable value="{!0}" var="rowNumCCCO"/>
+    <apex:pageBlock title="Contacts with Confirmed Cases" rendered="{!svc.hasContactsWithConfirmedCases}" >
+        <apex:pageBlockSection columns="1">
+            <apex:repeat value="{!svc.ContactsWithConfirmedCases}" var="ce">
+                <apex:repeat value="{!ce.ContactEncounterParticipants}" var="cop">
+                    <apex:variable var="rowNumCCCO" value="{!rowNumCCCO + 1}"/>
+                    <apex:outputText style="color: red" value="Close Contact with Others record # {!FLOOR(rowNumCCCO)}"/>
+                    <apex:outputField value="{!cop.Contact_Type__c}" />
+                    <apex:outputField value="{!ce.Location__r.VisitorAddress.Country}" />
+                    <apex:outputField value="{!cop.StartTime}" rendered="{!IF(cop.Contact_Type__c=='Close contact', true, false)}" />
+                    <apex:outputField value="{!cop.EncounterDuration}" rendered="{!IF(cop.Contact_Type__c=='Close contact', true, false)}" />
+                    <apex:outputField value="{!cop.DateofEncounter__c}" />
+                    <apex:outputField value="{!cop.Relationship_to_Case__c}"/>
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.Name}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.HealthCloudGA__Age__pc}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMobilePhone}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.ShippingStreet}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.ShippingCity}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.ShippingState}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.ShippingCountry}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.ShippingPostalCode}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMailingStreet}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMailingCity}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMailingState}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMailingPostalCode}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonMailingCountry}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonOtherStreet}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonOtherCity}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonOtherState}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonOtherPostalCode}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonOtherCountry}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.PersonEmail}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.Account.Email_work__c}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.CaseNumber}" />
+                    <apex:outputField value="{!cop.Confirmed_Case_Record__r.PHESS_ID__c}" />
+                </apex:repeat>
+            </apex:repeat>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    </body>
+    </html>
+</apex:page>

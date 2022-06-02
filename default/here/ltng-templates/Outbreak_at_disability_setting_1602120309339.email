@@ -1,0 +1,113 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><b>Attachments:</b></span></span></span>
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Case and Contact Data Disability &amp; Healthcare</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Testing Spreadsheet Daily Update <b>(if applicable) – remove if not necessary</b> </span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;"><span style="line-height:115%"><b>IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY </b></span><br />
+<span style="line-height:115%"><b>PLEASE ADD PHESS ID IN SUBJECT LINE. EDIT/REMOVE NECESSARY INFORMATION.</b></span><br />
+<span style="line-height:115%"><b>DELETE THIS LINE AND ABOVE BEFORE SENDING</b></span></span><br />
+<br />
+<br />
+Dear {{{Case.Account}}},<br />
+Thank you for your time today.&nbsp;<br />
+As discussed, we are investigating a <span style="color:#4472c4">case/outbreak </span>of coronavirus (COVID-19) at {{{Case.LocationAddress__c}}}. <span style="color:black">The outbreak name for your facility is </span>{{{Case.Subject}}}<b>.</b>&nbsp;<span style="color:black">Team 4 will assist you in managing and controlling the outbreak. We can be contacted directly on&nbsp;</span></span></span>
+
+<ul>
+	<li class="xxmsoplaintext"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">DHHS Triage: &nbsp;1300 6511160 &nbsp;</span></span></li>
+	<li class="xxmsoplaintext"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Teamfour.ccom@dhhs.vic.gov.au</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <span style="background:white"><span style="color:#323130">We have identified the infectious period for this </span><span style="color:red">staff/client </span><span style="color:#323130">from </span><span style="color:red">xx/xx 2020 </span><span style="color:#323130">until the case was adequately isolated.</span></span><br />
+<span style="background:white"><span style="color:#323130">Following on from our conversation could you please</span></span><span style="color:black"> refer to the following to manage and control the outbreak:&nbsp;</span><br />
+<b>Confirmed Case</b></span></span>
+
+<ul>
+	<li style="margin-bottom:13px"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">Confirmed case need to be isolated in their room&nbsp;from community, their family/other clients from <span style="color:red">xx/xx/20 </span>until they are deemed cleared by the Department of Health and Human Services.</span></span></span></li>
+	<li style="margin-bottom:13px"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">Where care is needed, carers are required to wear full PPE (mask, goggle, gloves and gown). The department&nbsp;can assist you in getting adequate supply.</span></span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <b>Contacts/Close contact</b></span></span>
+
+<ul>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please provide <b>a full list of employees</b>&nbsp;and clients and contact details&nbsp;in the attached spreadsheet.&nbsp;</span></span></li>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Identify if they are considered close contacts or not for the period <span style="color:red">xx to xx&nbsp;</span>and clearly mark this on the spread sheet.</span></span></li>
+</ul>
+
+<div class="xxx">&nbsp;
+<table class="Table" style="width:0cm; border-collapse:collapse; border:solid #ababab 1.0pt" width="0">
+	
+		<tr>
+			<td style="border:solid #ababab 1.0pt; background:white; width:600.0pt; padding:.6pt .6pt .6pt .6pt" width="471"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="line-height:12.65pt"><b><i><span style="color:black">Close contact =&nbsp;</span></i></b><i><span style="color:black">Close contact means greater than 15 minutes face-to-face, cumulative, or the sharing of a closed space for more than two hours, with a confirmed case during their infectious period. Contact needs to have occurred during the period of 48 hours prior to onset of symptoms (or if asymptomatic, 48 hours prior to test date) of the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact.</span></i></span></span><br />
+			<span style="background:white"><span style="line-height:12.65pt"><b><i><span style="color:black">Period for contact tracing = Contact needs to have occurred during the period of 48 hours prior to onset of symptoms in the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact.&nbsp; &nbsp;</span></i></b></span></span></span></span></td>
+		</tr>
+	
+</table>
+<br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:black">Isolation</span></b></span></span>
+
+<ul>
+	<li class="xx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="background:white"><span style="color:black">Please ensure any staff that are identified as close contacts are advised&nbsp;<b>not&nbsp;</b>to attend work from </span><span style="color:red">XX.</span></span></span></span></span></li>
+	<li class="xx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%">All close contacts&nbsp;(staff and clients (are&nbsp;<b>required to quarantine for 14 days post most recent exposure to the case while infectious and&nbsp;</b>until they are cleared by department. Quarantine refers to isolation from work, the community and household.&nbsp;</span></span></span></li>
+	<li class="xx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%">Where care is needed, carers are required to wear full PPE (mask, goggle, gloves and gown). The DHHS can assist you getting adequate supply.</span></span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Infection control measures / cleaning </b></span></span>
+
+<ul>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Ensure you undertake an environmental clean using an appropriate disinfectant in accordance with </span>‘Cleaning and disinfecting to reduce COVID-19 transmission – tips for non-healthcare settings’ fact sheet, available at: <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/staying-safe-covid-19" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span>.<span style="color:black"> The facility may or may not need to be closed for this to occur.</span></span></span></li>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Exclude ill staff until symptom free (or if confirmed cased of COVID-19, until they meet the release from isolation criteria)</span></span></li>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reinforce standard precautions (hand hygiene, cough etiquette) throughout the facility</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Testing</b></span></span>
+
+<ul>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department will assist in facilitating widespread testing of all clients and staff of the facility. </span></span></li>
+	<li class="xxmsoplaintext"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All identified close contacts will be required to test at day 11 or after of their quarantine period. Pleas organise the testing with the help of the department if needed. &nbsp;&nbsp;They will require a negative result prior to their quarantine ending.</span></span></li>
+	<li class="xxmsoplaintext"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Confirmed case do not require a clearance test</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;<br />
+<b><span style="color:black">Monitoring</span></b></span></span>
+
+<ul>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Update the attached testing spreadsheet to monitor for close contacts returning to work. This is for your purpose only and does &shy;<u>not</u> need to be returned to the Department of Health and Human Services.</span></span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;<br />
+<b>Communication with facility doctors</b></span></span>
+
+<ul>
+	<li class="xxmsoplaintext"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Inform and provide all doctors with the <i>Letter to GPs for COVID-19 outbreak </i><b>(appendix 4 in the <i>COVID-19 for the Victoria Aged Care Sector) </i></b>at the beginning of the outbreak ensuring you include the <b>facility name </b>and <b>current date </b>prior to sending. Confirmed cases <b>do not</b> require a clearance test.</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>New cases, deaths and hospitalisation</b><br />
+<span style="color:black">Any </span>new case, <span style="color:black">death</span> or hospitalisation<span style="color:black"> of a client<b>&nbsp;</b>must be notified to the department by phone </span>as soon as possible<br />
+<br />
+<b>Declaring an outbreak over</b><br />
+<span style="vertical-align:baseline">Generally, a COVID-19 outbreak can be declared over if no new cases occur within 28 days 2 incubation periods) since the last confirmed case was present&nbsp;on site,&nbsp;all required test results have returned a negative result, and no further cases have occurred. A decision to declare the outbreak over should be made in consultation with the department.</span><br />
+&nbsp;<br />
+<b>Additional resources</b></span></span>
+
+<ul>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="line-height:115%"><span style="color:black">Please read and regularly refer to the <i>COVID-19 Plan for the Victorian Aged Care Sector. </i>Although the guideline is written for Aged Care facility, you will find useful information applicable to your setting to manage and control the outbreak. &nbsp;It is important that you follow these guidelines, particularly the infection control measures to control the outbreak. An outbreak management checklist and email template for GPs is available in the plan to assist you in managing the outbreak. &nbsp;&nbsp; These guidelines and associated documents are also available at: </span><span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="http://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19" style="color:#0563c1; text-decoration:underline">http://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19</a></span></span><span style="color:black">.</span></span></span></span></span></li>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="line-height:115%"><span style="color:black">Close contact information can be found at </span><span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></span></span></span></span></li>
+	<li class="xxx"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="line-height:115%"><span style="color:black">General Info can also be found on our webpage at </span><span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/novelcoronavirus" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/novelcoronavirus</a></span></span><span style="color:black">.</span></span></span></span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:105%">Please note, privacy is of the utmost importance to the department. While every effort to maintain privacy is taken, your facility may be named in the media if deemed by the department to be in the interest of public health safety.</span><br />
+<span style="line-height:115%">Thank you for your assistance. If you have any further concerns relating to this matter, contact Team 4.</span><br />
+&nbsp;<br />
+<span style="line-height:normal">Kind Regards,</span><br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+<span style="line-height:normal">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</span><br />
+<span style="line-height:normal">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span><br />
+<span style="line-height:normal">t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:red">&lt;team email&gt;</span></span><br />
+<span style="line-height:normal">w. <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="http://www.dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">www.dhhs.vic.gov.au</a></span></span></span></span></span><br />
+<br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><span style="color:#5f5f5f">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></span></span><br />
+&nbsp;</div></body></html>

@@ -1,0 +1,62 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <template if:true={record}>
+            <div class={classname}>
+          <span>
+
+            <c-dhhs_calendar record-id={record.CaseId.value} hidemessage={hidecontactsandcep}></c-dhhs_calendar>
+
+          </span>
+            </div>
+            <div class={classname}>
+            <span>
+                <c-dhhs_case-movement-close-contact record-id={record.CaseId.value}></c-dhhs_case-movement-close-contact>
+            </span>
+            </div>
+
+            <template if:false={hidecontactsandcep}>
+                <div class={classname}>
+                    <span>
+                        <c-dhhs_contact-encounter-participant-details
+                                record-id={record.CaseId.value}></c-dhhs_contact-encounter-participant-details>
+                    </span>
+                    </div>
+
+            
+
+            <div>
+            <div class="slds-col slds-size_12-of-12" >
+                <c-dhhs_custom-list-view-data-table
+                        title ="Case Movement"
+                        icon-details="standard:case"
+                        related-object="ContactEncounter"
+                        related-field="Record__c"
+                        fields="CalculatedDay__c, StartTime, Name, Location__r.Name, Duration__c, Exposure_Site_ID__r.CaseNumber, Exposure_Site_ID__r.Subject, Incorrect_Information_Provided__c,Movement_Notes__c"
+                        total-row-counts="50"
+                        order-by="StartTime"
+                        record-id={record.CaseId.value}
+                ></c-dhhs_custom-list-view-data-table>
+            </div>
+        </div>
+
+        <div>
+            <div class="slds-col slds-size_12-of-12" >
+                <c-dhhs_-c-e-p-list-view
+                        title ="Contact Encounter Participants"
+                        icon-details="standard:groups"
+                        related-object="ContactEncounterParticipant"
+                        related-field="Parent_Record__c"
+                        fields="Contact_Type__c, StartTime, End_Time__c, Contact.Name, Contact.MobilePhone, ContactEncounter.Location__r.Name, Contact.Address_Text__c ,Relationship_to_Case__c"
+                        total-row-counts="50"
+                        order-by="StartTime"
+                        record-id={record.CaseId.value}
+                ></c-dhhs_-c-e-p-list-view>
+            </div>
+            </div>
+        </template>
+
+        </template>
+
+    </div>
+
+</template>

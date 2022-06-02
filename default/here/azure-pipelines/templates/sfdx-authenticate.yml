@@ -1,0 +1,11 @@
+
+parameters: 
+  authUrl: ''
+  targetEnv: ''
+
+steps:
+- script: |
+    echo ${{ parameters.authUrl }} > credentials.txt
+    sfdx force:auth:sfdxurl:store -f credentials.txt -a ${{ parameters.targetEnv }}
+  condition: and(succeeded(),ne('${{ parameters.authUrl }}', ''))
+  displayName: "Connect to ${{ parameters.targetEnv }}"

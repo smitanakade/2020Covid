@@ -1,0 +1,55 @@
+<html><head>
+	<title></title>
+	<style type="text/css">table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;"><span style="color:#ff0000;">PLEASE ENTER Case ID IN SUBJECT LINE. DELETE THIS LINE BEFORE SENDING</span><br />
+<br />
+Hi,&nbsp;<br />
+<br />
+The following confirmed case of COVID-19 is currently admitted at <span style="color:#c0392b;">&lt;hospital&gt;</span>.&nbsp;<br />
+<br />
+Please note this case has met the release from isolation criteria and has been cleared by the Department of Health and Human Services on&nbsp;{{{case.Date_Cleared_from_Isolation__c}}}:&nbsp;&nbsp;<br />
+&nbsp;
+<table class="MsoTableGrid" style="border-collapse:collapse; border:solid windowtext 1.0pt">
+	
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">PHESS ID:</span></span></b></span></span></span></td>
+			<td style="border:solid windowtext 1.0pt; width:276.5pt; border-left:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.PHESS_ID__c}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">First name:</span></span></b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:276.5pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account.FirstName}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Last name:</span></span></b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:276.5pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account.LastName}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">DOB:</span></span></b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:276.5pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account.Birthdate}}}</span></span></td>
+		</tr>
+	
+</table>
+<br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please find clearance letter attached.&nbsp;<br />
+<br />
+Thanks&nbsp;<br />
+<br />
+<br />
+Kind Regards,</span></span><br />
+<br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}<br />
+Existing Confirmed Cases Team<br />
+<b>Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</b><br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | &nbsp;f. 1300 651 170 | e. ExistingConfirmedCase@dhhs.vic.gov.au<br />
+w. </span></span> <a href="http://www.dhhs.vic.gov.au/"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">www.dhhs.vic.gov.au</span></span></a><br />
+<br />
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span><br />
+&nbsp;</body></html>

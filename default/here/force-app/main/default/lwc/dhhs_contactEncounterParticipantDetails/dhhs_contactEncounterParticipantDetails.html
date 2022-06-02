@@ -1,0 +1,178 @@
+<template> 
+    <lightning-card title="Contacts" icon-name="standard:groups">  
+            <div class="slds-var-m-around_medium">
+           
+                <lightning-layout  vertical-align="end"> 
+                    <lightning-layout-item size="11">
+                        <!-- <div class="slds-p-left_x-small"> -->
+                            <lightning-input
+                                name="movement"
+                                label="Movement"
+                                value={movementName}
+                                data-id="movementfromce"
+                                required="true"
+                                disabled="true">
+                            </lightning-input>
+                        <!-- </div> -->
+                    </lightning-layout-item> 
+                    <div class="slds-p-bottom_x-small">
+                        <lightning-layout-item size="1">
+                            <lightning-helptext content="Create a movement or select an existing record from the  list of movement records" class="customIcon"></lightning-helptext>
+                        </lightning-layout-item>
+                    </div>
+                </lightning-layout>
+
+                <!-- <lightning-layout multiple-rows > -->
+                <lightning-layout  vertical-align="end">
+                    <!-- <lightning-layout-item padding="around-small" > -->
+                        <lightning-layout-item size="5">
+                            <c-type-ahead-component
+                            display-field="PersonBirthdate,PersonMobilePhone,Address_Text__pc,PersonEmail"
+                            display-field-json={jsonText}
+                            display-title-field-json=""
+                            iconname="standard:avatar"
+                            no-rec-display="20"
+                            object-name="Account"
+                            label="Search by Person/Account"
+                            plural-label="Persons"
+                            record-type-id={getpersonAccountRecordType}
+                            record-type="PersonAccount"
+                            searchfield="Full_Name__c"
+                            create-record="True"
+                            create-fields="FirstName,MiddleName,LastName,PersonBirthdate,Head_of_household__c,Household_member__c,PersonMailingStreet,PersonMailingPostalCode,PersonMailingCity,PersonMailingState,PersonMailingCountry,PersonHomePhone,PersonMobilePhone,PersonEmail,Interpreter_required__c"
+                            is-required={isRequiredPersonsearch}
+                            disable-input ={disablePersonsearch}
+                            onselect={handelPersonSelected}>
+                            </c-type-ahead-component>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="5" style="padding-left: 20px;">
+                            <c-type-ahead-component
+                            display-field="Account.Name,CaseNumber,RecordType.Name"
+                            display-field-json={jsonRecText}
+                            display-title-field-json=""
+                            iconname="standard:avatar"
+                            no-rec-display="10"
+                            object-name="Case"
+                            label="Search by record number"
+                            plural-label="Records"
+                            record-type-id=""
+                            record-type=""
+                            searchfield="CaseNumber"
+                            create-record="false"
+                            create-fields=""
+                            is-required={isRequiredRecordSearch}
+                            disable-input ={disableRecordSearch}
+                            disable-create = true
+                            onselect={handleRecSelected}>
+                            </c-type-ahead-component>
+                        </lightning-layout-item>
+                        
+                        <!-- <lightning-input data-id="personselector" class="slds-hide"></lightning-input> -->
+                </lightning-layout>
+            
+                <lightning-layout  vertical-align="end">    
+                    <!-- <lightning-layout-item padding="around-small"> -->
+                    <lightning-layout-item size="12">
+                        <c-dhhs_-c-e-p-case-list-small showcaselist={showcaselist} onselectcase={handleCaseSelected}></c-dhhs_-c-e-p-case-list-small>
+                    </lightning-layout-item>
+                </lightning-layout>
+
+                <lightning-layout  vertical-align="end"> 
+                    <!-- <lightning-layout-item padding="around-small"> -->
+                    <div class="slds-p-right_x-small"> 
+                        <lightning-layout-item size="6">
+                            <lightning-combobox
+                                name="typeOfEncounter"
+                                label="Contact Type"
+                                placeholder="Select"
+                                value={typeOfEncounter}
+                                options={typeOfEncounterOptions}
+                                onchange={handleChange} 
+                                required="true"
+                                data-id="typeofencounter">
+                            </lightning-combobox>
+                        </lightning-layout-item>
+                    </div>
+                    <!-- <lightning-layout-item padding="around-small" size="3"> -->
+                        <!-- name="typeOfEncounter" 
+                        <template if:true={showongoingexposure}>
+                            <div class="slds-p-left_x-small"> 
+                                <lightning-layout-item size="6">
+                                    <lightning-input type="checkbox" label="On-going exposure" name="ongoingExposer" onchange={handleChange}></lightning-input>
+                                </lightning-layout-item>
+                            </div>
+                        </template>-->
+                    
+                </lightning-layout>
+
+                
+
+        <!-- <lightning-layout  vertical-align="end"> -->
+                
+                    
+                <!-- </lightning-layout-item>   -->
+            <!-- </lightning-layout> -->
+         
+            <lightning-layout  vertical-align="end">
+                <div class="slds-p-right_x-small"> 
+                    <lightning-layout-item size="6">
+                        <lightning-combobox
+                            name="relationshipToRecordPick"
+                            label="Relationship to parent record"
+                            placeholder="Select"
+                            value={relationshipToRecordPick}
+                            options={relationshipToRecordOptions}
+                            onchange={handleChange} 
+                            required="true"
+                            data-id="relationshiptorecordpick">
+                        </lightning-combobox>
+                    </lightning-layout-item>
+                </div>
+                <!-- name="relationshipToRecordPick" -->
+                <!-- <lightning-layout-item padding="around-small"> -->
+                <div class="slds-p-left_x-small"> 
+                    <lightning-layout-item size="6">
+                        <lightning-combobox
+                            name="specifyRelationshipToRecordPick"
+                            label="Specify relationship to parent record"
+                            placeholder="Select"
+                            value={specifyRelationshipToRecordPick}
+                            options={specifyRelationshipToRecordOptions}
+                            onchange={handleChange} 
+                            required="true"
+                            data-id="specifyrelationshiptorecordpick">
+                        </lightning-combobox>
+                    </lightning-layout-item>
+                </div> 
+            </lightning-layout>
+
+            <lightning-layout  vertical-align="end">
+
+                <!-- <lightning-layout-item padding="around-small" size="3"> -->
+                <lightning-layout-item size="12">
+                    <lightning-input
+                        name="description"
+                        label="Notes"
+                        type="Text Area (Long)"
+                        data-id="description"
+                        value={description}
+                        onchange={handleChange}
+                    ></lightning-input> 
+                </lightning-layout-item>
+            </lightning-layout>
+        <!-- </lightning-layout> -->
+            <div class="slds-p-top_small"> 
+                <lightning-button
+                        label="Save new contact"
+                        variant="brand"
+                        onclick={handleSubmitNewCEP}
+                        disabled={disabledCondition}
+                ></lightning-button>
+            </div>
+        </div>
+
+    </lightning-card> 
+        <!-- </div>
+    </article> -->
+</template>

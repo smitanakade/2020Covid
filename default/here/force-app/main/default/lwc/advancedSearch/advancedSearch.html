@@ -1,0 +1,26 @@
+<!--
+  @description       : Exposure Card Search Component
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : CRM Squad 2
+  @last modified on  : 12-10-2020
+  @last modified by  : CRM Squad 2
+  Modifications Log 
+  Ver   Date         Author        Modification
+  1.0   11-16-2020   CRM Squad 2   Initial Version
+-->
+<template>
+    <!-- At the moment it's only supporting individual search, in the future it can support exposure search by extending the relevant components-->
+    <div class="slds-box">
+        <p>{searchType} Record Advanced Search</p>
+      </div>
+    <div class="slds-var-p-around_medium">
+        <div class="slds-grid slds-wrap">
+            <div class="slds-medium-size_3-of-12 slds-large-size_3-of-12">
+                <c-search-criteria  onsearch={search} search-type={searchType} onclearsearch={clearSearch}></c-search-criteria>
+            </div>
+            <div class="slds-medium-size_9-of-12 slds-large-size_9-of-12">
+                <c-search-result search-type={searchType}></c-search-result>
+            </div>
+        </div>
+    </div>
+</template>

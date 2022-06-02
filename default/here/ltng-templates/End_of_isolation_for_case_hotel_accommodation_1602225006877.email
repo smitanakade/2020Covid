@@ -1,0 +1,42 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p dir="ltr">To: <a href="mailto:COVIDdirections@dhhs.vic.gov.au">COVIDdirections@dhhs.vic.gov.au</a>, COVIDquarantine@dhhs.vic.gov.au</p>
+
+<p dir="ltr">CC: <span style="color:#e74c3c;">&lt;Authorising officer at hotel&gt;</span>, <a href="mailto:DHHSOpSoteriaEOC@dhhs.vic.gov.au">DHHSOpSoteriaEOC@dhhs.vic.gov.au</a>, <a href="mailto:murray.smith@dhhs.vic.gov.au">murray.smith@dhhs.vic.gov.au</a>, <a href="mailto:leanne.hughson@dhhs.vic.gov.au">leanne.hughson@dhhs.vic.gov.au</a>, <a href="mailto:Michelle.Harris@dhhs.vic.gov.au">Michelle.Harris@dhhs.vic.gov.au</a>, <a href="mailto:Estelle.Russ@dhhs.vic.gov.au">Estelle.Russ@dhhs.vic.gov.au</a>&nbsp;</p>
+
+<p dir="ltr"><br />
+<span style="color:#e74c3c;">&lt;Please call Authorising Officer at hotel PRIOR to providing email, they must also be cc’d into this email. Write PHESS ID in subject. Delete this message before sending&gt;</span></p>
+
+<p dir="ltr"><br />
+Dear all,</p>
+
+<p dir="ltr"><span style="color:#e74c3c;">{{{case.Account}}}</span> has met the Department of Health and Human Services criteria to end isolation as now&nbsp;<span style="color:#e74c3c;">&lt;day/month/year&gt;</span>.&nbsp; Please see end of isolation letter attached.</p>
+
+<p dir="ltr">The above case is currently located at <span style="color:#e74c3c;">{{{case.Hotel__c}}}</span>&nbsp;in room&nbsp;<span style="color:#e74c3c;">&lt;number&gt;</span>.&nbsp; We have instructed them they must await their full release documentation (including the attached release from isolation letter) from the Authorised Officer at the hotel, before they can leave their room.</p>
+
+<p dir="ltr">The case is travelling<span style="color:#e74c3c;"> &lt;alone/with their partner/children/friend - delete as required&gt;</span>.&nbsp;&nbsp;&nbsp;</p>
+
+<p dir="ltr">Current plans of onward travel include:&nbsp;<span style="color:#e74c3c;"> &lt;record if known, eg travelling to another states, dates of flights or if case wishes to stay until travel companions finish their hotel detention period&gt;</span></p>
+
+<p dir="ltr">Thank you for assistance in this process.&nbsp;</p>
+
+<p dir="ltr">Please do not hesitate to contact the department if you have any further questions on 1300 651 160. Information can also be found on our webpage at <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">https://www.dhhs.vic.gov.au/novelcoronavirus</a>.</p>
+&nbsp;
+
+<p dir="ltr">Kind Regards,</p>
+&nbsp;
+
+<p dir="ltr"><span style="color:#e74c3c;">{{{Sender.Name}}}</span></p>
+
+<p dir="ltr"><span style="color:#e74c3c;">{{{Sender.Team__c}}}</span></p>
+
+<p dir="ltr">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</p>
+
+<p dir="ltr">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | &nbsp;f. 1300 651 170 | e. &lt;team email&gt; &nbsp;</p>
+
+<p dir="ltr">w. <a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a></p>
+&nbsp;
+
+<p dir="ltr">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</p></body></html>

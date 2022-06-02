@@ -1,0 +1,45 @@
+<template>
+    <lightning-accordion allow-multiple-sections-open
+                         onsectiontoggle={handleSectionToggle}
+                         active-section-name={activeSections}>
+        <lightning-accordion-section name="Interview" label="Interview">
+            <div class="slds-m-around_medium">
+                <lightning-record-form object-api-name='WorkOrder' record-id={recordId} fields={interviewfields}
+                columns="2" mode="view"></lightning-record-form>
+            </div>
+        </lightning-accordion-section>
+        
+        <lightning-accordion-section name="Case Details" label="Case Details">
+            <div class="slds-col_padded slds-m-around_small slds-align_absolute-right">
+                <i>To edit case address use residential address lookup on right panel of this page</i>
+            </div>
+            <div class="slds-m-around_medium">
+                <lightning-record-form object-api-name='Account' record-id={propertyId} fields={casedetailfields}
+                 columns="2" mode="view"></lightning-record-form>
+            </div>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="Further Details" label="Further Details">
+            <div class="slds-m-around_medium">
+                 <lightning-record-form object-api-name='Account' record-id={propertyId} fields={furtherdetailfields}
+                 columns="2" mode="view"></lightning-record-form>
+            </div>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="Demographics" label="Demographics">
+            <div class="slds-m-around_medium">
+                <lightning-record-form object-api-name='Account' record-id={propertyId} fields={demographicsfields}
+                    columns="2" mode="view"></lightning-record-form>
+            </div>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="System Information" label="System Information">
+            <div class="slds-m-around_medium">
+                <lightning-record-form object-api-name='WorkOrder' record-id={recordId} fields={systemfields}
+                columns="2" mode="view"></lightning-record-form>
+            </div>
+        </lightning-accordion-section>
+    </lightning-accordion>
+
+        
+</template>

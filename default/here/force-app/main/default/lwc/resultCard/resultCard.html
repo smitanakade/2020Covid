@@ -1,0 +1,87 @@
+<!--
+  @description       : Result Card Component
+  @author            : CRM Squad 2
+  @group             : CRM Squad 2
+  @last modified on  : 12-10-2020
+  @last modified by  : CRM Squad 2
+  Modifications Log 
+  Ver   Date         Author        Modification
+  1.0   11-16-2020   CRM Squad 2   Initial Version
+  2.0   18-09-2021   Phase3 Team1  Enhacement to search utility bar
+-->
+<template>
+    <div onclick={handleRecordClick} class={cardClass}>
+        <lightning-tile style="width:27rem" key={record.Id} type="media">
+            <!--<lightning-button key={record.Id} variant="base" label={record.CaseNumber} onclick={handleCaseView} value={record.Id}></lightning-button>{record.title}-->
+            <div class="slds-grid" ><a href='#' title={caseNumberLabel} data-id={record.caseLink} onclick={handleRecordView}>{record.CaseNumber}</a> • <div title={caseRecordTypeLabel}>{record.RecordType.Name}</div> • <div title={caseStatusLabel}>{record.Status}</div> • <div title={caseEventDateLabel}>{record.formattedEventDate}</div></div>
+            <lightning-icon slot="media" icon-name="standard:case"></lightning-icon>
+						<ul class="slds-list_horizontal">
+								<li>
+									<div class="slds-region_narrow" style="width:250px">
+										<dl class="slds-dl_horizontal">
+												<dt class="slds-dl_horizontal__label">
+														<p class="slds-truncate">Name</p>
+												</dt>
+												<dd class="slds-dl_horizontal__detail">
+														<p class="slds-truncate" ><a href='#'
+																												 data-id={record.accountLink} onclick={handleRecordView}>{record.Account.FirstName}
+																{record.Account.LastName}</a></p>
+												</dd>
+												<dt class="slds-dl_horizontal__label">
+														<p class="slds-truncate">Birth Date</p>
+												</dt>
+												<dd class="slds-dl_horizontal__detail">
+														<p class="slds-truncate">
+																{record.formattedBirthDate}
+														</p>
+												</dd>
+												<dt class="slds-dl_horizontal__label">
+														<p class="slds-truncate">Mobile</p>
+												</dt>
+												<dd class="slds-dl_horizontal__detail">
+														<p class="slds-truncate">
+																{record.Account.PersonMobilePhone} </p>
+												</dd>
+												<dt class="slds-dl_horizontal__label">
+														<p  class="slds-truncate">Address</p>
+												</dt>
+												<dd class="slds-dl_horizontal__detail">
+														<div title={record.Account.Address_Text__pc} class="slds-truncate">
+																{record.Account.Address_Text__pc}</div>
+												</dd>
+										</dl>
+									</div>
+								</li>
+								<!--  316828 -->
+								<li>
+									<div class="slds-region_narrow" style="width:250px">
+										<dl class="slds-dl_inline">
+											<dt class="slds-dl_inline__label">
+													<p class="slds-truncate">Latest EHR Test Date/Time</p>
+											</dt>
+											<dd class="slds-dl_inline__detail">
+												<lightning-formatted-date-time value={record.Latest_Test_Date_Time__c} year="numeric" month="numeric" day="numeric" hour="2-digit"
+												minute="2-digit" hour12="true" ></lightning-formatted-date-time>
+											</dd>
+
+											<!--Added Latest EHR record link - 329476--> 
+											<dt class="slds-dl_inline__label">
+												<p class="slds-truncate">Latest EHR Observation</p>
+											</dt>
+											<dt class="slds-dl_inline__label">	
+												<p class="slds-truncate" >
+													<template if:true={record.Latest_EHR_Observation__c}>
+														<a href='#'  data-id={record.EHRLink} onclick={handleEHRView}>{record.Latest_EHR_Observation__r.Name}</a>
+													</template>
+												</p>
+											</dt>
+											<!--End of Added Latest EHR record link-->
+										</dl>
+									</div>
+								</li>
+								
+						</ul>
+           
+        </lightning-tile>
+    </div>
+</template>

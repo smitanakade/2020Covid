@@ -1,0 +1,56 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;">Dear {{{Case.LocationAddress__c}}}<br />
+<br />
+Following on from your phone call with [insert name of representative], and confirming that there have been no new symptomatic residents overnight and all staff and resident test results have been returned and are negative, I can confirm that {{{Case.LocationAddress__c}}} can be de-escalated to an active surveillance stage as of {{{Case.Todays_Date__c}}}&nbsp;(effective midnight tonight).</span><br />
+<br />
+<b><span style="font-size:11px;">Re: Actions following stand-down to active surveillance of the&nbsp;outbreak of coronavirus&nbsp;disease&nbsp;(COVID-19) at {{{Case.LocationAddress__c}}}</span></b><br />
+<br />
+<span style="font-size:11px;">We have assessed that the&nbsp;outbreak of&nbsp;coronavirus&nbsp;disease&nbsp;(COVID-19) at your aged care facility can be stood-down.<br />
+<br />
+The following management actions should be adhered to over the next 14 days (and beyond where relevant) and should be considered along with the department’s Coronavirus (COVID-19) Plan for the Victorian Aged Care&nbsp;Sector:&nbsp;&nbsp;</span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;">Residents are no longer required to isolate in their rooms and may use the common areas in the facility.&nbsp;</span></li>
+	<li><span style="font-size:11px;">Residents may also attend off-site appointments where necessary in accordance with the policy of the facility.</span></li>
+	<li><span style="font-size:11px;">New residents may be admitted. There are no additional requirements on admission other than routine symptom screening</span></li>
+	<li><span style="font-size:11px;">Resident transfers may occur and there are no additional requirements relating to this</span></li>
+	<li><span style="font-size:11px;">Remain vigilant for symptoms of COVID-19 and undertake daily recording of all residents’ symptoms for next 14 days.</span></li>
+	<li><span style="font-size:11px;">Contact DHHS immediately if any residents become symptomatic and undertake prompt coronavirus (COVID-19) testing and isolation of residents that are unwell.&nbsp;&nbsp;</span></li>
+	<li><span style="font-size:11px;">All staff need to be vigilant for symptoms. If staff are unwell, they should not attend work, self-isolate immediately, inform the facility of symptoms, and seek prompt testing.&nbsp;&nbsp;</span></li>
+	<li><span style="font-size:11px;">Internal staff may return to work where they have undertaken all testing as recommended by the DHHS and the results of these tests are negative.</span></li>
+	<li><span style="font-size:11px;">All staff must provide proof that they have tested negative to COVID-19 following the conclusion of their isolation or quarantine period.</span></li>
+	<li><span style="font-size:11px;">Internal staff not in isolation or quarantine may resume work.</span></li>
+	<li><span style="font-size:11px;">In line with Commonwealth and Victorian Government recommendations, all internal staff should <b>not </b>work across multiple facilities. Furthermore, visiting staff (such as general practitioners and allied health) may only attend your facility unless explicitly required to do so.&nbsp;</span></li>
+	<li><span style="font-size:11px;">All staff must provide proof that they have tested negative to COVID-19 following the conclusion of their quarantine period.</span></li>
+	<li><span style="font-size:11px;">Internal staff not in isolation or quarantine may resume work.</span></li>
+	<li><span style="font-size:11px;">In line with current Commonwealth and Victorian Government recommendations, all internal staff should not work across multiple facilities. Furthermore, visiting staff (such as general practitioners and allied health) may only attend your facility if explicitly required to do so.&nbsp;</span></li>
+	<li><span style="font-size:11px;">All staff must wear a level 1 or type 1 disposable surgical mask in public-facing areas or providing clinical care to residents – particularly where adequate social distancing is not possible.&nbsp;</span></li>
+	<li><span style="font-size:11px;">Cleaning as per normal infection control guidelines for aged care facilities.&nbsp;&nbsp;</span></li>
+	<li><span style="font-size:11px;">Visitors can now enter the facility however the restrictions outlined in the above-mentioned Plan for the Victorian Aged Care Sector should be adhered to, consider; only essential family visits over the next 14 days, visits of short duration, maximum 1-2 visitors, visits restricted to residents’ rooms, social distancing maintained, sanitiser available for visitors, no children.</span></li>
+	<li><span style="font-size:11px;">All visitors from the Melbourne metropolitan area or Mitchell Shire, must wear a face covering unless they have a medical exemption.&nbsp;</span></li>
+</ul>
+<br />
+<span style="font-size:11px;">There is no requirement to provide The Department of Health and Human Services (DHHS) with daily updates during this period, but please contact DHHS if you have any concerns.</span><span style="font-size: 11px;">&nbsp;</span><br />
+<br />
+<span style="font-size: 11px;">DHHS will not provide any further correspondence unless new issues are raised by the facility. The outbreak will automatically be considered closed 28 days after the last confirmed case was present at the facility (i.e. the case attended as a staff member or commenced isolation if a resident).&nbsp;</span><br />
+<br />
+<span style="font-size: 11px;">The Coronavirus (COVID-19) Plan for the Victorian Aged Care Sector can be found at </span><a href="https://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19" style="font-size: 11px;">https://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19</a><span style="font-size: 11px;">.&nbsp;</span><br />
+<br />
+<span style="font-size: 11px;">General Information can also be found on our webpage at </span><a href="https://www.dhhs.vic.gov.au/novelcoronavirus" style="font-size: 11px;">https://www.dhhs.vic.gov.au/novelcoronavirus</a><span style="font-size: 11px;">.&nbsp;&nbsp;</span><br />
+<br />
+<span style="font-size: 11px;">Thank you for your assistance. If you have any further concerns relating to this matter, please contact us or Communicable Disease Prevention and Control on 1300 651 160.&nbsp; &nbsp; &nbsp;</span><br />
+<br />
+<span style="font-size: 11px;">Kind Regards,&nbsp;</span><br />
+&nbsp;
+<p dir="ltr"><span style="font-size:11px;">{{{sender.name}}}</span></p>
+<span style="font-size:11px;">&nbsp;</span>
+
+<p dir="ltr"><span style="font-size:11px;"><b>Public Health Operations | Novel Coronavirus (COVID-19) Response</b><br />
+Health Protection Branch | Regulation, Health Protection and Emergency Management Division<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+<b>t.</b> 1300 651 160 | &nbsp;<b>f.</b> 1300 651 170 | <b>e.</b> <span style="color:#ff0000;">&lt;team email&gt; &nbsp;</span></span><br />
+<span style="font-size:11px;"><b>w.</b> <a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a></span></p></body></html>

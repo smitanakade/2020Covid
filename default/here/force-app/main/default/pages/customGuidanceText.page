@@ -1,0 +1,13 @@
+<apex:page standardController="Account" showHeader="false">
+<style type="text/css">
+.alert-block {
+font-weight:bold;
+
+}
+</style>
+<apex:outputPanel >
+     <!--Output label value is removed based on last minute request from business. "-->
+     <apex:outputLabel id="msgid" value="" styleClass="alert-block"/>
+    
+</apex:outputPanel>
+</apex:page>

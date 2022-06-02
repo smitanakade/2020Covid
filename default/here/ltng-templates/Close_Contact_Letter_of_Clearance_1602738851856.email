@@ -1,0 +1,25 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">{{{case.Account}}}<br />
+<br />
+{{{Recipient.MailingStreet}}}<br />
+<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}<br />
+<br />
+<b>Re: Clearance - Novel Coronavirus (2019-nCoV) — CRM ID {{{Case.CaseNumber}}}</b><br />
+<br />
+<br />
+Thank you for your cooperation during your recent period of quarantine following exposure to a confirmed case of novel coronavirus (COVID-19).<br />
+You will have completed your period of quarantine as of midnight tonight.&nbsp;<br />
+This letter can be shown should you be required to provide evidence that you can now return to work/education.<br />
+If you have any questions or wish to discuss this information in more detail, please call 1300 651 160.<br />
+<br />
+<br />
+Yours sincerely<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 677.825px; width: 205px; height: 43px;" title="image1" /><br />
+Dr Simon Crouch<br />
+COVID-19 Deputy Chief Health Officer (Case, Contact and Outbreak Management)<br />
+Department of Health and Human Services<br />
+<br />
+{{{Case.Todays_Date__c}}}</body></html>

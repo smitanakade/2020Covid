@@ -1,0 +1,15 @@
+<aura:component  implements="force:lightningQuickAction,force:hasRecordId,force:hasSObjectName" access="Public">
+    <aura:attribute name="recordId" type="String"/> 
+  
+    <aura:html tag="style">
+        .slds-modal__footer{
+            display:none !important;
+        } 
+        .slds-modal__container {
+        min-width: 70vw;
+        }
+        .toastMessage.forceActionsText{white-space : pre-line !important;
+    </aura:html> 
+
+    <c:createExposureSite ceRecordId="{!v.recordId}" onclose="{!c.closeDialog}"/> 
+</aura:component>	

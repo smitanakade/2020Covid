@@ -1,0 +1,49 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="color:#ff0000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY&nbsp;</span></span></span></p>
+
+<p dir="ltr"><span style="color:#ff0000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">DELETE THIS LINE AND ABOVE BEFORE SENDING</span></span></span></p>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Case.Account}}},</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Thank you for your cooperation during the outbreak of coronavirus disease (COVID-19) at {{{Case.LocationAddress__c}}}.&nbsp;</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>We now consider this outbreak to be closed</b>. This is based on&nbsp;the fact that it has been 28 days (2 incubation periods) since the last confirmed case was present&nbsp;on site,&nbsp;all required test results have returned a negative result, and no further cases have occurred.</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">We encourage you to continue to:</span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Promote good hand hygiene practices amongst your staff</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ensure regular cleaning of frequently used and/or shared surfaces</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Have a screening process (e.g. with questions about recent travel, contact with a case or current symptoms) in place for all people entering your facility</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please monitor the department’s website for updates of relevant guidance documents, including the <a href="https://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19">Coronavirus (COVID-19) Plan for the Victorian Aged Care Sector</a>, <a href="https://www.dhhs.vic.gov.au/health-services-and-general-practitioners-coronavirus-disease-covid-19">Coronavirus (COVID-19) Guidelines for health services and general practitioners</a>, and <a href="https://www.dhhs.vic.gov.au/health-services-and-general-practitioners-coronavirus-disease-covid-19">Coronavirus (COVID-19) Infection Control Guidelines</a>. General Information can also be found on our webpage at <a href="https://www.dhhs.vic.gov.au/coronavirus">https://www.dhhs.vic.gov.au/coronavirus</a>.</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">We do not plan to make further contact with you about this matter, but if you do have any further concerns or questions, please contact the Communicable Disease Prevention and Control Unit on 1300 651 160.&nbsp;</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kind Regards,</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Team__c}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:#ff0000;">&lt;team email&gt;</span></span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">w. www.dhhs.vic.gov.au</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></p></body></html>

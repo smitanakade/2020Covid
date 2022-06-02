@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction,lightning:availableForFlowActions,lightning:isUrlAddressable">
+    <aura:attribute name="recId" type="String" />
+    <lightning:workspaceAPI aura:id="workspace"/>
+</aura:component>

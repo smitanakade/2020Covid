@@ -1,0 +1,28 @@
+.listoptions{
+    padding-top: 9px;
+    font-weight: 500;
+}
+
+.slds-box{
+    margin-top: -20px;
+}
+.slds-box:hover {
+    background-color: rgb(215 234 251 / 48%);
+    cursor:pointer;
+}
+
+span.slds-page-header__title{
+    padding-bottom: 15px;
+}
+
+.slds-gutters{
+    margin-left: 22px;
+}
+
+.brp-location-icon{
+    --lwc-colorTextIconDefault: rgb(32, 163, 6);
+}
+
+.trevi-location-icon{
+    --lwc-colorTextIconDefault: rgb(243, 188, 9);
+}

@@ -1,0 +1,94 @@
+<!--
+  @description       : Search Criteria Component
+  @author            : CRM Squad 2
+  @group             : CRM Squad 2
+  @last modified on  : 12-13-2020
+  @last modified by  :Phase 3 team1 
+  Modifications Log 
+  Ver   Date         Author        Modification
+  1.0   11-16-2020   CRM Squad 2   Initial Version
+  2.0   02-10-2021   Phase 3 team1   Search utility enhancement - added Search based on Middlename, Email , homephone and recordtype
+-->
+<template>
+        <div class="slds-box">
+        <div if:true={errorMsg} style="margin-left: 3%;">
+            <p style="color: red;">{errorMsg}</p>
+        </div>
+
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item padding="around-small">
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="text" name="recordNumber" value={recordNumber}  label="Record Number" onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="text" name="firstName" label="First Name" value={firstName}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                       
+                        <lightning-input type="text" name="middleName" label="Middle Name" value={middleName}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+               
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control"> 
+                        <lightning-input type="text" name="lastName" label="Last Name" value={lastName} onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="date"  date-style="short" name="dateOfBirth" label="Birth Date" value={dateOfBirth}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="text"  name="mobile" label="Mobile" value={mobile}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                 <!--   316828  -->
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="text"  name="homePhone" label="Home Phone" value={homePhone}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <lightning-input type="text"  name="email" label="Email" value={email}  onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <c-multi-select-pick-list options={options}
+                            onvaluechange={handleValueChange}
+                            label="Record Type">
+                    </c-multi-select-pick-list>
+                </div>
+            
+                <br/>
+            </lightning-layout-item>
+        </lightning-layout><br />
+        <lightning-layout>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning-button label="Search" variant="brand" onclick={handleSearch}></lightning-button>
+            </div>
+            <div class="slds-col">
+                <lightning-button label="Clear" variant="brand" onclick={handleClear}></lightning-button>
+            </div>
+        </div>
+    </lightning-layout>
+</div>
+</template>

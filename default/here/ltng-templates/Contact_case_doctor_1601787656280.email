@@ -1,0 +1,101 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Case.Doctor_Name_Instance__c}}},&nbsp;</span></span></p>
+
+<table>
+	<colgroup>
+		<col width="43" />
+		<col width="543" />
+	</colgroup>
+	
+		<tr>
+			<td>
+			<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Re.:</span></span></p>
+			</td>
+			<td>
+			<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Novel Coronavirus (2019-nCoV) — {{{Case.CaseNumber}}}</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>
+			<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}} ({{{Recipient.HealthCloudGA__Gender__c}}}) DOB. {{{Recipient.Birthdate}}}</span></span></p>
+			</td>
+		</tr>
+	
+</table>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">This patient has tested positive for Novel Coronavirus (2019-nCoV) and has been notified to the Department of Health &amp; Human Services in accordance with Public Health and Wellbeing legislation.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">A Public Health Officer would like to speak with your<span style="color:#ff0000;"> patient or their parent/guardian</span> regarding this notification of Novel Coronavirus (2019-nCoV). The purpose is to collect information on risk factors, modes of transmission and to guide our public health response. All information collected is treated confidentially and is protected by legislation.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">I would be grateful if you could return this form within 24 hours by fax 1300 651 170, or telephone on 1300 651 160, to provide consent.&nbsp;</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you have any questions or wish to discuss this request in more detail, please call on 1300 651 160.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yours sincerely</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="signature" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/signature?oid=00D5P0000009HKg" style="max-width: 700.625px; width: 160px; height: 94px;" title="signature" /></span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Brett Sutton</span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Deputy Chief Health Officer (Communicable Disease)</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health and Human Services</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.Todays_Date__c}}}</span></span></p>
+&nbsp;
+
+<table id="t01">
+	<colgroup>
+		<col width="206" />
+		<col width="206" />
+		<col width="177" />
+	</colgroup>
+	
+		<tr>
+			<td colspan="3">
+			<hr />
+			<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">I give permission for officers of the Department of Health &amp; Human Services to contact the above mentioned patient (or his/her parent or guardian) to investigate a notifiable disease.</span></span></b></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">Signed</span></span></p>
+			</td>
+			<td>
+			<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">Print name</span></span></p>
+			</td>
+			<td>
+			<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">Date</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<hr /></td>
+		</tr>
+		<tr>
+			<td>
+			<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">Patient's daytime telephone </span></span></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Times New Roman,Times,serif;">Parent/guardian name (if applicable)</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<hr /></td>
+		</tr>
+	
+</table>
+
+<div id="gtx-trans" style="position: absolute; left: 141px; top: 174px;">
+<div class="gtx-trans-icon">&nbsp;</div>
+</div></body></html>

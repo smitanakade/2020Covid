@@ -1,0 +1,28 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <div style="font-size: 0.875rem; font-family: 'Salesforce Sans',Arial,sans-serif;">
+    Dear {{{Recipient.FirstName}}}, 
+   <br /> 
+   <br /> Victoria's Department of Health and Human Services has initiated daily monitoring as we've been advised you are a confirmed COVID-19 case. 
+   <br /> 
+   <br /> You are required to respond by visiting Survey Link below to let us know how you are. 
+   <br /> &nbsp; 
+   <p><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(0, 112, 210); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Open Survey</a></span></p> 
+   <br /> Kind Regards, 
+   <br /> Public Health Operations | Novel Coronavirus (COVID-19) Response 
+   <br /> Health Protection Branch | Regulation, Health Protection and Emergency Management Division 
+   <br /> Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000 
+   <br /> t. 1300 651 160 | f. 1300 651 170 | e.&nbsp; 
+   <a href="mailto:publichealth.operations@dhhs.vic.gov.au">publichealth.operations@dhhs.vic.gov.au</a> 
+   <br /> w.&nbsp; 
+   <a href="https://www.dhhs.vic.gov.au/" target="_blank">www.dhhs.vic.gov.au</a> 
+   <br /> 
+   <br /> IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited 
+   <br /> 
+   <br /> Coronavirus disease (COVID-19) Flight notification - Victorian Health Department Alert - PHESS IDCoronavirus disease (COVID-19) Flight notification - Victorian Health Department Alert - PHESS IDIPM 
+  </div>
+ </body>
+</html>

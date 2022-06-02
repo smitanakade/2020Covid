@@ -1,0 +1,105 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reference&nbsp;{{{Case.CaseNumber}}}&nbsp;<br />
+<br />
+{{{case.Account}}}<br />
+<br />
+{{{Recipient.MailingStreet}}}<br />
+<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;&nbsp;</span></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Bialehnak: Theihternak – Coronavirus Thar (2019-nCoV) – Case ID &lt;insert Case ID&gt;&nbsp;</span></span></b></p>
+
+<p dir="ltr"><i><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi theihternak cu Zapi Ngandamnak le Thatnak Upadi 2008 (Vic) i s200 tangah Tuah dingmi pawl he aa tlak ningin chuahmi a si&nbsp;</span></span></i><br />
+&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Upatmi {{{case.Account}}}</span></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) caah cheknak a ngeimi he naihniam in tonnak na ngei tiah kan in hngalh cang, hi ni ahcun tonnak nan rak ngei {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}.&nbsp;</span></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">ATU ZEIDAH TUAH KA HERH?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">A cung i langhtermi leihsa (address) ah rianrang in ni 14 chung zawt chek dingah a dang tein na um a hau hihi tiang {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. Hmun dang deuh ah zawt chek dingah a dang tein um naa timh asilole acung langhtermi leihsa (address) ah zawt chek dingah a dang tein himbawm in na um khawh lo ahcun, rianrang in 1300 651 160 ah na chawnh hrimhrim lai.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) a ni 11 nak ni ah naa chek hrimhrim lai {{{Case.Day_11_Test__c}}}. Zaangfahnak in thilchihmi cakuat kha rel law zawtnak chek na kal tikah iput teh.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) naa chek i aphi ah zawtnak a um lo ahcun, zawt chek dingah a dang tein um caan ni 14 a dih tiang pehzulh in na um hrimhrim lai.&nbsp; Naa chekmi aphi pawl a ngah tikah zawt chek dingah a dang tein umnak in na chuah khawh cang le chuah khawh lo kha thawngthanh na si te lai.&nbsp; Hihi tuahnak a ruang cu naa chekmi a phi ah zawtnak a um lo tiah a langh hnu zongah coronavirus (COVID-19) na ngei khawh caah a si.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) na ngeih le ngeih lo chek na si ahcun asilole adang zawtnak chekmi he naihniam in tonnak na ngeih ahcun zawtnak chek dingin a dang tein um caan kha sauh deuh a si lai.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Cakuat tawi kuatnak asilole fon chawnhnak in punghmaan in pehtlaihnak tuah na si lai.&nbsp; Fon chawnhnak nambar a lang dingmi kha pumpaak nambar bantuk a si lai.&nbsp; Zaangfahnak in cakuat pawl kha lehnak tuah law fon chawnhmi kha tlai.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) zawt hmelchunhnak pawl kha hngal hna.&nbsp; Zawtnak nih kaih hnu zero in ni 14 karlak ah zawtnak hmelchunhnak pawl cu an chuah kho, a hnubik ni a donghnak {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}.&nbsp; &nbsp; Coronavirus (COVID-19) zawt hmelchunhnak pakhat khat na ngeih ahcun, sii lei thlopbulnak na ngeih a hau i a ran khawh chung rangin naa chek a hau.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Zawt chek dingah a dang tein um a herhnak pawl na tlinhnak fian bak dingah mizaw he naihniam in a ummi kong Caa tialmi – naihniam in tonnak (Word) kha rel: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; </span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">ZEITINDAH ZAWTNAK CHEK DINGAH ADANG TEIN KA UM LAI?</span></b></span></p>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"> </span></span>
+
+<ul>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Phuthen (department) sin in na thiang ko timi na hmuh hlan cu inn asilole nan umnak chungah um.&nbsp; Hi tuah dingmi pawl a zul lomi paohpaoh cu $20,000 tiang dantat an si men lai.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nan inn asilole umnak in aruang pakhatkhat caah na chuak hrimhrim lai lo, hihi na si sual lawng ah na chuak lai:&nbsp;</span></span>
+	<ul>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Sii lei ithlop dingah siizung asilole adang hmun ah luhpi na si ahcun.&nbsp;</span></span></li>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Siilei thlopbulnak, sii lei bawmhnak asilole sii lei icheknak na ngeih ahcun tch. COVID-19.&nbsp;&nbsp;</span></span></li>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Lakhruak thilcang poipang pakhat khat na ton sual ahcun.&nbsp;</span></span></li>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Upadi nih tuah dingin an ti ahcun.&nbsp;</span></span></li>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Siizungah mizaw na len i Siizung i Mizaw a lengkaimi nih Tuah dingmi pawl (No 9) tangah tuah dingin onh na si ahcun.&nbsp;&nbsp;</span></span></li>
+		<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Zohkhenhnak hmun ah rian na tuan i Zohkhenhnak Hmun pawl i Tuah dingmi pawl (No 9) tangah tuah dingin onh na si ahcun.&nbsp;&nbsp;&nbsp;</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Rian, sianginn, sianghleiruun ah na kal hrimhrim lai lo, asilole zapi tonnak hmun pawl asilole zapi tonpumhnak pawl ah na kal hrimhrim lai lo.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; </span></span><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">A umtimi he a si khawh chungin khaan dang ah na um lai i na it lai.&nbsp; A ngah ahcun aa dangmi tikholhnak khaan hmang.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Sii lei thlopbulnak na kawl asilole naa chek ahcun, zapi hmanmi tlunkalnak, taxi asilole adang iphirh in citmi cu na hmang hrimhrim lai lo.&nbsp; Nangmah pumpaak mawtaw na ngeih lo ahcun, 1300 651 160 ah fon chawnhnak in inn ah cheknak tuah piak dingin tawlrel khawh a si lai.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nan inn in eksisai tuah ruah ah aleng na chuak kho lo.&nbsp; Mah lawng in a ummi inn ah nan um ahcun, nanmah dum chung, innleng donhhlei asilole inntual i a leng chuah cu a him ko.&nbsp; Innkhaan ah nan um ahcun nanmah pumpaak innleng donhhlei i a leng chuah cu a him ko.&nbsp; Zapi nih ihrawmmi dum asilole inntual zongah na kal kho ko, asinain hmaihuh naa hruk a herh lai.&nbsp; Sihmanhsehlaw, zapi nih hmanmi hmun pawl ah na kal ahcun rianrang in na kal a herh.&nbsp; Zapi hmanmi hmun pawl na pal ahcun a zungzal in hmaihuh naa hruk hrimhrim lai.&nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Rawl asilole adang na herh haimi pek dingah, mah lawng tein um a herh lomi hawikom pawl asilole innchungkhar tibantuk midang kha fial hna. &nbsp;Hi thilri pawl a rak pumi pakhatkhat cu nan inn chungah an lut lai lo asilole nangmah tonnak nan ngei lai lo – a si khawh ahcun, pekmi thilri pawl kha nan innka hmai ah an chiah ta lai. &nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Rawl asilole na herhmi thil pawl hngah khawhnak dingah harnak na ngeih ahcun bawmhnak hmuhnak dingah coronavirus kongkau chawnh khawhnak 1800 675 398 ah chawn.&nbsp;</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Holhlettu na herh ahcun 131 450 TIS National kha chawn law 1800 675 398 ah coronavirus kongkau chawnh khawhnak kha hal.&nbsp;&nbsp;&nbsp;</span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Zawt chek dingah a dang tein um ning kong le bawmhnak na hmuh khawhnak ding kong a dikthlir thawngthanhmi tamdeuh hmuhnak caah zaangfahnak in hika ah zoh:</b> <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a><br />
+&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 9px;">&nbsp;</span></p>
+
+<p dir="ltr"><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Zawt chek dingah a dang tein na umnak hmun ah aho hmanh na luhter hna lai lo, hihi a si lawng ah luhter ding:</span></span></p>
+
+<ul>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">adang minung cu inn ah a um sawhsawhmi asilole mahlawng in um a herhmi asilole hi tuah dingmi pawl tangah zawt chek dingah a dang tein um ding a si lawng ah; asilole</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">sii lei thlopbul ding asilole lakhruak thilcang poipang caah a dang minung luh a herh lawng ah; asilole</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">adang minung cu pumtlamtlinlonak lei riantuan piaktu a si hnga i pumtlamtlinglo mi riantuan piaknak caah pumtlamtlinlonak lei riantuan piaktu kha luh a herh lawng ah; asilole</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">adang minung cu kumkhua upami, pumtlamtlinglomi asilole caan saupi a zawmi minung kha pumpaak zohkhenhnak asilole innchungkhar bawmhnak pek dingah luh a herh lawng ah; asilole</span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">luh kha upadi nih a onh lawng ah.&nbsp;&nbsp;</span></span></li>
+</ul>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp; </span></span>
+
+<p dir="ltr"><b><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">THAWNGTHANHMI TAMDEUH KHOIKA DAH KA HMUH KHAWH LAI?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 9px;">Zawtnak ngeimi hi naihniam in tonnak a ngeimi pawl caah tialpiakmi caa pawl:&nbsp;</span><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Thianhlimnak le takpum ihlatnak kong thawngthanh:&nbsp;</span></span><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Coronavirus (COVID-19) nih a hnorsuanmi minung caah tangka lei le adang bawmhnak:&nbsp;</span></span><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Coronavirus (COVID-19) kong a tlangpi in thawngthanh:</span></span>&nbsp;<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp; </span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi kongah siaherhmi na ngeih ahcun, zaangfahnak in phuthen (department) kha 1300 651 160 ah zaangfahnak in pehtlaihnak tuah.&nbsp;&nbsp;</span></span></p>
+<span style="font-size:11px;"> <span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp; </span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Upatnak he,</span></span><br />
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 730.55px" title="image1" /></span></span></p>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"> </span></span>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"><meta /></span></span></p>
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;"> </span></span>
+
+<p dir="ltr"><span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch&nbsp;</span></span><br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 9px;">COVID-19 Ngandamnak lei Bawi Bawmtu (Zawtnak, Mizaw he Tonnak a ngeimi le Pulrai a hung chuakphawtmi Tawlrelnak)&nbsp;&nbsp;</span><br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 9px;">Ngandamnak le Minung Rianttuan piaknak Phuthen (Department of Health and Human Services)&nbsp;</span></p>
+
+<p dir="ltr">&nbsp;</p></body></html>

@@ -1,0 +1,125 @@
+.bold {
+    font-size: 20px;
+    font-weight:5600;
+}
+
+.link {
+    color: #007bff;
+    border: 0;
+}
+
+.dates {
+    width: 96%;
+    border: 1px solid gray;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+.dates ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.dates .datePickerHolder {
+    flex-wrap: wrap;
+}
+
+.dates li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 25px;
+    min-height: 25px;
+    width:13%;
+    margin: 1px;
+}
+
+.buttonContainer {
+    width: 94%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.prev,
+.next {
+    border: none;
+    width: 35px;
+}
+
+.prev:hover,
+.next:hover,
+.link:hover {
+    cursor: pointer;
+}
+
+.prev:before {
+    padding-right: 4px;
+}
+
+.next:after {
+    padding-left: 4px;
+}
+
+.datePickerHolder li {
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header li {
+    background-color: white;
+    color: black;
+}
+.dates{
+    background-color: white;
+}
+
+.datePickerHolder li:hover {
+    background-color: red;
+}
+
+.datePickerHolder .padder {
+    color: gray;
+}
+
+.datePickerHolder .today {
+    background-color: orange;
+}
+
+.datePickerHolder .day0 {
+    background-color: fuchsia;
+}
+
+.datePickerHolder .interval1 {
+    background-color: rgba(86, 22, 204, 0.418);
+}
+
+.datePickerHolder .interval2 {
+    background-color: darkgreen;
+}
+
+.datePickerHolder .interval3{
+    background-color: rgb(197, 14, 54);
+}
+
+.datePickerHolder .selected {
+    background-color: pink;
+}
+
+
+/* basic positioning */
+.legend { list-style: none; clear: both;}
+.legend li {  margin-right: 8px;float: left; width: 100%;}
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .symptomOnsetdate { background-color: fuchsia }
+.legend .acquisitionPeriod { background-color:rgba(86, 22, 204, 0.418)}
+.legend .infectiousPeriod { background-color: rgb(197, 14, 54) }
+.legend .today { background-color:orange; }
+.legend .overlapPeriod { background-color:darkgreen; }
+.legend .selectedDate { background-color: pink; }

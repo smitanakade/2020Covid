@@ -1,0 +1,94 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reference {{{Case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;</span></span></p>
+
+<p dir="rtl"><b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">ځواب: خبرتیا – نوی کورونا ویروس — <span dir="ltr">(2019-nCoV)</span> Case ID {{{Case.CaseNumber}}}</span></span></b></p>
+
+<p dir="rtl"><i><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">دا خبرتیا د خپاره شوي لارښوونو سره سم د 2008 عامې روغتیا او هوساینې قانون s200 (Vic) لاندې خپور شوې&nbsp;</span></span></i></p>
+
+<p dir="rtl"><br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">ګرانه&nbsp; {{{case.Account}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">موږ ارزونه کړې چې تاسو د یو چا سره نږدې اړیکه لرئ څوک چې د کورونویرس (COVID-19) سره تشخیص شوی، په دغه نیټه {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}} ککړ شوی.</span></span></p>
+
+<p dir="rtl"><br />
+<b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">زه باید همدا اوس څه وکړم؟</span></span></b></p>
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو اړتیا لرئ په پورتني آدرس کې سمدلاسه د 14 ورځو لپاره {{{case.Day14_Anticipated_last_day_of_quarantine__c}}} پورې ځان قرنطین کړئ. که تاسو اراده لرئ چې په بدیل آدرس کې قرنطین شئ یا تاسو نشئ کولی په خوندي ډول په یاد شوي آدرس کي قرنطین وکړئ، نو تاسو باید سمدلاسه 1300 651 160 ته زنګ ووهئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو باید په 11مه ورڅ&nbsp; په {{{Case.Day_11_Test__c}}} ورځ د کورونویرس (COVID-19)&nbsp; لپاره ازموینه وکړئ. مهرباني وکړئ ضمیمه لیک ولولئ او کله چې تاسو لاړ شئ او ازموینه وکړئ له ځان سره یې راوړئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د کورونویرس (COVID-19) لپاره ازمیښت شوی او منفي پایله ترلاسه کړئ، نو تاسو باید قرنطین ته د 14 ورځو مودې پورې دوام ورکړئ. تاسو ته به خبر درکړل شي چې ایا تاسو به د دې وړتیا ولرئ کله چې ستاسو د ازموینې پایلې شتون ولري نو قرنطین پریږدئ. د دې لپاره دلیل دا دی چې امکان لري تاسو حتی د منفي ازموینې پایله وروسته کورونویرس (COVID-19) ته وده ورکړئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د کورونویرس (COVID-19) سره تشخیص شوی یا د بل چا سره چي کوروناویروس سره تشخیص شوی نږدې اړیکې درلودلي وي نو ستاسو د قرنطین موده به غزول کیږي.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو سره به په منظم ډول د اتوماتیک متن پیغام رسولو خدمت یا د تلیفون زنګ له لارې اړیکه ونیول شي. د تلیفون زنګ به د شخصي شمیرو په څیر څرګند شي. مهرباني وکړئ متني پیغامونو ته او زنګونو ته ځواب ووایاست.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د کورونوایرس (COVID-19) نښو څخه خبر اوسئ. نښې د څرګندیدو نه وروسته د صفر څخه تر 14 ورځو پورې وده کولی شي، وروستۍ ورځ {{{case.Day14_Anticipated_last_day_of_quarantine__c}}} پای ته رسیدو سره که تاسو د کوروناویرس (COVID-19) کومې نښې ولرئ، نو تاسو باید طبي پاملرنه وغواړئ او ژر تر ژره ازموینه وکړئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د نږدې اړیکې حقیقت پاڼه (فکتشیت) ولولئ - close contact (Word) &nbsp;ترڅو ډاډ ترلاسه کړئ چې تاسو د قرنطین اړتیاوي پوره کوئ: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+&nbsp;
+
+<p dir="rtl"><span style="font-size:12px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">زه قرنطین څنګه کولای شم؟</span></b></span></p>
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">په کور یا ستاسو استوګنځي کې پاتې کیږئ تر هغه چې تاسو د څانګې څخه خلاصون (اجازه) ترلاسه کړئ. هغه خلک چې د دې لارښوونو اطاعت نه کوي ممکن تر 20,000 ډالرو پورې جریمه شي.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو باید خپل د کور یا استوګنځای د کوم دلیل لپاره نه پریږدئ، په استثنا د:</span></span>
+	<ul>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د روغتیا پاملرنې ترلاسه کولو موخو لپاره په روغتون یا نورو تاسیساتو کې داخل شوي یاست.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو طبي پاملرنې ترلاسه کوئ، طبي وسیلي یا طبي ازموینه لکه د مثال په توګه COVID19 لپاره تللي یاست</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو په کوم بیړنۍ حالت کې یاست.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د قانون له مخې داسې کولو ته اړتیا لرئ.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو په روغتون کې د ناروغ لیدو ته ورځئ او د روغتون لیدونکي لارښوونې (نهم نمبر) لاندې ورته کولو ته اجازه لرئ.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د پاملرنې په مرکز کې کار کوئ او د پاملرنې تاسیساتو لارښوونو لاندې (نهم نمبر) کولو اجازه لرئ.</span></span></li>
+	</ul>
+	</li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو باید کار، ښوونځي، پوهنتون ته لاړ نشئ، یا عامه ځایونو یا پیښو کې برخه وانخلئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو باید د نورو څخه په جلا خونه کې پاتي شئ او خوب وکړئ څومره چې امکان ولرئ. که شتون ولري جلا جلا تشناب وکاروئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو د طبي پاملرنې په لټه کې یاست یا ازموینه واخلئ، نو تاسو باید عامه ټرانسپورټ، ټیکسي یا هیڅ ګډ سفر خدمتونه ونه کاروئ. که تاسو خپل موټر نلرئ، نو په کور کې ازموینې د 1300 651 160 په زنګ وهلو سره تنظیم کیدی شي.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو نشئ کولی خپل کور د تمرین لپاره پریږدئ. که تاسو په شخصي کور کې اوسېږئ، نو دا ستاسو لپاره خوندي دی چې خپل باغ، بالکوني یا صحن ته د باندې بهر لاړشئ. که تاسو په اپارتمان کې اوسېږئ نو دا ستاسو لپاره خوندي ده چې بهر خپل شخصي بالکوني ته لاړشئ. تاسو کولی شئ په یو عامه باغ یا د انګړ په ساحه کې هم لاړشئ مګر د مخ پوښلو ته به اړتیا ولرئ. تاسو باید، په هرصورت، په لاره کې د هرې عام سیمې له لارې ګړندي لاړشئ. که تاسو باید په کومو سیمو ته لاړ شئ تاسو باید تل مخ وپوښئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">له نورو څخه لکه ملګري یا کورنۍ وغواړئ، څوک چې انزوا تللو ته اړتیا نلري، ستاسو لپاره خواړه یا نور اړتیاوې پریږدي. هرڅوک چې دغه توکي تحویلوي باید ستاسو کور ته داخل نشي یا ستاسو سره اړیکه ونه نیسي - که امکان ولري، دوی باید توکي ستاسو د دروازې په مخ کې پریږدي.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو خواړو ته لاسرسی کې یا هغه شیان چې تاسو ورته اړتیا لرئ ستونزې لرئ، د ملاتړ لپاره کورونویرس هټ لاین (وړیا کرښي) ته په 1800 675 398 تلیفون وکړئ.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو ژباړونکي ته اړتیا لرئ، په 131 450&nbsp; کې TIS National ته زنګ ووهئ نو په 1800 675 398 کې د کورونویرس هټ لاین غوښتنه وکړئ.</span></span><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span></li>
+</ul>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د قرنطین کولو څرنګوالي او دا چي تاسو لپاره کوم ملاتړ شتون لري په اړه د نورو مفصلو معلوماتو لپاره، مهرباني وکړئ لیدنه وکړئ: <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">تاسو باید بل چاته اجازه ورنکړئ چې ستاسو د قرنطین ځای ته ننوځي مګر دا چې:</span></span></p>
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">بل شخص په عموم ډول په دغه احاطه کې اوسیږي یا د دې لارښوونو سره سم په ساحه کې ځان په انزوا کي کړی یا قرنطین ته اړتیا لري؛ یا</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">دا اړینه ده چې بل کس د طبي یا بیړني موخو لپاره داخل شي؛ یا</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">بل شخص د معلولیت کارکوونکی دی، او د معلولیت کارکوونکي لپاره لازمي ده چې د معلولیت لرونکي کس لپاره د معلولیت خدمت چمتو کولو په مقصد دننه شي؛ یا</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">دا اړینه ده چې بل شخص ته د هغه شخص د عمر، معلولیت یا اوږدې روغتیایی وضعې په پایله کې د شخصي پاملرنې یا کورنۍ مرستې چمتو کولو لپاره ننوځي؛ یا</span></span></li>
+	<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">ننوتل د قانون لخوا مطلوب یا واک ورکړل شوي وي.</span></span><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span></li>
+	<li>&nbsp;</li>
+</ul>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">چیرته کولی شم ډیر معلومات ترلاسه کړم؟</span></span></p>
+
+<ul dir="rtl">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">حقیقت پاڼي د نږدي اړیکي لپاره:&nbsp; <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د حفظ الصحې او فزیکي واټن معلومات: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د کورونا ویروس (COVID-19) لخوا اغیزمنو خلکو لپاره مالي او نور ملاتړ:&nbsp; <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">د کوروناویروس (COVID-19) عمومي معلومات:<a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">که تاسو پدې موضوع پورې اړوند نورې اندیښنې لرئ، مهرباني وکړئ په 1300 651 160 اړیکه ونیسئ.&nbsp;</span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;په درنښت<br />
+<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 730.55px; width: 181px; height: 38px;" title="image1" /></span></span></p>
+
+<p dir="rtl"><meta /></p>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;COVID-19&nbsp; د عامې روغتیا ریاست معینیت (قضیه، اړیکه او د وبا مدیریت) د روغتیا او بشري خدمتونو څانګه</span></span></p></body></html>

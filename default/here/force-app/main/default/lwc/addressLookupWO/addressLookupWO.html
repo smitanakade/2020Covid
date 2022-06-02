@@ -1,0 +1,29 @@
+<template>
+    <lightning-card >
+        <div class="slds-p-around_medium">
+            <template if:true={acct}>
+                <template if:true={showSpinner}>
+                    <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                    <span class="spinner-text bottom medium">
+                        Please Wait...
+                    </span>
+                </template>
+                <lightning-input-address
+                    address-label="Case Residential Address"
+                    street-label="Street"
+                    city-label="Suburb"
+                    country-label="Country"
+                    province-label="State/Territory"
+                    postal-code-label="Post Code"
+                    street={acct.PersonMailingStreet}
+                    city={acct.PersonMailingCity}
+                    country={acct.PersonMailingCountry}
+                    province={acct.PersonMailingState}
+                    postal-code={acct.PersonMailingPostalCode}
+                    show-address-lookup onchange={changeHandler}>
+                </lightning-input-address>
+            </template>
+        </div>
+        <lightning-button class="slds-align_absolute-center" label="Update Address" disabled={showSpinner} onclick={updateAccount}></lightning-button>
+    </lightning-card>
+</template>

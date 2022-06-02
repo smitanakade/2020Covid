@@ -1,0 +1,146 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">To:&nbsp;{{{Recipient.Email}}}<br />
+<br />
+<b>Subject:</b> Coronavirus disease (COVID-19) Outbreak in an Aged Care Facility - Victorian Health Department Alert - {{{Case.CaseNumber}}}<br />
+<b>Attachments:</b><br />
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; COVID19 Close Contact Spreadsheet<br />
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; COVID19 Testing Spreadsheet Daily Update (if applicable) – remove if not necessary<br />
+*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; COVID19 Line List Aged Care<br />
+<br />
+<span style="color:#e74c3c;"><b>IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY</b></span><br />
+<b><span style="color:#e74c3c;">PLEASE ADD PHESS ID IN SUBJECT LINE. EDIT/REMOVE NECESSARY INFORMATION.<br />
+DELETE THIS LINE AND ABOVE BEFORE SENDING</span></b><br />
+<br />
+Dear {{{Case.Account}}},<br />
+<br />
+Thank you for your time today.<br />
+<br />
+As discussed, we are investigating an outbreak of coronavirus (COVID-19) at {{{Case.LocationAddress__c}}}. <span style="color:black">The outbreak name for your facility is </span>{{{Case.Subject}}}.</span></span>
+<div class="x"><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">1.&nbsp;We request that you take the following<b> </b>actions<b> immediately:</b></span></span></span></div>
+
+<ul>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Quarantine all residents to their rooms</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All residents to be nursed under airborne and contact precautions with appropriate PPE</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Identify and isolate any staff members who are likely to be close contacts of the infectious case</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><u>Advise all staff they <b>cannot</b> work at another aged care facility/sensitive setting until the outbreak is declared over</u></span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Cease all new admissions, transfers into the facility and non-urgent transfers out of facility</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Close all communal spaces and activities</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Non-essential workers, contractors and visitors are not allowed to enter</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Inform and provide <b>all doctors</b> with the <i>Letter to GPs for COVID-19 outbreak </i><b>(appendix 4 in the <i>COVID-19 Plan for the Victorian Aged Care Sector</i>)</b> at the beginning of the outbreak ensuring you include<b> <u>the facility name</u> </b>and<b> <u>current date</u> </b>prior to sending<b>.&nbsp; </b></span></span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<div class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">2. Provide the following information to the Victorian Department of Health and Human Services as soon as possible. <b>Information on close contacts must be provided within 48 hours.</b> </span></span></div>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<table class="Table" style="width:659.55pt; margin-left:49px; border-collapse:collapse; border:solid windowtext 1.0pt" width="0">
+	
+		<tr style="height:9.3pt">
+			<td style="border:solid windowtext 1.0pt; background:#d0cece; width:146.7pt; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; <b><i><span style="color:black">Item</span></i></b></span></span></td>
+			<td style="border:solid windowtext 1.0pt; background:#d0cece; width:4.0cm; border-left:none; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><i><span style="color:black">Frequency </span></i></b></span></span></td>
+			<td style="border:solid windowtext 1.0pt; background:#d0cece; width:399.45pt; border-left:none; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><i><span style="color:black">Method</span></i></b></span></span></td>
+		</tr>
+		<tr style="height:9.3pt">
+			<td style="border:solid windowtext 1.0pt; background:#ffd966; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:black">Case list (COVID Outbreak Aged Care List)</span></b></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="151">&nbsp;</td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:9.3pt" valign="top" width="533">&nbsp;</td>
+		</tr>
+		<tr style="height:37.8pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:37.8pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Complete <b>Illness Register (</b></span><b>COVID19 Line List Aged Care</b><b><span style="color:black">)</span></b><span style="color:black"> for confirmed residents’ cases with requested details</span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:37.8pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Initially <b>and</b> </span>every day there is a new resident case.</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:37.8pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Email – Attention Team 1</span><br />
+			<span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="mailto:publichealth.operations@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">publichealth.operations@dhhs.vic.gov.au</a></span></span></span></span></td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>COVID19 Testing Spreadsheet Daily Update</b></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Daily </span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Email – Attention Team 1<br />
+			<span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="mailto:publichealth.operations@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">publichealth.operations@dhhs.vic.gov.au</a></span></span></span></span></td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Deaths </span>and <span style="color:black">hospitalisation of a resident on the case </span>list</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">When events occur and ASAP</span></span><br />
+			<br />
+			&nbsp;</td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Department Health and Human Services phone <b>1300 651 160</b>.&nbsp; </span></span></span><br />
+			&nbsp;</td>
+		</tr>
+		<tr style="height:11.8pt">
+			<td style="border:solid windowtext 1.0pt; background:#ffd966; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:11.8pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><i><span style="color:black">Close contacts </span></i></b></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:11.8pt" valign="top" width="151">&nbsp;</td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:11.8pt" valign="top" width="533">&nbsp;</td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Complete </span><b>COVID19 Close Contact Spreadsheet </b><span style="color:black">with all <b>close contacts*</b> </span>and clearly mark this on the spread sheet.</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">For every confirmed case </span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Email – Attention Team 1<br />
+			<span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="mailto:publichealth.operations@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">publichealth.operations@dhhs.vic.gov.au</a></span></span></span></span></td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Details of visitors and visiting staff who were on site during this period of interest, and meet the close contact criteria</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Once</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Email – Attention Team 1<br />
+			<span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="mailto:publichealth.operations@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">publichealth.operations@dhhs.vic.gov.au</a></span></span></span></span></td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; background:#ffd966; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><i><span style="color:black">Facilities information </span></i></b></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151">&nbsp;</td>
+			<td style="border-bottom:solid windowtext 1.0pt; background:#ffd966; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533">&nbsp;</td>
+		</tr>
+		<tr style="height:2.55pt">
+			<td style="border:solid windowtext 1.0pt; width:146.7pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="196"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">A map of your site indicating areas where the case spent time during their infectious period</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:4.0cm; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="151"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Once</span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:399.45pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt; height:2.55pt" valign="top" width="533"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Email – Attention Team 1<br />
+			<span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="mailto:publichealth.operations@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">publichealth.operations@dhhs.vic.gov.au</a></span></span></span></span></td>
+		</tr>
+	
+</table>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <span style="color:black">*</span><b><i> Close contact = </i></b><i>Close contact means greater than 15 minutes face-to-face, cumulative, or the sharing of a closed space for more than two hours, with a confirmed case during their infectious period. Contact needs to have occurred during the period of 48 hours prior to onset of symptoms (or if asymptomatic, 48 hours prior to test date) of the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact.</i></span></span><br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><i>Period for contact tracing = </i></b><i>Contact needs to have occurred during the period of 48 hours prior to onset of symptoms in the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact.<b>&nbsp;&nbsp;&nbsp; </b></i></span></span><br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Close contact information can be found at <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></span></span><br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">General Information can also be found on our webpage at <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/novelcoronavirus" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/novelcoronavirus</a></span></span>.</span></span>
+
+<div class="x"><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>3.&nbsp;Testing</b></span></span></div>
+
+<ul>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department will assist in facilitating testing for all residents and staff at the facility as soon as possible. Further testing may be required depending on the results from this first round of testing</span></span></li>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>All identified close contacts will also be required to test at day 11 or after of their quarantine period. </b>They will require a negative result prior to their quarantine ending.</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<div class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:black">4. Declaring an outbreak over</span></b></span></span></div>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <span style="vertical-align:baseline">Generally, a COVID-19 outbreak can be declared over if no new cases occur within 28 days (2 incubation periods) since the last confirmed case was present&nbsp;on site,&nbsp;all required test results have returned a negative result, and no further cases have occurred. The department will advise when the outbreak will be closed</span></span></span><br />
+&nbsp;
+<div class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>5. Additional information </b></span></span></div>
+
+<ul>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All close contacts will be contacted by the Department of Health and Human Services and will be required to quarantine for 14 days after most recent exposure to the case while infectious.</span></span></li>
+	<li class="MsoPlainText"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Confirmed cases will be cleared by the department. They do not require re-testing</span></span></li>
+	<li class="x"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:black">Please read and regularly refer to the <i>COVID-19 Plan for the Victorian Aged Care Sector</i>.&nbsp; It is important that you follow these guidelines, particularly the infection control measures to control the outbreak.&nbsp;</span></span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <span style="color:black">An outbreak management checklist and email template for GPs is attached to assist you in managing the respiratory outbreak.&nbsp; </span><br />
+<span style="color:black">These guidelines and associated documents are also available at: </span><span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><a href="https://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19" style="color:#0563c1; text-decoration:underline">https://www.dhhs.vic.gov.au/aged-care-sector-coronavirus-disease-covid-19</a></span></span>.<br />
+<br />
+<span style="line-height:105%">Please note, privacy is of the utmost importance to the department. While every effort to maintain privacy is taken, your facility may be named in the media if deemed by the department to be in the interest of public health safety.</span><br />
+Thank you for your assistance. If you have any further concerns relating to this matter, contact Communicable Disease Prevention and Control on <b>1300 651 160.</b><br />
+<br />
+Kind Regards,<br />
+<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:red">&lt;team email&gt;</span><br />
+w. www.dhhs.vic.gov.au</span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:8.0pt"><span style="color:#5f5f5f">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></span></span><br />
+<br />
+&nbsp;</body></html>

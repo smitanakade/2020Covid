@@ -1,0 +1,154 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">{{{Case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.Birthdate}}}<br />
+{{{Recipient.MailingAddress}}}<br />
+{{{Recipient.OtherAddress}}}</span></span><br />
+<br />
+<span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Dear </span></span></span><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">{{{case.Account}}},</span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You are a primary close contact of a person who has coronavirus (COVID-19). An Authorised Officer has determined this under section 200 of the <i>Public Health and Wellbeing Act 2008</i> (Vic). </span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You were exposed to COVID-19 on </span></span></span><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}</span></span><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">.</span></span> <span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">This date may change if your exposure is ongoing (for example, if you stay in the same accommodation as a confirmed case while they are unwell).</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Your current hotel quarantine detention and testing schedule will not change, unless you test positive for COVID-19 or have contact with someone who tests positive, including your family members or support person.</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">There is a high chance that people who have been close to someone with COVID-19 will have the virus and can spread it to other people. The best way to protect yourself, your family and the community is to stay in your accommodation. </span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">This email will help you understand what you must do to keep separate from other people (quarantine) safely. If you need to talk to someone about this email, please talk to reception or call <b>1300 651 160</b> (press 0 for COVID-19, and ask for an interpreter if needed).</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">What you must do now</span></span></b></span></span>
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You must stay in your accommodation in quarantine for at least 14 days until 11:59pm on </span></span></span><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}</span></span><span style="font-family:Calibri,sans-serif">. </span></span>
+		<ul style="list-style-type:disc">
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Quarantine protects the community by keeping people who might have COVID-19 away from people who do not have it. </span></span></span></span></li>
+		</ul>
+		</li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Do not leave your accommodation, except for the lawful reasons set out in your detention notice. You can also look at your welcome pack for more information.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you are worried about losing income while you quarantine, you may be able to get a $1500 support payment. For more information, visit </span></span><a href="http://www.servicesaustralia.gov.au/" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">www.servicesaustralia.gov.au</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Do not have visitors to your accommodation. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Do not leave your accommodation for exercise.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You cannot leave quarantine until an Authorised Officer tells you your quarantine is finished.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you leave quarantine before an Authorised Officer tells you that you can leave, and you do not have a lawful reason, you will be breaking the law and may be fined.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Call reception for assistance, including to arrange somewhere safe to stay if you cannot safely quarantine in your accommodation. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You can also call us on <b>1300 651 160</b> (press 0 for COVID-19, and ask for an interpreter if needed) to ask us any questions about quarantine.</span></span></span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Look after yourself and seek help if you need it</span></span></b></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">We want to help you take care of your health and wellbeing while you are in quarantine.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Clinical staff at the hotel will speak with you each day, including a survey asking about your health and wellbeing.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Watch out for symptoms. You may have COVID-19 if you have any of the following: fever, chills or sweats, cough, sore throat, shortness of breath, runny nose and loss or change in sense of smell or taste.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you have any symptoms of COVID-19, even if they are mild, please tell reception and get tested. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">For medical&nbsp;care or getting tested, contact either:</span></span></span></span>
+		<ul style="list-style-type:disc">
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">reception or</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">1300 215 333 to speak with an on-call medical practitioner.</span></span></span></span></li>
+		</ul>
+		</li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you develop serious symptoms, such as difficulty breathing, call triple zero (000) and ask for an ambulance. Tell them that you are in hotel quarantine and a primary close contact of COVID-19. Then call reception immediately.</span></span></span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Get tested</span></span></b></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You must get tested on or around day 12 of quarantine. This is because you are most likely to develop COVID-19 within 14 days of your contact with COVID-19.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Hotel staff will contact you to arrange testing.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you test negative, an Authorised Officer will confirm that you can finish quarantine on day 14 31/07/2021. You must stay in quarantine until this date.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you do not get tested, then you must stay in quarantine for an extra </span></span>14<span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> days. This means you will stay in quarantine for a total of 28 days. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If your day 12 test comes back positive and you have COVID-19 or if you have been in close contact with another person who has COVID-19, you will need to stay in quarantine for longer. We will tell you if this happens.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">The Department of Health strongly recommends that you get tested at 3 and 7 days after leaving hotel quarantine.</span></span></span></span>
+		<ul style="list-style-type:disc">
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">This will help to keep Victorians safe because of the increased risk from COVID-19 ‘variants of concern’ and the potential for transmission within hotel quarantine.</span></span></span></span></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">How to quarantine safely</span></span></b></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Stay in your accommodation until an Authorised Officer tells you that you can leave.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Wash your hands often.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Always wear a face mask:</span></span></span></span>
+		<ul style="list-style-type:disc">
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">if you need to be in the same room as another person </span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">any time you open your room door</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">if you must leave your accommodation (including in an emergency or evacuation) or</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">when someone is authorised to enter your room.</span></span></span></span></li>
+		</ul>
+		</li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you need any personal protective equipment (PPE), such as face masks or gloves, please let reception know.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">For more information, see ‘What to do if you have been in close contact with someone who has COVID-19’ factsheet - attached. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">No one is permitted to enter where you are in quarantine unless they:</span></span></span></span>
+		<ul style="list-style-type:disc">
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">need to isolate or quarantine there;</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">need to provide medical or emergency care or services;</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">need to provide care as a disability worker;</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">need to provide personal care or assistance as a result of a person's age, disability or chronic health condition; or</span></span></span></span></li>
+			<li style="margin-left:8px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">must enter as required or authorised by law.</span></span></span></span></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">How can I get food and essential&nbsp;items?</span></span></b></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Look at your welcome pack for information on services and items available to you while in quarantine. You can also call the Government Support Service on 1800 960 944.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you are struggling to get the things you need, please call reception. </span></span></span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Can I go outside for exercise?</span></span></b></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You cannot leave your accommodation for exercise.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">You cannot go into a garden or courtyard area that is a common garden or courtyard in an apartment building or other type of accommodation. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Look at your welcome pack for further information, including on hiring exercise equipment for use in your room at your own cost.</span></span></span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Where can I find more information?</span></span></b></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you have any questions, please contact reception or call us at the Department of Health on <b>1300 651 160 </b>(press 0 for COVID-19, and ask for an interpreter if needed).</span></span></span></span>
+
+<ul>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:disc">
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">‘What to do if you have been in close contact with someone who has COVID-19’ factsheet – attached.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><a href="https://www.coronavirus.vic.gov.au/what-do-if-you-are-close-contact" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">What to do if you are a close contact</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> &lt;</span></span><a href="https://www.coronavirus.vic.gov.au/what-do-if-you-are-close-contact" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.coronavirus.vic.gov.au/what-do-if-you-are-close-contact</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">&gt;.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><a href="https://www.coronavirus.vic.gov.au/hygiene-physical-distancing" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Hygiene and physical distancing</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> &lt;</span></span><a href="https://www.coronavirus.vic.gov.au/hygiene-physical-distancing" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.coronavirus.vic.gov.au/hygiene-physical-distancing</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">&gt;.</span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><a href="https://www.coronavirus.vic.gov.au/financial-and-other-support-coronavirus-covid-19" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Financial and other support</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> for people affected by COVID-19 &lt;</span></span><a href="https://www.coronavirus.vic.gov.au/financial-and-other-support-coronavirus-covid-19" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.coronavirus.vic.gov.au/financial-and-other-support-coronavirus-covid-19</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">&gt;. </span></span></span></span></li>
+		<li style="margin-left:16px"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><a href="https://www.coronavirus.vic.gov.au/" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">General COVID-19 information</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> &lt;</span></span><a href="https://www.coronavirus.vic.gov.au/" style="color:blue; text-decoration:underline"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">https://www.coronavirus.vic.gov.au</span></span></a><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">&gt;.</span></span></span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Thank you for reading this information. Quarantine can be challenging but it helps keep your family and community safe. </span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Yours sincerely,</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</span></span></span></b></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><i><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">This Notice is issued in accordance with Directions issued under s200 of the </span></span></i><span style="font-size:10.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Public Health and Wellbeing Act 2008<i> (Vic).</i></span></span></span></span><br />
+&nbsp;</body></html>

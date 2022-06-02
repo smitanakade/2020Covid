@@ -1,0 +1,72 @@
+parameters:
+- name: env
+  displayName: Target Environment
+  default: dev3
+  values:
+  - test
+  - sit
+  - production
+  - staging
+  - dev3
+  - validate
+  - datamigrat
+- name: validate
+  displayName: check only?
+  type: boolean
+  default: true
+- name: level
+  displayName: Test Level
+  default: RunLocalTests
+  values:
+  - RunLocalTests
+  - NoTestRun
+
+pr: none
+
+trigger: none
+
+stages:
+- stage: DEPLOY_${{ parameters.env }}
+  jobs:
+  - deployment: ${{ parameters.env }}_Deployment # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: ${{ parameters.env }}_Deployment #friendly name
+    variables:
+    - group: sf_config #using variable group to store auth url for authentication to target org
+    pool:
+      vmImage: 'ubuntu-latest'
+    # creates an environment if it doesn’t exist
+    environment: ${{ parameters.env }}
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+          #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(${{ parameters.env }}_auth) 
+              targetEnv: ${{ parameters.env }}
+          #set full deployment 
+          - script: | #only need this if not using delta
+              echo "force-app" > package
+            displayName: "Init force-app package"
+          # check only
+          - ${{ if eq(parameters.validate, true) }}:
+            - template: templates/sfdx-deploy.yml 
+              parameters:
+                targetEnv: ${{ parameters.env }}
+                testlevel: ${{ parameters.level }}
+                option: '-c'
+          # deployment proper
+          - ${{ if eq(parameters.validate, false) }}:
+            - template: templates/sfdx-deploy.yml 
+              parameters:
+                targetEnv: ${{ parameters.env }}
+                testlevel: ${{ parameters.level }}
+          
+
+          

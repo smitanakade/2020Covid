@@ -1,0 +1,100 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reference {{{Case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;&nbsp;</span></span><br />
+&nbsp;</p>
+
+<p dir="rtl"><b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">الموضوع: &nbsp; &nbsp; إشعار – فيروس كورونا المستجد(2019-nCoV)&nbsp; —&nbsp; Case ID {{{Case.CaseNumber}}}&nbsp;</span></span></b></p>
+
+<p dir="rtl"><i><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">تم إصدار هذا الإشعار وفقاً للتوجيهات الصادرة بموجب البند 200 من قانون الصحة والرفاهية العامة لعام 2008 (فيكتوريا)</span></span></i></p>
+
+<p dir="rtl"><br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">حضرة السيد/السيدة {{{case.Account}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">لقد استنتجنا أنك كنت على اتصال وثيق بشخصٍ تم تشخيص إصابته بفيروس كورونا (كوفيد-19)، وقد تعرّضت للفيروس يوم {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}.</span></span></p>
+&nbsp;
+
+<p dir="rtl"><b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">ما الذي يتوجّبُ عليّ فعله الآن؟</span></span></b></p>
+
+<ul dir="rtl">
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">يجب أن تخضع للحجر المنزلي في العنوان المذكور أعلاه على الفور لمدة 14 يوماً حتى يوم {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. إذا كنت تعتزم الخضوع للحجر في مكان آخر أو إذا لا يمكنك الحجر في العنوان المذكور أعلاه بشكل آمن، فيجب عليك الاتصال بالرقم &nbsp; 1300 651 160 على الفور.</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">يجب عليك إجراء فحص فيروس كورونا (كوفيد-19) في اليوم الحادي عشر الواقع فيه &lt;insert day 11 date {{{Case.Day_11_Test__c}}}. يُرجى قراءة الرسالة المُرفقة وإحضارها معك عندما تذهب لإجراء الفحص.</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">إذا قمت بإجراء الفحص لفيروس كورونا (كوفيد-19) وكانت نتيجة فحصك سلبية، عندها يجب عليك مواصلة الحجر المنزلي حتى نهاية الفترة الممتدّة لأربعة عشرة يوماً. وبمجرّد توفّر نتائج الفحص سيتم إبلاغك إذا كان بإمكانك مغادرة الحجر المنزلي. والسبب في ذلك هو أنه من الممكن أن يظهر عليك فيروس كورونا (كوفيد-19) حتى إذا كانت نتيجة الفحص سلبية.</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">إذا تم تشخيص إصابتك بفيروس كورونا (كوفيد-19) أو إذا كنت على اتصال وثيق بشخصٍ آخر تم تشخيص إصابته بالفيروس، فسيتم تمديد فترة الحجر المنزلي الذي تخضع له.</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">سنقوم بالتواصل معك بانتظام من خلال رسائل نصية آلية أو عبر مكالمة هاتفية. وعند الاتصال بك هاتفياً، سيظهر الرقم على أنه رقم خاص (private number). يُرجى الردّ على الرسائل النصية وعلى المكالمات الهاتفية.</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">تنبّه لأعراض فيروس كورونا (كوفيد-19). يمكن أن تظهر الأعراض في أي يوم من اليوم صفر إلى اليوم الرابع عشر بعد التعرّض للفيروس، واليوم الأخير هو {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. إذا كنت تعاني من أيٍ من أعراض فيروس كورونا (كوفيد-19)، عندها يجب عليك طلب الرعاية الطبية وإجراء الفحص في أسرع وقت ممكن.</span></span></li>
+</ul>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">يُرجى قراءة Factsheet - close contact (Word) (صحيفة الوقائع – الأشخاص الذين هم على اتصال وثيق بحالة مؤكّدة) للتأكد من أنك تلبّي مُتطلّبات الحجر المنزلي: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></p>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">&nbsp;</span></span>
+
+<p dir="rtl"><b><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كيف أخضعُ للحجر المنزلي؟</span></span></b></p>
+&nbsp;
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">لازم المنزل أو مكان إقامتك حتى تحصل على تصريح بالمغادرة من الدائرة. قد يتم تغريم الأشخاص الذين لا يمتثلون لهذه التوجيهات مبلغاً يصل إلى 20000 دولار.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">لا يجوز لك مغادرة منزلك أو مكان إقامتك لأي سبب كان، إلّا إذا:</span></span>
+	<ul>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">دخلت إلى المستشفى أو منشأة صحية أخرى بهدف الحصول على الرعاية الطبية.</span></span></li>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كنت تتلقّى الرعاية الطبية أو المستلزمات الطبية أو لإجراء الفحوصات الطبية كفحص فيروس كورونا (كوفيد-19).</span></span></li>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كنت تواجه حالة طارئة.</span></span></li>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">طُلب منك مغادرة منزلك بموجب القانون.</span></span></li>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كنت تزور مريضاً في المستشفى ويُسمح لك بذلك بموجب التوجيهات إلى زوّار المستشفى (رقم 9).</span></span></li>
+		<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كنت تعمل في منشأة لتقديم الرعاية ويُسمح لك بذلك بموجب توجيهات المنشآت التي تقدّم الرعاية (رقم 9).</span></span></li>
+	</ul>
+	</li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">لا تذهب إلى العمل أو المدرسة أو الجامعة ولا تذهب إلى الأماكن أو الفعاليات العامة.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">يجب عليك قدر الإمكان البقاء والنوم في غرفة منفصلة عن الغرفة التي يتواجد فيها الأشخاص الآخرون الذين يعيشون معك. واستخدم حماماً منفصلاً إذا كان متوفّراً.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">لا تستخدم خدمات النقل العام أو سيارات الأجرة أو خدمات الرحلات المُشتركة إذا كنت تخرج بهدف الحصول على الرعاية الطبية أو لإجراء الفحص. وإذا لم يكن لديك سيارة، فيمكن ترتيب إجراء الفحص في المنزل عن طريق الاتصال بالرقم 1300 651 160.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">لا يمكنك مغادرة المنزل لمزاولة الرياضة. إذا كنت تعيش في منزل خاص، يمكنك الخروج إلى حديقة منزلك أو الشرفة أو الفناء. وإذا كنت تعيش في شقة، يمكنك الخروج إلى شرفة شقتك. ويمكنك أيضاً الذهاب إلى الحديقة العامة أو الفناء ولكن يجب عليك ارتداء الكمّامة/غطاء الوجه. ومع ذلك، يجب أن تمرّ بسرعة عبر أي مناطق مُشتركة وأنت متّجه نحو الحديقة. ويجب عليك دائماً ارتداء الكمّامة/غطاء الوجه إذا كان عليك المرور عبر أي مناطق عامة.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">اطلب من الآخرين كالأصدقاء أو العائلة، الذين لا يتوجّب عليهم عزل أنفسهم، توصيل الطعام أو الأشياء الأساسية الأخرى لك. ويجب على أي شخص يقوم بتوصيل هذه الأشياء عدم الدخول إلى منزلك أو الاحتكاك بك – يجب عليه ترك هذه الأشياء أمام باب منزلك إذا كان من الممكن له القيام بذلك.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">إذا كان من الصعب عليك الحصول على الطعام أو الأشياء التي تحتاج إليها، اتصل بالخط الساخن الخاص بفيروس كورونا على الرقم &nbsp; 398 675 1800 للحصول على المساعدة.</span></span></li>
+	<li style="text-align: right;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">إذا كنت بحاجة إلى مترجم شفهي، اتصل بخدمةTIS National&nbsp; على الرقم 450 131، ثم اطلب منهم الاتصال بالخط الساخن الخاص بفيروس كورونا على الرقم 398 675 1800.</span></span></li>
+</ul>
+
+<p dir="rtl"><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"><b>للحصول على المزيد من المعلومات المفصّلة حول كيفية الخضوع للحجز المنزلي والدعم المتوفّر لك، يُرجى زيارة الموقع الإلكتروني:</b> <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">يجب ألا تسمح لأي شخص آخر بالدخول إلى الموقع الذي تخضع فيه للحجر المنزلي إلّا إذا:</span></span></p>
+
+<ul dir="rtl">
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كان الشخص الآخر يقيم عادة في المبنى أو طُلب منه عزل نفسه أو الخضوع للحجر المنزلي في المبنى بموجب هذه التوجيهات؛ أو</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كان من الضروري أن يدخل الشخص الآخر لأسباب طبية أو لأسباب طارئة؛ أو</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كان الشخص الآخر عاملاً يقدّم الدعم للأشخاص ذوي الإعاقة، ومن الضروري أن يدخل هذا العامل من أجل تقديم خدمات دعم الإعاقة للشخص الذي لديه إعاقة؛ أو</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كان من الضروري أن يدخل الشخص الآخر بهدف تقديم الرعاية الشخصية أو المساعدة المنزلية للشخص بسبب سنّ ذلك الشخص أو الإعاقة أو المرض المزمن الذي يعاني منه؛ أو</span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">كان الدخول مطلوباً أو مُصرّحاً به بموجب القانون بخلاف ذلك.</span></span></li>
+</ul>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">أين يمكنني العثور على المزيد من المعلومات؟</span></span></p>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"> &nbsp;</span></span>
+
+<ul dir="rtl">
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">صحائف وقائع للأشخاص الذين كانوا على اتصال وثيق بحالة مؤكدة: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">معلومات عن النظافة والتباعد الجسدي: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">الدعم المالي وأشكال الدعم الأخرى للأشخاص المتأثرين بفيروس كورونا (كوفيد-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">معلومات عامة عن فيروس كورونا (كوفيد-19): <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">إذا كانت لديك أيّ مخاوف أخرى تتعلّق بهذه المسألة، يُرجى الاتصال بالدائرة على الرقم 1300 651 160.</span></span></p>
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">تفضّل بقبول فائق الاحترام<br />
+<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 730.55px; width: 172px; height: 36px;" title="image1" /></span></span></p>
+
+<p dir="rtl"><meta /></p>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"><b>دكتور سيمون كراوتش </b>(Simon Crouch)</span></span><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">نائب كبير مسؤولي الصحة أثناء تفشي فيروس كورونا (كوفيد-19) (إدارة الحالة والاتصال والتفشّي)</span></span><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">دائرة الصحة والخدمات الإنسانية</span></span></p></body></html>

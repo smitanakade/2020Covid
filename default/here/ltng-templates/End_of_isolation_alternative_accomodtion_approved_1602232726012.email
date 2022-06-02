@@ -1,0 +1,44 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p dir="ltr"><span style="color:#e74c3c;">&lt;PLEASE ENTER PHESS ID IN SUBJECT LINE. DELTE THIS MESSAGE BEFORE SENDING&gt;</span></p>
+
+<p dir="ltr">Hi,&nbsp;<br />
+<br />
+Please note the following case is currently accommodated in hotel accommodation (voluntary) at <span style="color:#e74c3c;">{{{case.Hotel__c}}}</span>.&nbsp;<br />
+<br />
+They have met the end of isolation criteria and were cleared by the Department of Health and Human Services on <span style="color:#e74c3c;">&lt;date&gt;</span>:&nbsp;</p>
+
+<table class="MsoTableGrid" style="border-collapse:collapse; border:solid windowtext 1.0pt">
+	
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">PHESS ID:</span></span></b></span></span></span></td>
+			<td style="border:solid windowtext 1.0pt; width:276.5pt; border-left:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px"><span style="font-family:Arial,Helvetica,sans-serif">{{{case.PHESS_ID__c}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Full name:</span></span></b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:276.5pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px"><span style="font-family:Arial,Helvetica,sans-serif">{{{case.Account}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:191.0pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="234"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:10.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">DOB:</span></span></b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:276.5pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="332"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case_DOB</span></span></td>
+		</tr>
+	
+</table>
+
+<p dir="ltr">Please find clearance letter attached.&nbsp;</p>
+Thanks&nbsp;<br />
+<br />
+Kind Regards,<br />
+&nbsp;
+<p dir="ltr"><span style="color:#e74c3c;">{{{Sender.Name}}}</span></p>
+
+<p dir="ltr"><span style="color:#e74c3c;">{{{Sender.Team__c}}}</span></p>
+
+<p dir="ltr">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | &nbsp;f. 1300 651 170 | e. &lt;team email&gt;<br />
+w. <a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a></p>
+&nbsp;
+
+<p dir="ltr">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</p></body></html>

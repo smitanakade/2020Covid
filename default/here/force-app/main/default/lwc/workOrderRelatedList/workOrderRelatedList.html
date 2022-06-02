@@ -1,0 +1,78 @@
+<template>
+    <template if:true={state.showRelatedList}>
+        <c-short-form-new-record 
+          onrefreshdata={handleRefreshData}
+          fields={fields}
+          type={type}
+          record-id={recordId}>
+        </c-short-form-new-record>
+
+        <c-related-list-new-edit-popup 
+            onrefreshdata={handleRefreshData}>
+        </c-related-list-new-edit-popup>
+
+        <!--c-related-list-delete-popup
+            onrefreshdata={handleRefreshData}>
+        </c-related-list-delete-popup-->
+
+        <lightning-layout class="slds-m-top_x-small">
+            <article class="slds-card lightning-card">
+                <div class="slds-card__header slds-grid slds-theme_shade">
+                  <header class="slds-media slds-page-header slds-media_center slds-has-flexi-truncate ">
+                    <div class="slds-media__figure">
+                        <lightning-icon icon-name={icon} size="small"></lightning-icon>
+                    </div>
+                    <div class="slds-media__body">
+                      <h2 class="slds-card__header-title">
+                        {state.title}
+                      </h2>
+                    </div>
+                    
+                    <template if:false={hideNewButton}>
+                        <div class="slds-no-flex">
+                          <lightning-button-icon class="slds-p-right_x-small" icon-name="utility:refresh"  alternative-text="refresh" title="refresh" variant="border-filled" onclick={handleRefreshData}></lightning-button-icon>
+                          <lightning-button label="New" onclick={handleNewCreateRecord}></lightning-button>
+                        </div>
+                    </template>
+
+                  </header>
+                </div>
+                <template if:true={hasRecords}>
+                    <div class={dtContainerClass}>
+                      <template if:true={isloading}>
+                        <lightning-spinner variant="brand" 
+                          alternative-text="Loading Cases"     
+                          size="medium">
+                            </lightning-spinner>
+                      </template>
+                          
+                        <lightning-datatable class="related-list"
+                                            onrowaction={handleRowAction}
+                                            columns={state.columns}
+                                            data={state.records}
+                                            key-field="Id"
+                                            hide-checkbox-column="true"
+                                            onsort={handleSortingAction}
+                                            sorted-direction={state.sortedDirection}
+                                            sorted-by={state.sortedBy}
+                                            default-sort-direction={state.defaultSortDirection}
+                                            resize-column-disabled="true">
+                        </lightning-datatable>   
+                        
+                    </div>
+                                              
+                </template>
+              </article>                       
+        </lightning-layout>
+    </template>
+   
+    <template if:true={showCreateExposureSiteDialog}>
+       <c-modal onclosedialog={handleDialogClose}>
+           <span slot="header">Create Exposure Site</span>
+               <slot>
+                   <c-create-exposure-site contactencounterid={cerecordid} onclosedialog={handleDialogClose}></c-create-exposure-site>
+               </slot>
+       </c-modal>
+    </template>
+                                    
+</template>

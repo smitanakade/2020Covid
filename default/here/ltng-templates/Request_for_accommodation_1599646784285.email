@@ -1,0 +1,105 @@
+<html><head>
+	<title></title>
+	<style type="text/css">table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">Team Leader to send to: SEMC@dhhs.vic.gov.au<br />
+<br />
+<span style="color:#ff0000;">PLEASE ENSURE PHESS ID IN SUBJECT LINE. DELETE THIS MESSAGE BEFORE SENDING</span><br />
+<br />
+<span style="color:#ff0000;">*****Do NOT send direct to Op Soteria****</span><br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi,&nbsp;<br />
+<br />
+We are requesting accommodation for the following person/people.&nbsp;</span></span><br />
+<br />
+<br />
+<meta />
+<table border="1">
+	<colgroup>
+		<col width="350" />
+		<col width="403" />
+	</colgroup>
+	
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Full name&nbsp;&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{full name of person account (PA)}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Date of Birth</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{DOB of PA}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Address&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{address of PA}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">PHESS number&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{insert PHESS ID} and Case ID{insert Case ID}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Phone number&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{mobile number of PA}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Email address&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{email address of PA}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Close contact or Positive Case</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">What (if any) outbreak is it related to&nbsp;&nbsp;</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Brief description of circumstances&nbsp;</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Symptomatic? If yes, what symptoms?</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tested? If yes, when?</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Isolation dates (start – end)&nbsp;</span></span></td>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{isolation date on case record}</span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Smoker / non-smoker&nbsp;</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Has own transport / requires transport&nbsp;<br />
+			– IF TRANSPORT REQUIRED:<br />
+			- Do they weigh more than 160 kg?<br />
+			- Luggage: Number of bags they will take?</span></span></td>
+			<td>&nbsp;</td>
+		</tr>
+	
+</table>
+<br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Provide a phone number and email for the relevant case and contact team member for follow up&nbsp;<br />
+<br />
+Can you please respond to </span></span> <a href="mailto:publichealth.operations@dhhs.vic.gov.au"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">publichealth.operations@dhhs.vic.gov.au</span></span></a> <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> with the updated hotel and room details when available?<br />
+Thank you for your assistance.<br />
+<br />
+<br />
+Kind Regards,</span></span><br />
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</b><br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | &nbsp;f. 1300 651 170 | e. <meta /><a href="mailto:publichealth.operations@dhhs.vic.gov.au">publichealth.operations@dhhs.vic.gov.au</a>&nbsp;<br />
+w.&nbsp;<a href="https://dhhsdtti--dev.lightning.force.com/lightning/r/EmailTemplate/00X5P000000ZX4TUAW/www.dhhs.vic.gov.au">www.dhhs.vic.gov.au</a></span></span><br />
+<br />
+<span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></body></html>

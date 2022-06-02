@@ -1,0 +1,81 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference&nbsp;{{{case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span></p>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Re: Ki kɔrba ŋicɣic - Tuanyde Coronavirus ye kɔc d&ouml;m ɣum (2019-nCoV) - Case ID {{{Case.CaseNumber}}}</span></span></b></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Wɛɛlkan abɔ bɛi ni tande luŋ cikke gɔr ni apam 200 kidde kakke panakim ku piir kɔcni run 2008 (Vic)</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yin {{{case.Account}}}</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kan aye nyu&ouml;th yin aci yuu kɛyin noŋ tuanyde coronavirus ye cɔl (COVID-19) ni thoŋ lingilith.</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ɛmen tuanyde coronavirus ye cɔl (COVID-19) ni thoŋ lingilith abi kɔc ya d&ouml;&ouml;m kɛ kɛk juic, agut kɔc rɛɛr kene yin. Na ba rɔt gil ku jɔlya kɔc kɔk wɔ ci kuɛr piɛth bɛi ti noŋ ɣin bakke kuany cuk.</span></span></p>
+<b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">YEŊO BA JA LOI ƐMEN?</span></span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Lɔ tuɛng kene tan yene ɣin rɔt wɛk bai ku tiddun riirɣin thin, ke yin mɛc kene kɔc, agut kɔc riirɣin kene kɛk bai t&iuml;cin gau na bi rɔt lɛu.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Maktap abi yin ya yuo thaathok ɛben n&iuml;ye ki yene kɔc g&auml;r wɛɛl ku jɔlya kene telepun bi yin ya kony. Yin ye kɔr ba wɛɛl yekke g&auml;&auml;rɣin ya dhuuk nhiim ku ba telepun cene yuup ya dhuuk nhom.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Maktap abi lui kene bikki ŋiicɣic ni tan o bene ɣin ti ceneɣin rɔt wɛɛkthin jɔ thuuk. Abi yin mioc wɛrɛk ceneɣin lony ba lɔ bai.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kuɛn wɛrɛkde kɔc cikke yuu ki kɛk noŋ tuanyde coronavirus ye cɔl (COVID-19) - ni k&iuml;ye kɔrba ŋiicɣic ni (wɛt) bi yin nyu&ouml;th na ca kuɛr yene kɔc rɔth wɛk lɛu:</span></span>&nbsp;<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">LE BA RƆT WƐK Y&Iuml;D&Iuml;?</span></b><br />
+<br />
+<b dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;">Ni luŋ yin kɔrba riir bai ku ni yeneɣin riirthin.</span></b></span>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Akɔrba rɔt wɛɛk ni pandu ku ayadde ni ti yeneɣin niinthin agut kɔl beneɣin wɛrɛk cene yin lony yuu ku ti noŋ raan lui ni panakim ni kuɛr beneɣin dhuuk tidun loiɣin kakku. Kene ɛ luŋ ti noŋ kɔc cikke yuu ki kɛk nɛŋ tuanyde coronavirus ye cɔl (COVID-19) ku kan ale bene kɔc kum ni luŋ na nɛŋ raan jai ni ke luŋkɛ ku kɔc jai bikki kuɛɛr cikki bɛi kuany cuk.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yin ci kɔrba ɣɔɔtdu wan ku t&iuml;dun ben ɣin riir na acinke le ba lɔ loi aɣɛɛr, ɛ na:</span></span>
+	<ul>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Na ci yi t&auml;&auml;c panakim ku ɣankɔk ni ki ben ɣin kakkun ke panakim yuu.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Na yeyi tuɔk ni panakim, w&auml;lke panakim ku th&euml;&euml;m bene yin thɛm citman de COVID-19.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">ɛ ti tɔɣin kɛ yin ci nyi&ouml;p</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Na c&iuml;yi gam ni luŋ ba lɔ aɣɛɛr.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ɛ na lɔ raan ci tuany lɛm panakim ku na ci yin gam ba nɛm kɔc lui ni panakim ni luŋ cikke tau kɔcbi ben nɛm (apam 9).</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ti luui ɣin tidde ɣan yene kɔc tuuk ku ci yin gam ni kuɛr cikke tau tidde ɣan yene kɔc</span></span>&nbsp;<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">tingthin (apam 9).</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yin ci kɔrba ya lɔ tidde luoi, thukul, ku jɔlyɔ jama, ku ba lɔ ɣan tɔ kɔc thin kikkɛ juic ku naye adhuma.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Bakke riir ku yakke niin ɣɔt waacɣic kene kɔc kɔk ye wɛk riirtuk na bi rɔt lɛu.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ti lɛrɣin kɛ yin kɔc kuony panakim ku ben yin lɔ thɛm, aci kɔr ba rɛɛth yene jur kaar thin luom, taxi ku jɔlya rɛɛth yekke rɔɔm. Ti liu rɛɛndu, thɛɛm ye loi bɛiɣic ale bi gu&iuml;ir ti yuu ɣin ni 1300 651 160.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Akɔrba ya cɛng k&iuml;ye nyin kum ɛben na ci le ba riir ɣɔɔt tukɣic kene raandɛ ku na kɔrba lɔ panakim ba ku&ouml;ny lɔ k&ouml;r.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Aci kɔr ba ben bɛi pandu ni ki kɔrɣin ba ring aɣɛɛr. Ti riir ɣin y&iuml;tuk pandu, yin laau ba lɔ aɣɛɛr domdu thok, balcony ku ɣɔɔtk&ouml;u. Ti riirɣin apartmentɣic, yin laau ba lɔ aɣɛɛr ni balconydu. Ku yin kaau ba lɔ domdun laau ku jɔlya ɣɔɔtk&ouml;&ouml;u ku yin bi kɔrba ya cɛng k&iuml;ye nyin kum. Ku ayadde yin laau ba lɔ ɣan tɔ caarthok tiddun cɛng. Akɔrba ya cɛng maskdu na ca ya lɔ thiok yene ringthin ke yin c&iuml;yi ɣum kum.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Thiic kɔckok citman m&auml;&auml;thku ku pandu, yeyi ŋa cikke korkɛk bikki rɔth wɛk, bikki kuin lɔ gam ku jɔlya ka bene yin yikou waar. Raan bɔ kene kakkɛ dun gam b&iuml;ya ben ɣutdu ku bi ben ki thiɔɔk kene yin - na bi rɔt lɛu apiɛth bikki kang ya wan aɣɛɛr ɣutdu thok.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ti noŋɣin ka nuan ɣin ni loŋ kidde kuin ku ka kɔrkɛk, k&iuml;yi yuo ɛ nŋmbai ci tau ni kidde coronavirus ni 1800675398 bi yin kony.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Na kɔr raan bi kang ya waarɣic, col TIS National ni 131 450 ku jɔl thiic ni nambai de coronavirus yene yuup thin ni 1800 675 398.&nbsp;</span></span></li>
+</ul>
+<b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Na kɔɔr wɛɛlkɔk n&iuml;ye tan o le bene rɔt wɛɛk ku ku&ouml;ny o yen tɔ bene yin kony,&nbsp;</span></span></b>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>&nbsp; &nbsp; lɔ ting ni </b><a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">ƔEN LE BA WƐƐLKƆK YUU T&Iuml;Y&Ouml; TI K&Ouml;R ƔAN KƐK?</span></span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Wɛltɔ ni kidde tan yene kɔc yuu kene kɔc ci wuɔk: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Tan bene raantɔ ke piɛth guop ku wɛlke tan bene ran rɔtya wɛk ti tɔ kɔc thin: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kakke amin ku jɔlya ku&ouml;ny ti noŋkɔc cikke yuu ki kɛk noŋ coronavirus ye cɔl (COVID-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Wɛɛlke coronavirus ɛben ni kidde (COVID-19): <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yin yukku lɔŋba ya yuupti noŋ maktap ni kakke ajuiɛr kan na tɔ wɛɛ? r kɔrba thiic ni nambai 1300 651 160.</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yin ya dhuuk lɛɛi,</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ɣan raandu<br />
+<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 754.3px; width: 167px; height: 35px;" title="image1" /></span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 raan lɔ ni raan muuk maktapde kakke panakim ni k&iuml;ye kidde (ka cikke yuu, kɔc ci yuu kene kɔc ci tuany kɛkɛ d&ouml;m, ku jɔlya kɔc ye kakke ri&auml;k tingɣic)&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ni maktapde kakke panakiim ku maktap ye kakke kɔc tingɣic</span></span></p></body></html>

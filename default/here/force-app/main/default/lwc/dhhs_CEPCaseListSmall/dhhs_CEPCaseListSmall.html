@@ -1,0 +1,23 @@
+<template>
+
+    <template if:true={showcaselist}>
+        <div class="slds-text-body_medium">Please select the appropriate record/case.</div>   
+        <lightning-layout-item padding="around-small">
+            <div style="height: 100%; width: 100%"> 
+                <lightning-datatable key-field="Id" 
+                                        selected-rows={preSelectedRows}
+                                        data={cases} 
+                                        columns={caseColumns} 
+                                        max-row-selection=1
+                                        onrowselection={getSelectedRecord}> 
+                </lightning-datatable> 
+            </div>       
+            <!-- show-row-number-column="false" --> 
+            <!-- hide-checkbox-column="false"    -->
+            <!-- column-widths-mode="auto" -->
+        </lightning-layout-item>
+    </template> 
+       
+
+    
+</template>

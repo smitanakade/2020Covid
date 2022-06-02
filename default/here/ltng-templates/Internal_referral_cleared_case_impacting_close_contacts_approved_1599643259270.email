@@ -1,0 +1,42 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span style="color:#ff0000;">PLEASE ENSURE PHESS ID IS IN SUBJECT LINE. DELETE THIS LINE BEFORE SENDING</span> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi,&nbsp;<br /> <br /> Please note the following case has been cleared on <span style="color:#00b0f0;">&lt;date&gt;</span>:&nbsp;</span></span> 
+  <br /> 
+  <br /> 
+  <meta /> 
+  <table> 
+   <colgroup> 
+    <col width="247" /> 
+    <col width="354" /> 
+   </colgroup> 
+   <tbody> 
+    <tr> 
+     <td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>PHESS ID:</b></span></span></td> 
+     <td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.PHESS_ID__c}}}</span></span></td> 
+    </tr> 
+    <tr> 
+     <td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Name:</span></span></b></td> 
+     <td><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">There are household contacts who will now need their quarantine dates reviewed and updated.&nbsp;<br /> <br /> Thanks&nbsp;<br /> <br /> Kind Regards,</span></span> 
+  <br /> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}<br /> Existing Confirmed Cases Team<br /> <b>Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</b><br /> Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br /> t. 1300 651 160 | &nbsp;f. 1300 651 170 | e.<a href="mailto:ExistingConfirmedCase@dhhs.vic.gov.au&nbsp;">ExistingConfirmedCase@dhhs.vic.gov.au&nbsp;</a> &nbsp;<br /> w. </span></span> 
+  <a href="www.dhhs.vic.gov.au"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">www.dhhs.vic.gov.au</span></span></a> 
+  <br /> 
+  <br /> 
+  <span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span> 
+  <br /> &nbsp;
+ </body>
+</html>

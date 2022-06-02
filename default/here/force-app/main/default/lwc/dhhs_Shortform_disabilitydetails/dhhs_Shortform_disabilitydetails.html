@@ -1,0 +1,52 @@
+<template>
+    <ul class="slds-accordion">
+        <li class="slds-accordion__list-item">
+            <section class={detailClassname}>
+                <div class="slds-accordion__summary">
+                    <h2 class="slds-accordion__summary-heading">
+                        <button class="slds-button slds-button_reset slds-accordion__summary-action" onclick={detailToggle} title="Disability details">
+                            <lightning-icon  icon-name={detailIconname} size="x-small"  alternative-text="Warning!" title="Warning" class="slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left"></lightning-icon>
+                            <span class="slds-accordion__summary-content">Details</span>
+                        </button>
+                    </h2>
+                </div>
+                <div class="slds-accordion__content slds-is-relative" id="referenceId-42">
+                    <lightning-record-form
+                        record-id={caseid}
+                        object-api-name="Case"
+                        fields={fields}
+                        columns="1"
+                        mode="view"
+                        onsubmit={handleSubmit}>
+                    </lightning-record-form>
+                </div>  
+            </section>
+        </li>
+        <li class="slds-accordion__list-item">
+            <section class={wscClassname}>
+                <div class="slds-accordion__summary">
+                    <h2 class="slds-accordion__summary-heading">
+                        <button class="slds-button slds-button_reset slds-accordion__summary-action" onclick={wscToggle} title="Work/Study/Care entry">
+                            <lightning-icon  icon-name={wscIconname} size="x-small"  alternative-text="Warning!" title="Warning" class="slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left"></lightning-icon>
+                            <span class="slds-accordion__summary-content">Work/Study/Care entry</span>
+                        </button>
+                    </h2>
+                </div>
+                <div class="slds-accordion__content slds-is-relative" id="">
+                    <lightning-record-edit-form object-api-name="ContactEncounter">
+                        <lightning-input-field field-name="Employment_Status__c"></lightning-input-field>
+                        <lightning-input-field field-name="Occupation__c"></lightning-input-field>
+                        <lightning-input-field field-name="Location__c"></lightning-input-field>
+                        <lightning-input-field field-name="Within_Period_of_Interest__c"></lightning-input-field>
+                        <lightning-input-field field-name="End_Time__c" onchange={handleChange} value={endTime}></lightning-input-field>
+                        <template if:true={endTime_error}>
+                            <label class="slds-form-element__label" style="color: red;">The time should not be a future time.</label>
+                        </template>
+                        <lightning-input-field field-name="Description"></lightning-input-field>
+                    </lightning-record-edit-form>
+                    <lightning-button class="slds-m-top_small" variant="brand" label="Save" onclick={wscSubmit}></lightning-button>
+                </div>  
+            </section>
+        </li>
+    </ul>
+</template>

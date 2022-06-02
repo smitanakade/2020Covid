@@ -1,0 +1,25 @@
+.resultlistfirstitem {
+    padding-left : 13px;
+    font-weight : 400px;
+}
+.resultlist {
+    max-height:500px;
+    overflow-y:auto;
+}
+.searchicon{
+    margin-top:5px;
+}
+.slds-modal__container {
+    max-width: 50rem !important;
+    min-width: 30rem !important;
+}
+
+.brp-location-icon{
+    --lwc-colorTextIconDefault: rgb(32, 163, 6);
+    --sds-c-icon-color-background:white;
+}
+
+.trevi-location-icon{
+    --lwc-colorTextIconDefault: rgb(243, 188, 9);
+    --sds-c-icon-color-background: white;
+}

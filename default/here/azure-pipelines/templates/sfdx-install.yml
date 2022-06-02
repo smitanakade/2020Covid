@@ -1,0 +1,20 @@
+parameters: 
+  installDeltaCli: true
+
+steps:
+- task: UseNode@1
+  inputs:
+    checkLatest: true
+  displayName: "Node 10.x install"
+
+- script: | 
+    npm install -g sfdx-cli@7.70.1
+  displayName: "npm install sfdx-cli"
+
+- checkout: self
+  displayName: 'Fetch main app'
+
+- script: |
+    echo 'y' | sfdx plugins:install dxb@1.3.3 --force
+  condition: and(succeeded(), eq('${{ parameters.installDeltaCli }}', true))
+  displayName: "Install DXB"

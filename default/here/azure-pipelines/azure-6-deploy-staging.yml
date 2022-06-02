@@ -1,0 +1,49 @@
+parameters:
+- name: level
+  displayName: Test Level
+  default: RunLocalTests
+  values:
+  - RunLocalTests
+  - NoTestRun
+
+pr: none
+
+trigger: none
+
+stages:
+- stage: DEPLOY_STAGING
+  jobs:
+  - deployment: STAGING_Deployment # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: STAGING_Deployment #friendly name
+    variables:
+    - group: sf_config #using variable group to store auth url for authentication to target org
+    pool:
+      vmImage: 'ubuntu-latest'
+    # creates an environment if it doesn’t exist
+    environment: staging
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+          #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(staging_auth) 
+              targetEnv: 'staging'
+          #set full deployment 
+          - script: | #only need this if not using delta
+              echo "force-app" > package
+            displayName: "Init force-app package"
+          - template: templates/sfdx-deploy.yml 
+            parameters:
+              targetEnv: 'staging'
+              testlevel: ${{ parameters.level }}
+              
+          
+
+          

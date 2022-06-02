@@ -1,0 +1,15 @@
+# File: templates/sfdx-steps.yml
+parameters: 
+  deltaMode: 'branch'
+  compareWith: 'origin/master'
+  testlevel: 'RunLocalTests'
+
+steps:          #put output of the delta into tmp 'package' file, output -p ./force-app/main/default/classes/Hello.cls
+- script: |
+    sfdx dxb:source:delta -m ${{ parameters.deltaMode }} -k ${{ parameters.compareWith }} > package    
+  condition: ne('${{ parameters.deltaMode }}', '')
+  displayName: "Calculate delta"
+- script: |
+    sfdx dxb:source:fetchtest -p "$(cat package)" > testClasses    
+  condition: and(ne('${{ parameters.deltaMode }}', ''),eq('${{ parameters.testlevel }}', 'RunSpecifiedTests'))
+  displayName: "Calculate Specified Test Classes"

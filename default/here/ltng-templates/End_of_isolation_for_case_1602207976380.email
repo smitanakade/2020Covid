@@ -1,0 +1,39 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><img alt="HeaderV1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/HeaderV14?oid=00D5P0000009HKg" style="max-width: 1640.6499999999999px" title="HeaderV1" /><br />
+<br />
+<br />
+{{{case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.MailingStreet}}}<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}<br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Re:&nbsp;&nbsp;Clearance - Novel Coronavirus (2019-nCoV) — <a>Case ID </a>{{{case.CaseNumber}}}&nbsp;{{{case.Account}}}</b></span></span><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="page-break-after:avoid"><span style="line-height:14pt">Thank you for your cooperation during your recent period of isolation for coronavirus disease (COVID-19) infection.&nbsp;<br />
+<br />
+You now meet the Department of Health and Human Services’ clearance criteria to end isolation. </span></span></span></span><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:107%">This letter may be shown to your <span style="color:red">employer or educational facility </span>should you be required to provide evidence that you can now return to <span style="color:red">work / education.</span></span></span></span><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="page-break-after:avoid"><span style="line-height:14pt">If you have any questions or wish to discuss this information in more detail, please call 1300 651 160.</span></span></span></span><br />
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:14pt">Yours sincerely</span></span></span><br />
+<img alt="Sign" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/Sign?oid=00D5P0000009HKg" style="max-width: 1640.6499999999999px" title="Sign" /><br />
+<br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:14px;"><span style="line-height:14pt">Dr Simon Crouch  </span><br />
+<span style="line-height:14pt">Deputy Public Health Commander COVID-19 (Case, Contact and Outbreak Management)  </span><br />
+<span style="page-break-after:avoid"><span style="line-height:14pt">Department of Health and Human Services</span></span></span></span><br />
+<br />
+{{{Case.Todays_Date__c}}}<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="FooterLogo" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/FooterLogo1?oid=00D5P0000009HKg" style="max-width: 1640.6499999999999px" title="FooterLogo" /><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:8.0pt"><span style="color:#5f5f5f">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></span></span></span>
+<div id="" style="left: 8px; top: 683px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 683px;">&nbsp;</div>
+
+<div id="" style="left: 1016px; top: 801px;">&nbsp;</div>
+
+<div id="" style="left: 1016px; top: 801px;">&nbsp;</div></body></html>

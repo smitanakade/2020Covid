@@ -1,0 +1,43 @@
+pr: none
+
+trigger: 
+  - master
+
+stages:
+- stage: DEPLOY_SIT_MERGE
+  jobs:
+  - deployment: SIT_Merge # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: SIT_Merge #friendly name
+    variables:
+    - group: sf_config #using variable group to store auth url for authentication to target org
+    pool:
+      vmImage: 'ubuntu-latest'
+    # creates an environment if it doesn’t exist
+    environment: sit
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+         #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(sit_auth) 
+              targetEnv: 'sit'
+          - template: templates/sfdx-delta.yml 
+            parameters:
+              deltaMode: 'commitid'
+              compareWith: $(Build.SourceVersion)
+              testlevel: 'NoTestRun'   
+          - template: templates/sfdx-deploy.yml 
+            parameters:
+              targetEnv: 'sit'
+              testlevel: 'NoTestRun'
+              
+          
+
+          

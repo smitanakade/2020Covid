@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "MessagingTemplate",
+                "referenceId": "MessagingTemplateRef1"
+            },
+            "DeveloperName": "InitialSCC",
+            "MasterLabel": "Initial Secondary Close Contact Notification",
+            "Message": "Reference Number:  {!Case.CaseNumber} \r\n\r\nHi {!Account.FirstName},\r\n\r\nThis is a message from the Victorian Department of Health and Human Services. You have been assessed as a secondary close contact who has been exposed to coronavirus (COVID-19). Please immediately quarantine.\r\n\r\nWe will call you soon from a private number. Please answer. If you need an interpreter, call TIS National on 131 450.\r\n\r\nVisit {!Case.SurveyLinkURL__c} for directions regarding your quarantine. If you are under 18, this information is directed to your parent/guardian.\r\n\r\nThe department will never ask for payments, for your financial details, or ask you to download software. If you have any questions, call us on 1300 651 160."
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+<template>
+
+    <div class="slds-col_padded slds-m-around_small">
+        <i>To add previously unidentified close contacts select NEW. If required to add contact with another confirmed case select Interview-case movements/contacts flow in action and recommendations on the right of this page.</i>
+    </div>
+    <lightning-card  title={cardtitle} icon-name="standard:groups">
+        <lightning-button-icon class="slds-p-right_x-small" slot="actions" icon-name="utility:refresh"  alternative-text="refresh" title="refresh" variant="border-filled" onclick={handleRefreshData}></lightning-button-icon>
+        <lightning-button label="New" onclick={handlenew} slot="actions"></lightning-button>
+                          
+        <div class="slds-p-horizontal_small slds-is-relative" style="height: 250px;">
+            <template if:true={isloading}>
+                <lightning-spinner variant="brand" 
+                  alternative-text="Loading Cases"     
+                  size="medium">
+                    </lightning-spinner>
+              </template>
+            <lightning-datatable
+                class="slds-table  slds-table_bordered slds-table_striped"
+                key-field="id"
+                columns={columns}
+                data={data}
+                onrowaction={handleRowAction}
+                hide-checkbox-column
+                default-sort-direction={defaultSortDirection}
+                sorted-direction={sortDirection}
+                sorted-by={sortedBy}
+                onsort={onHandleSort}>
+            </lightning-datatable>
+
+        <!-- class="slds-table  slds-table_bordered slds-table_striped"-->
+        </div>
+       
+    </lightning-card>
+ 
+    <template if:true={isModalOpen}>
+
+          <!-- Modal/Popup Box LWC starts here -->
+
+        <section role="dialog"  class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <!-- Modal/Popup Box LWC header here -->
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close"
+                            alternative-text="close"
+                            variant="inverse"
+                            size="small" ></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{actiontitle}</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium slds-is-relative" id="modal-content-id-1">
+                    <template if:true={issaveloading}>
+                        <lightning-spinner variant="brand" 
+                          alternative-text="Saving PCC"     
+                          size="medium">
+                            </lightning-spinner>
+                      </template>
+                    <template if:true={shownew}>
+                        <div class="slds-grid slds-wrap" style="height:400px"> 
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-combobox
+                                    name="relationshipToRecordPick"
+                                    label="Relationship to Case"
+                                    value={relationshipToRecordPick}
+                                    placeholder="Select Relationship to Case"
+                                    options={relationshipToRecordOptions}
+                                    onchange={handleChange} ></lightning-combobox>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-combobox
+                                    name="specifyRelationshipToRecordPick"
+                                    label="Specify relationship to case"
+                                    value={specifyRelationshipToRecordPick}
+                                    placeholder="Select Specify relationship to case "
+                                    options={specifyRelationshipToRecordOptions}
+                                    onchange={handleChange} ></lightning-combobox>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <c-type-ahead-component
+                                    display-field="PersonBirthdate,PersonMobilePhone,Address_Text__pc,PersonEmail"
+                                    display-field-json={jsonText}
+                                    display-title-field-json=""
+                                    iconname="standard:avatar"
+                                    no-rec-display="20"
+                                    show-cancel-button = "True"
+                                    object-name="Account"
+                                    label="Search by Person/Account"
+                                    plural-label="Persons"
+                                    record-type-id={getpersonAccountRecordType}
+                                    record-type="PersonAccount"
+                                    searchfield="Full_Name__c"
+                                    create-record="True"
+                                    create-fields="FirstName,MiddleName,LastName,PersonBirthdate,Sex__c,Household_member__c,PersonMailingStreet,PersonMailingPostalCode,PersonMailingCity,PersonMailingState,PersonMailingCountry,PersonHomePhone,PersonMobilePhone,PersonEmail,Interpreter_required__c"
+                                    is-required={isRequiredPersonsearch}
+                                    disable-input ={disablePersonsearch}
+                                    onselect={handelPersonSelected}>
+                                </c-type-ahead-component>
+                            </div>
+                            
+                             <div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <c-type-ahead-component
+                                    display-field="CaseNumber,Account.Name,RecordType.Name"
+                                    display-field-json={jsonRecText}
+                                    display-title-field-json=""
+                                    iconname="standard:avatar"
+                                    no-rec-display="10"
+                                    object-name="Case"
+                                    label="Search by Record Number"
+                                    plural-label="Records"
+                                    record-type-id = ""
+                                    record-type = ""
+                                    searchfield="CaseNumber"
+                                    create-record="false"
+                                    create-fields=""
+                                    disable-create = true
+                                    is-required= {isRequiredRecordSearch}
+                                    disable-input ={disableRecordSearch}
+                                    onselect={handleRecSelected}>
+                                </c-type-ahead-component>
+                             </div>
+                         
+                             <div class="slds-col slds-size_12-of-12 slds-p-horizontal_medium">
+                                <lightning-layout  vertical-align="end">    
+                                    
+                                    <lightning-layout-item size="12">
+                                        <c-dhhs_-c-e-p-case-list-small showcaselist={showcaselist} onselectcase={handleCaseSelected}></c-dhhs_-c-e-p-case-list-small>
+                                    </lightning-layout-item>
+                                </lightning-layout>
+                            </div>
+                     
+                            <!--<div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input value={ongoingexposure} type="checkbox" name="ongoingexposure" label="On-going exposure" onchange={handleCheckBoxChange}></lightning-input>
+                            </div> -->
+
+                            <!--div class="slds-col slds-size_6-of-12 slds-p-horizontal_medium">
+                                <lightning-input value={ongoingexposure} type="checkbox" name="OGP" label="On-going exposure" ></lightning-input>
+                            </div-->
+
+                            <div class="slds-col slds-size_12-of-12 slds-p-horizontal_medium">
+                                <lightning-input required onchange={handleDateChange} type="date" class="lastdayofexposureday" name ='lastdayofexposureday' label="Last day of Exposure Day 0" ></lightning-input>
+                            </div>
+                           
+                        </div>
+                    </template>
+                    <template if:false={shownew}>
+                        <lightning-record-form
+                        record-id={cepId}
+                        object-api-name="ContactEncounterParticipant"
+                        layout-type="Full"
+                        mode="edit"
+                        columns="2"
+                        density="comfy"
+                        onsuccess={handleSuccess}
+                        oncancel={closeModal}>
+                    </lightning-record-form>
+                    </template>
+                                   
+                </div>
+                <template if:true={shownew}>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={submitdetails}>Save</button>
+                    </footer>
+                </template>
+            </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>  
+
+    
+</template>

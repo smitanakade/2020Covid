@@ -1,0 +1,55 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">尊敬的<span style="color:#e74c3c;">{{{case.Account}}}</span><br />
+<br />
+经评估确认，您曾与一名冠状病毒肺炎（COVID-19）确诊病例有过密切接触。您接触该确诊病例的日期是<span style="color:#e74c3c;"><b>2020年</b></span><b><span style="color:#e74c3c;">xx月xx日</span>。<br />
+您应该：</b><br />
+&nbsp;阅读《COVID-19冠状病毒确诊病例密切接触者须知》（Coronavirus disease (COVID-19) - Close Contact）资料<br />
+&nbsp;链接见下文），确保您了解并遵守各项隔离要求。<br />
+&nbsp;请您务必了解《COVID-19冠状病毒确诊病例密切接触者须知》资料中对COVID-19症状的描述。受到感染后，症状可能<b>在</b><b>0</b><b>至</b><b>14</b><b>天之间</b>的任何时间出现并发展，最晚可在<span style="color:#e74c3c;"><b>2020</b><b>年</b><b>xx</b><b>月</b><b>xx</b><b>日</b></span>。若有症状出现，您应该进行冠状病毒检测，并接受医疗护理。<br />
+&nbsp; 您必须在已经隔离了至少11天后（当天或之后）或在您的隔离期满之后（<span style="color:#e74c3c;"><b>2020</b><b>年</b><b>xx</b><b>月</b><b>xx</b><b>日</b></span>当天或之后），接受检测。<br />
+<b>&nbsp;请阅读随附的信件，并在接受检测时随身携带该份信件</b>。<br />
+&nbsp;即使您的COVID-19冠状病毒检测结果为“阴性”（negative），您也<b>必须</b>继续隔离，直至14天期满为止。<br />
+&nbsp;允许您解除隔离的日期将会在有了检测结果之后通知您。
+<p>&nbsp;我们会通过自动短信服务或电话定期与您联络。</p>
+<br />
+<br />
+<b>如何隔离：</b>
+
+<h2>留在家中、酒店客房内或医疗场所，切勿外出。</h2>
+•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从最后一次接触确诊病例之日起算，您必须在家中或住处隔离14天。卫生及民政服务部（Department of Health and Human Services）的官员将会与您联络，通知您具体的隔离起始与结束日期。<br />
+–&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除非必须外出获取医药治疗服务，否则您不能离家或离开住处。<br />
+–&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您应该尽量与其他人分房居住。若有可能，使用单独的卧室以及卫浴间设施。<br />
+–&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您不可上班或上学，也不可前往大学、学校、公共场所或参与任何公共活动。您不可使用公共交通工具，或搭乘出租车或共享服务车辆。<br />
+–&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若有可能，请安排不需要隔离的朋友或家人为您采购食物或其他必需的生活品。<br />
+•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若您在购买食物或日常必需品方面遇到困难，可致电1800 675 398寻求协助。<br />
+•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若您需要口译员协助沟通，可致电131 450，然后要求接通帮助热线，电话1800 675 398。了解详情可访问我们的网站：<a href="https://www.dhhs.vic.gov.au/coronavirus">https://www.dhhs.vic.gov.au/coronavirus</a><br />
+•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除非有危急情况，否则请勿拨打“零零零”（000）紧急服务电话<br />
+&nbsp;
+<h3><span style="color:#2980b9;">户外活动</span></h3>
+若您居住在独立房屋中，可安全地去室外的花园、阳台或庭院活动。<br />
+若您居住在楼房公寓内，去室外的花园或庭院时必须佩戴外科用口罩。在前往花园途中，您必须以最快速度穿越任何公用区域。若您必须经过这些区域，请务必佩戴外科用口罩。<br />
+若您在公用区域内遇到其他人，记得始终与他们保持至少1.5米的距离。<br />
+<br />
+了解有关确诊病例密切接触者须知的详情可访问：<a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a><br />
+<br />
+<br />
+了解一般信息可访问我们的网站：<a href="https://www.dhhs.vic.gov.au/novelcoronavirus">https://www.dhhs.vic.gov.au/novelcoronavirus</a><br />
+<br />
+感谢您的协助。&nbsp;若您对本事项有任何疑问，请致电1300 651 160，联络传染病预防与控制中心查询。<br />
+<br />
+<br />
+此致<br />
+<br />
+<br />
+<span style="color:#e74c3c;">{{{Sender.Name}}}</span><br />
+团队编号：<span style="color:#e74c3c;">&lt;number&gt;</span><br />
+<b>公共卫生行动</b><b>&nbsp;</b>|&nbsp;<b>冠状病毒</b><b>(COVID-19)</b><b>疫情应对团队</b><br />
+健康保护科&nbsp;|&nbsp;规管事务处，健康保护及紧急事件管理分部<br />
+卫生及民政服务部&nbsp;| 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+<span style="color:#2980b9;"><b>电话：</b></span>&nbsp;1300 651 160&nbsp;|&nbsp;&nbsp;<span style="color:#2980b9;"><b>传真：</b></span>&nbsp;1300 651 170&nbsp;|&nbsp;<span style="color:#2980b9;"><b>电邮：</b></span>&nbsp;<a href="mailto:publichealth.operations@dhhs.vic.gov.au">publichealth.operations@dhhs.vic.gov.au</a>&nbsp;&nbsp;<br />
+<span style="color:#2980b9;"><b>网址：</b></span>&nbsp;<a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a><br />
+<br />
+<br />
+<span style="font-size:11px;">重要：本传真/电子邮件的内容仅供收件人阅读使用。所有内容均为保密信息，并可能享有法律保护特权。未经作者许可，本文件不得复制或分发给DHHS以外的任何人。若您不是应该收到本文件的收件人，您不允许披露，复制或使用其中任何信息。</span></body></html>

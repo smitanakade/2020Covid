@@ -1,0 +1,19 @@
+div.card-wrapper.selected a{
+    color: white !important;
+  }
+  .card-wrapper {
+    border: 1px solid lightgrey;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+    white-space: pre;
+    word-wrap: break-word;
+  }
+  .card-wrapper.selected {
+    cursor: pointer;
+    padding: 5px;
+    border: 3px solid rgb(0, 95, 178);
+    border-radius: 5px;
+    background-color: #006dae !important;
+    color: white;
+  }

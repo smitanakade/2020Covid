@@ -1,0 +1,64 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%">From: <a href="mailto:covid-19.health@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">covid-19.health@dhhs.vic.gov.au</a></span><br />
+<span style="line-height:115%">CC:</span><br />
+<span style="line-height:115%">BCC:</span><br />
+<span style="line-height:115%">To: <b>For jurisdictional contacts – See TEAMS/Ops/General/files/Jurisdictional contacts</b></span><br />
+<span style="line-height:115%"><span style="color:red">IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY </span></span><br />
+<span style="line-height:115%"><span style="color:red">PLEASE WRITE PHESS ID IN SUBJECT LINE. DELETE THIS MESSAGE BEFORE SENDING.</span></span><br />
+<br />
+<span style="line-height:115%">Dear<span style="color:#ff0000;">&nbsp;Home_State</span>,</span><br />
+<br />
+<span style="line-height:115%">We are following up a confirmed case of coronavirus (COVID-19) in Victoria and have identified close contacts who <span style="color:red">resides/are currently in&nbsp;</span><span style="color:#ff0000;">Home_State</span><span style="color:red">.</span></span><br />
+<br />
+<span style="line-height:115%">Please see information below for contacts to be followed up:</span></span></span>
+<table class="MsoTableGrid" style="border-collapse:collapse; border:solid windowtext 1.0pt">
+	
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>First name </b></span></span></span></td>
+			<td style="border:solid windowtext 1.0pt; width:258.25pt; border-left:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case_First_Name</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Last name </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case_Last_Name</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Date of birth </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case_DOB</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Phone number </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.ContactMobile}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Address (if known)</b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.Address_Related__c}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Date of exposure</b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:203.85pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="272"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><a><b>Any other relevant information obtained:</b></a></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:258.25pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="344">&nbsp;</td>
+		</tr>
+	
+</table>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%">Thank you for your assistance. If you have any further concerns relating to this matter, contact Communicable Disease Prevention and Control on 1300 651 160 or respond to this email.</span><br />
+<br />
+<span style="line-height:115%">Thanks</span><br />
+<br />
+<span style="line-height:115%">Kind Regards,</span><br />
+<br />
+{{{Sender.Name}}}<br />
+<span style="line-height:115%">{{{Sender.Team__c}}}</span><br />
+<span style="line-height:115%"><b>Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</b></span><br />
+<span style="line-height:115%">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span><br />
+<span style="line-height:115%"><b>t</b>. 1300 651 160 |&nbsp; <b>f.</b> 1300 651 170 |<b> e</b>. <span style="color:red">&lt;team email&gt;</span></span><br />
+<span style="line-height:115%">w. <a href="http://www.dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">www.dhhs.vic.gov.au</a></span></span></span><br />
+<br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited </span></span></span></span>
+
+<div>&nbsp;</div></body></html>

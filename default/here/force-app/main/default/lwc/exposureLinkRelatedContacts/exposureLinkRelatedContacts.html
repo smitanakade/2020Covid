@@ -1,0 +1,28 @@
+<template>
+    <!--<lightning-card class="slds-grid slds-page-header" title={title} icon-name="standard:activations">
+        <lightning-button-icon slot="actions" onclick={refresh} icon-name="utility:refresh"  alternative-text="Refresh" title="Refresh"></lightning-button-icon>
+    </lightning-card>-->
+    <div>
+            <div class="listHeader">
+                    <div class="headerDiv slds-clearfix">
+                            <div class="slds-float_left slds-p-around_xx-small">
+                                    <span>
+                                            <lightning-icon icon-name="standard:activations" alternative-text="icon"
+                                                    size="small"></lightning-icon>
+                                    </span>
+                                    <span class="slds-p-around_small">{title}</span>
+                            </div>
+                            <div class="slds-float_right">
+                                    <lightning-button-icon class="buttonIcon" variant="border-filled" slot="actions" onclick={refresh}
+                                            icon-name="utility:refresh" alternative-text="Refresh" title="Refresh">
+                                    </lightning-button-icon>
+                            </div>
+                    </div>
+                    <template if:true={displayDatatable}>
+                    <lightning-datatable class="datatableDiv" key-field="id" data={individualList} columns={columns}
+                            hide-checkbox-column="true">
+                    </lightning-datatable>
+                    </template>
+            </div>
+    </div>
+</template>

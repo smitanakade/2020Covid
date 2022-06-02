@@ -1,0 +1,104 @@
+<!-- /*
+ * @Author             : Jiten Joysar
+ * @Description        : Visualforce page to generate Pathalogy slip pdf
+ * @Modification Log   : 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * Date           Author      		    Details
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * 20/02/2021     Jiten Joysar          Initial version
+*/
+-->
+<apex:page standardController="Case" renderAs="pdf" extensions="DHHSPathologySlipExtension" 
+		   applyHtmlTag="false" showHeader="false" cache="true" readOnly="true" >
+    <!-- Load background images and digital signature -->
+    <div style="position:absolute;top:0.000000px;left:0.000000px">
+        <nobr>
+            <apex:image id="theImage" value="{!$Resource.PathologyReportImage1}" width="91%" height="70%" alt="Vai Curintia!"/>
+            <apex:image id="theImage1" value="{!$Resource.PathologyReportImage2}" width="91%" height="70%" alt="Vai Curintia!"/>
+            <apex:image id="theImage2" value="{!$Resource.PathologyReportImage3}" width="91%" height="70%" alt="Vai Curintia!"/>
+        </nobr>
+    </div>
+
+   <!-- Load static and Dynamic content-->
+    <p>
+        <span style="font-family:Helvetica;font-size:12.000000px;font-style:normal;font-weight:normal;color:#000000;">
+            
+            <!-- First name and Last name-->
+			<span style="position:absolute;top:70.056068px;left:28.151909px">
+                <nobr>{!recordDetails.Account.LastName} {!recordDetails.Account.FirstName} </nobr>
+            </span>
+
+            <!-- Sex -->
+            <span style="position:absolute;top:75.056068px;left:402.151909px;font-size:10.000000px">
+                <nobr>{!recordDetails.Account.Sex__c}</nobr>
+            </span>
+
+            <!-- Birthdate -->
+            <span style="position:absolute;top:75.056068px;left:460.151909px; font-size:10.000000px">
+                
+                <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                    <apex:param value="{!recordDetails.Account.PersonBirthdate}" /> 
+                </apex:outputText>
+            </span>
+            
+            <!-- Residential Address -->
+            <span style="position:absolute;top:108.056068px;left:28.151909px; font-size:10.000000px">
+                <nobr>{!recordDetails.Account.PersonMailingStreet}</nobr> <br/>
+                <nobr>{!recordDetails.Account.PersonMailingCity} {!recordDetails.Account.PersonMailingState} {!recordDetails.Account.PersonMailingPostalCode} {!recordDetails.Account.PersonMailingCountry}</nobr> <br/>
+            </span>
+            
+            <!-- Mobile and telephone number -->
+            <span style="position:absolute;top:110.056068px;left:402.151909px">
+                <nobr>Mob:{!recordDetails.Account.PersonMobilePhone}</nobr> <br/>
+                <nobr>Home:{!recordDetails.Account.PersonHomePhone}</nobr> <br/>
+            </span>
+            
+            <!-- Symptoms -->
+            <span style="position:absolute;top:170.056068px;left:28.151909px">
+                <nobr>COVID-19 PCR </nobr> <br/>
+                <nobr>[ ]Nasopharyngeal swab </nobr> <br/>
+                <nobr>[ ]Throat swab </nobr> <br/>
+                <nobr>[ ]Other, specify: </nobr> 
+            </span>
+            
+            <!-- todays date-->
+            <span style="position:absolute;top:336.056068px;left:350.151909px">
+                <nobr> <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                    <apex:param value="{!TODAY()}" /> 
+                </apex:outputText></nobr>
+            </span>   
+
+            <!-- Digital Signature -->
+            <span style="position:absolute;top:355.056068px;left:380.151909px">
+                 <apex:image id="theSignatureImage" value="{!$Resource.PathologyReportSignatureImage}" width="46%" height="24%" alt="Vai Curintia!"/>
+            </span>
+            
+            <!-- Doc info-->
+            <span style="position:absolute;top:420.056068px;left:350.151909px">
+                <nobr>Dr Simon Crouch </nobr> <br/>
+                <nobr>Communicable Disease Prevention and Control </nobr> <br/>
+                <nobr>Department of Health and Human Services </nobr> <br/>
+                <nobr>50 Lonsdale Street, Melbourne, Victoria, 3000 </nobr> 
+            </span>
+
+            <!-- Fax -->
+            <span style="position:absolute;top:420.056068px;left:28.151909px">
+                <nobr>Fax: {!recordDetails.Account.Fax}</nobr>  
+            </span>
+            
+        </span>
+    </p>
+    <p>
+        <!-- SF case number -->
+        <span style="font-family:Arial;font-size:10.000000px;font-weight:bold;text-decoration:line-through;color:#000000;">
+            <span style="position:absolute;top:85.078697px;left:28.151909px">
+                <nobr>
+                    <span style="font-family:Helvetica;font-size:10.000000px;font-style:normal;font-weight:normal;">
+                        DHHS Id: {!recordDetails.CaseNumber}
+                    </span>
+                </nobr>
+            </span>
+        </span>
+    </p>
+    
+</apex:page>

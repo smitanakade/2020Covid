@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "MessagingTemplate",
+                "referenceId": "MessagingTemplateRef1"
+            },
+            "DeveloperName": "Primary_Contact_SMS_Clearance_Notification",
+            "MasterLabel": "Completed Close Contact Notification",
+            "Message": "{!Today}\r\n\r\nReference Number: {!Case.CaseNumber} \r\n\r\nThis is a written notification from the Victorian Department of Health and Human Services.\r\n\r\nDear  {!Account.Name} \r\n\r\nThank you for remaining in quarantine and for helping us to slow the spread of coronavirus (COVID-19) in the Victorian community. You are now at the end of your quarantine period.\r\n\r\nIf you are experiencing any coronavirus (COVID-19) symptoms, have been exposed again to coronavirus (COVID-19) during your quarantine period or you are waiting on test results, you must remain in quarantine and please call 1300 651 160 immediately.\r\n\r\nVisit  {!Case.SurveyLinkURL__c}  for more information on what to do now."
+        },
+        {
+            "attributes": {
+              "type": "MessagingTemplate",
+              "referenceId": "MessagingTemplate-UserStory240020"
+            },
+            "DeveloperName": "Exposure_Link_From_SA",
+            "MasterLabel": "Exposure Link From SA",
+            "Message": "This is an automated message from the Victorian Department of Health and Human Services, please do not reply to this message. This message is being sent to you regarding your interstate travel from South Australia. We strongly recommend testing immediately on entry to Victoria. Please see testing locations in the link below\r\n\r\nhttps://www.dhhs.vic.gov.au/where-get-tested-covid-19\r\n\r\nDepartment of Health and Human Services Victoria | Where to get tested\r\nVictoria's restriction levels. Find out about the current restrictions in place. How to stay safe and well. Find out what you can do to reduce the risk and stop the spread of COVID-19, including resources for mental health and family violence support.\r\nwww.dhhs.vic.gov.au"
+          }
+    ]
+}

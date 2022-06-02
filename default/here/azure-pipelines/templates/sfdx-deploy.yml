@@ -1,0 +1,13 @@
+# File: templates/sfdx-steps.yml
+parameters: 
+  targetEnv: ''
+  testlevel: 'RunLocalTests'
+  option: ''
+
+steps:
+- bash: |
+    echo "Deploying the following components... "
+    cat package
+    grep -q '[^[:space:]]' < "package" && sfdx force:source:deploy -p "$(cat package)" -u ${{ parameters.targetEnv }} -l ${{parameters.testlevel}} ${{parameters.option}}
+  condition: succeeded()
+  displayName: "Deploy to ${{ parameters.targetEnv }}"

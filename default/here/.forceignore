@@ -1,0 +1,36 @@
+force-app/main/default/classes/SandboxPostRefreshAutomation.cls
+force-app/main/default/classes/SandboxPostRefreshAutomationTest.cls
+
+force-app/main/default/flexipages/Distributed_Marketing_Campaign.flexipage-meta.xml
+
+force-app/main/default/recordActionDeployments/AcquisitionContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/CasualContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/EmailTemplate.deployment-meta.xml
+force-app/main/default/recordActionDeployments/ConfirmedCase.deployment-meta.xml
+force-app/main/default/recordActionDeployments/PrimaryCloseContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/SecondaryCloseContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/UnclassifiedContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/WorkOrderSecondaryCloseContact.deployment-meta.xml
+force-app/main/default/recordActionDeployments/CloseContactWorkOrder.deployment-meta.xml
+
+##Ignore to not override values.
+force-app/main/default/customMetadata/DHHS_Default_Ids.Default.md-meta.xml
+force-app/main/default/customMetadata/AccountEntitlements.CloseContact.md-meta.xml
+force-app/main/default/customMetadata/AccountEntitlements.CloseContactInterviewWorkOrder.md-meta.xml
+force-app/main/default/customMetadata/AccountEntitlements.ConfirmedCaseInitial.md-meta.xml
+force-app/main/default/customMetadata/AccountEntitlements.ConfirmedCaseInterviewWorkOrder.md-meta.xml
+force-app/main/default/customMetadata/AccountEntitlements.SecondaryCloseContact.md-meta.xml
+force-app/main/default/flows/dailysecondcc_2.flow-meta.xml
+ 
+# ==START== Positive Pathway Survey forceignore
+# Adding this to force ignore list because QA box errors out with deployment issue
+# Any changes to this survey in the mean time, must use manual deployment.
+# Below 3 forceignore lines can be removed when QA is refreshed from Prod or SF Support fix is in place (and successfully tested)
+force-app/main/default/flows/Case_Manage_in_pathway_Survey_invitation_Link.flow-meta.xml
+force-app/main/default/flows/covid_19_positive_pathway_survey.flow-meta.xml
+force-app/main/default/flows/dm_1c154def_86ae_4fb7_b990_ddd4a3f534f0.flow-meta.xml
+# ==END== Positive Pathway Survey forceignore
+
+**/jsconfig.json
+
+**/.eslintrc.json

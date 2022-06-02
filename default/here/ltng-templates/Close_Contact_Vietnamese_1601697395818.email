@@ -1,0 +1,98 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference {{{Case.CaseNumber}}}&nbsp;</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;</span></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:12px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">Về: Th&ocirc;ng b&aacute;o - Si&ecirc;u vi Corona Mới (2019-nCoV) — Case ID {{{Case.CaseNumber}}}&nbsp;&nbsp;</span></b></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><i><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Th&ocirc;ng b&aacute;o n&agrave;y được ph&aacute;t h&agrave;nh theo đ&uacute;ng c&aacute;c Chỉ thị được đưa ra theo điều 200 của Đạo luật An sinh v&agrave; Sức khoẻ C&ocirc;ng cộng 2008 (Vic)</span></span></i><br />
+&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">K&iacute;nh gửi {{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ch&uacute;ng t&ocirc;i đ&atilde; đ&aacute;nh gi&aacute; qu&yacute; vị l&agrave; người tiếp x&uacute;c gần gũi với người c&oacute; chẩn đo&aacute;n nhiễm si&ecirc;u vi corona (COVID-19), phơi nhiễm v&agrave;o ng&agrave;y {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}.</span></span><br />
+&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:12px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">T&Ocirc;I N&Ecirc;N L&Agrave;M G&Igrave; B&Acirc;Y GIỜ?&nbsp;</span></b></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị phải c&aacute;ch ly kiểm dịch tại địa chỉ n&ecirc;u tr&ecirc;n ngay lập tức trong 14 ng&agrave;y cho đến ng&agrave;y {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. Nếu c&oacute; &yacute; định c&aacute;ch ly kiểm dịch tại một địa chỉ kh&aacute;c hoặc kh&ocirc;ng thể c&aacute;ch ly kiểm dịch an to&agrave;n tại địa chỉ n&ecirc;u tr&ecirc;n, qu&yacute; vị phải gọi số 1300 651 160 ngay lập tức.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị phải x&eacute;t nghiệm si&ecirc;u vi corona (COVID-19) v&agrave;o ng&agrave;y 11 {{{Case.Day_11_Test__c}}}. Vui l&ograve;ng đọc l&aacute; thư gửi k&egrave;m v&agrave; mang theo thư khi qu&yacute; vị đi l&agrave;m x&eacute;t nghiệm.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu được x&eacute;t nghiệm si&ecirc;u vi corona (COVID-19) v&agrave; nhận được kết quả &acirc;m t&iacute;nh, qu&yacute; vị phải tiếp tục c&aacute;ch ly kiểm dịch cho đến hết thời hạn 14 ng&agrave;y. Qu&yacute; vị sẽ được th&ocirc;ng b&aacute;o khi n&agrave;o c&oacute; thể kết th&uacute;c c&aacute;ch ly kiểm dịch sau khi c&oacute; kết quả x&eacute;t nghiệm. L&yacute; do l&agrave; c&oacute; thể qu&yacute; vị bị nhiễm si&ecirc;u vi corona (COVID-19) ngay cả sau khi c&oacute; kết quả &acirc;m t&iacute;nh.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu c&oacute; chẩn đo&aacute;n nhiễm si&ecirc;u vi corona (COVID-19) hoặc đ&atilde; tiếp x&uacute;c gần gũi với một người kh&aacute;c c&oacute; chẩn đo&aacute;n n&agrave;y, thời hạn c&aacute;ch ly kiểm dịch của qu&yacute; vị sẽ k&eacute;o d&agrave;i th&ecirc;m.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị sẽ thường xuy&ecirc;n được li&ecirc;n lạc th&ocirc;ng qua dịch vụ nhắn tin tự động hoặc gọi điện thoại. Cuộc gọi điện thoại sẽ kh&ocirc;ng hiện số. Vui l&ograve;ng trả lời tin nhắn v&agrave; điện thoại.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">H&atilde;y để &yacute; c&aacute;c triệu chứng si&ecirc;u vi (COVID-19). C&aacute;c triệu chứng c&oacute; thể xuất hiện từ 0 cho đến 14 ng&agrave;y sau khi phơi nhiễm, ng&agrave;y cuối c&ugrave;ng kết th&uacute;c v&agrave;o {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. Nếu c&oacute; bất kỳ triệu chứng n&agrave;o của si&ecirc;u vi (COVID-19), qu&yacute; vị n&ecirc;n gặp b&aacute;c sĩ v&agrave; l&agrave;m x&eacute;t nghiệm c&agrave;ng sớm c&agrave;ng tốt.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Đọc Tờ th&ocirc;ng tin - người tiếp x&uacute;c gần gũi (dạng Word) để đảm bảo qu&yacute; vị đ&aacute;p ứng đ&uacute;ng y&ecirc;u cầu về c&aacute;ch ly kiểm dịch: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:12px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">T&Ocirc;I C&Aacute;CH LY KIỂM DỊCH NHƯ THẾ N&Agrave;O?&nbsp;</span></b></span></p>
+
+<ul>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">H&atilde;y ở nh&agrave; hoặc nơi ở của qu&yacute; vị cho đến khi qu&yacute; vị nhận được giấy chứng nhận kết th&uacute;c c&aacute;ch ly của bộ. Những người kh&ocirc;ng tu&acirc;n theo c&aacute;c chỉ thị n&agrave;y c&oacute; thể bị phạt tối đa 20.000 đ&ocirc; la.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị kh&ocirc;ng được rời khỏi nh&agrave; hoặc nơi ở của m&igrave;nh v&igrave; bất kỳ l&yacute; do n&agrave;o, trừ c&aacute;c trường hợp sau:</span></span>
+	<ul>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị phải nhập viện hay một cơ sở kh&aacute;c v&igrave; mục đ&iacute;ch được chăm s&oacute;c y tế.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị cần được chăm s&oacute;c y tế, mua sản phẩm y tế hoặc l&agrave;m x&eacute;t nghiệm y tế, v&iacute; dụ COVID-19.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị gặp trường hợp khẩn cấp.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu luật ph&aacute;p đ&ograve;i hỏi qu&yacute; vị phải l&agrave;m điều đ&oacute;.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị đi thăm bệnh nh&acirc;n ở bệnh viện v&agrave; được ph&eacute;p l&agrave;m điều đ&oacute; theo Chỉ thị Thăm Bệnh nh&acirc;n (Số 9).</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị đang l&agrave;m việc ở cơ sở chăm s&oacute;c v&agrave; được ph&eacute;p l&agrave;m điều đ&oacute; theo Chỉ thị Cơ sở Chăm s&oacute;c (Số 9).</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị kh&ocirc;ng được ph&eacute;p đi l&agrave;m, đi học, hay đến c&aacute;c địa điểm hay sự kiện c&ocirc;ng cộng.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị n&ecirc;n ở lại v&agrave; ngủ trong một ph&ograve;ng kh&aacute;c với những người kh&aacute;c sống c&ugrave;ng qu&yacute; vị c&agrave;ng nhiều c&agrave;ng tốt. Sử dụng ph&ograve;ng tắm ri&ecirc;ng nếu c&oacute;.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị đi gặp b&aacute;c sĩ hay l&agrave;m x&eacute;t nghiệm, qu&yacute; vị kh&ocirc;ng được sử dụng giao th&ocirc;ng c&ocirc;ng cộng, tắc xi hay c&aacute;c dịch vụ đi chung xe. Nếu kh&ocirc;ng c&oacute; xe ri&ecirc;ng, qu&yacute; vị c&oacute; thể thu xếp x&eacute;t nghiệm tại nh&agrave; bằng c&aacute;ch gọi số 1300 651 160.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị kh&ocirc;ng được rời khỏi nh&agrave; để tập thể dục. Nếu sống ở nh&agrave; ri&ecirc;ng, qu&yacute; vị c&oacute; thể an to&agrave;n đi ra ngo&agrave;i để v&agrave;o vườn, ban c&ocirc;ng hay s&acirc;n ri&ecirc;ng của nh&agrave; m&igrave;nh. Nếu sống ở chung cư, qu&yacute; vị c&oacute; thể an to&agrave;n ra ngo&agrave;i ban c&ocirc;ng ri&ecirc;ng của nh&agrave; m&igrave;nh. Qu&yacute; vị cũng c&oacute; thể v&agrave;o vườn hay khu vực s&acirc;n tập thể nhưng cần phải đeo khăn che miệng mũi. Tuy nhi&ecirc;n, qu&yacute; vị n&ecirc;n đi nhanh qua c&aacute;c khu vực c&ocirc;ng cộng tr&ecirc;n đường tới đ&oacute;. Qu&yacute; vị phải lu&ocirc;n lu&ocirc;n đeo khăn che miệng mũi nếu buộc phải đi qua bất kỳ khu vực c&ocirc;ng cộng n&agrave;o.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nhờ người kh&aacute;c như bạn b&egrave; hay người th&acirc;n, những người kh&ocirc;ng cần phải c&aacute;ch ly, mang thực phẩm hay c&aacute;c đồ d&ugrave;ng thiết yếu kh&aacute;c tới cho qu&yacute; vị. Bất kỳ người n&agrave;o mang c&aacute;c m&oacute;n đồ n&agrave;y tới đều kh&ocirc;ng được v&agrave;o nh&agrave; qu&yacute; vị hoặc tiếp x&uacute;c gần gũi với qu&yacute; vị – nếu c&oacute; thể, họ n&ecirc;n để đồ tiếp tế trước cửa nh&agrave; qu&yacute; vị.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị gặp kh&oacute; khăn tiếp cận thực phẩm hay đồ d&ugrave;ng cần thiết, h&atilde;y gọi đường d&acirc;y gi&uacute;p đỡ về si&ecirc;u vi corona số 1800 675 398 để được hỗ trợ.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu cần th&ocirc;ng dịch vi&ecirc;n, h&atilde;y gọi TIS National số 131 450 rồi xin gặp đường d&acirc;y gi&uacute;p đỡ về si&ecirc;u vi corona số 1800 675 398.&nbsp;</span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Muốn biết th&ecirc;m th&ocirc;ng tin về hướng dẫn c&aacute;ch ly kiểm dịch v&agrave; c&aacute;c hỗ trợ d&agrave;nh cho qu&yacute; vị, vui l&ograve;ng truy cập</b>: <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qu&yacute; vị kh&ocirc;ng được ph&eacute;p để bất kỳ người n&agrave;o kh&aacute;c v&agrave;o nơi c&aacute;ch ly kiểm dịch của qu&yacute; vị trừ c&aacute;c trường hợp sau:</span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">người đ&oacute; thường sống tại ng&ocirc;i nh&agrave; đ&oacute; hoặc cần phải tự c&aacute;ch ly hay c&aacute;ch ly kiểm dịch tại ng&ocirc;i nh&agrave; đ&oacute; theo c&aacute;c chỉ thị n&agrave;y; hoặc</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">người đ&oacute; cần thiết phải v&agrave;o v&igrave; mục đ&iacute;ch y tế hay khẩn cấp; hoặc</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">người đ&oacute; l&agrave; nh&acirc;n vi&ecirc;n gi&uacute;p đỡ người khuyết tật, v&agrave; nh&acirc;n vi&ecirc;n đ&oacute; cần thiết phải v&agrave;o v&igrave; mục đ&iacute;ch cung cấp dịch vụ khuyết tật cho người khuyết tật; hoặc</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">người đ&oacute; cần thiết phải v&agrave;o v&igrave; mục đ&iacute;ch chăm s&oacute;c c&aacute; nh&acirc;n hay gi&uacute;p đỡ việc nh&agrave; cho người c&aacute;ch ly kiểm dịch do tuổi t&aacute;c, khuyết tật hay bệnh m&atilde;n t&iacute;nh của họ; hoặc</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">luật ph&aacute;p đ&ograve;i hỏi hay cho ph&eacute;p v&agrave;o.</span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">T&Ocirc;I C&Oacute; THỂ T&Igrave;M TH&Ecirc;M TH&Ocirc;NG TIN Ở Đ&Acirc;U?&nbsp;</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">C&aacute;c tờ th&ocirc;ng tin cho người tiếp x&uacute;c gần gũi: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Th&ocirc;ng tin về vệ sinh v&agrave; gi&atilde;n c&aacute;ch thể chất: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hỗ trợ t&agrave;i ch&iacute;nh v&agrave; hỗ trợ kh&aacute;c d&agrave;nh cho những người bị ảnh hưởng bởi si&ecirc;u vi corona (COVID-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Th&ocirc;ng tin chung về si&ecirc;u vi corona (COVID-19): <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Nếu qu&yacute; vị c&ograve;n quan ngại g&igrave; kh&aacute;c li&ecirc;n quan đến vấn đề n&agrave;y, vui l&ograve;ng li&ecirc;n lạc bộ theo số 1300 651 160.&nbsp;</span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Tr&acirc;n trọng k&iacute;nh ch&agrave;o</span></span><br />
+<br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 1594.1px; width: 189px; height: 40px;" title="image1" /></span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Tiến sĩ Simon Crouch&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ph&oacute; Gi&aacute;m đốc Sở Y tế về COVID-19 (Quản l&yacute; Trường hợp, Tiếp x&uacute;c v&agrave; Dịch)&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Bộ Y tế v&agrave; Dịch vụ Nh&acirc;n sinh</span></span></p></body></html>

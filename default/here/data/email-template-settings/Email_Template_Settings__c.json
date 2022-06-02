@@ -1,0 +1,842 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef1"
+            },
+            "Name": "Request for testing at a hotel",
+            "To_Address__c": "dhhsopsoteriaeoc@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Request for testing at hotel - Victorian Health Department Alert – {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Outbreak_record__c}}}\":\"{!Get_Case_Details.Outbreak_record__c}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef2"
+            },
+            "Name": "Exposure site contact email",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Exposure site contact - Victorian Health Department Alert - {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef3"
+            },
+            "Name": "Request for testing - YNA",
+            "To_Address__c": "lejla.jakupovic@yna.com.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Request for testing - YNA - Victorian Health Department Alert – Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "CC_Addresses__c": "bookings.vic@una.com.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef4"
+            },
+            "Name": "Transition to Enhanced Surveillance - Aged Care Facility",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Transition to Enhanced surveillance – {!str_CleanLocationName} ACF",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\",\"{{{Case.Todays_Date__c}}}\":\"{!TodaysDate}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef5"
+            },
+            "Name": "Outbreak at a school",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Case at {!str_CleanLocationName} - Victorian Health Department Alert – {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef6"
+            },
+            "Name": "Flight notification",
+            "To_Address__c": "publichealth.intelligence@dhhs.vic.gov.au",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Flight notification - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"Case_DOB\":\"{!Get_Contact_Details.DoB_Text__c}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Symptoms_Onset_Date__c}}}\":\"{!Get_Case_Details.Symptoms_Onset_Date__c}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef7"
+            },
+            "Name": "Residential Care Facility Case List",
+            "To_Address__c": "publichealth.intellegence@dhhs.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "COVID19 Residential Care Facility Case List Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef8"
+            },
+            "Name": "Casual Contact",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Casual contact - Victorian Health Department Alert – {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef9"
+            },
+            "Name": "Outbreak at disability setting",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Case/Outbreak at a disability setting - Victorian Health Department Alert - {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef10"
+            },
+            "Name": "End of isolation - Admitted case - approved",
+            "From_Address__c": "existingconfirmedcase@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) - End of isolation - Admitted case - Victorian Health Department – {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Account.FirstName}}}\":\"{!Get_Contact_Details.FirstName}\",\"{{{case.Account.LastName}}}\":\"{!Get_Contact_Details.LastName}\",\"{{{case.PHESS_ID__c}}}\":\"{!Get_Case_Details.PHESS_ID__c}\",\"{{{case.Account.Birthdate}}}\":\"{!Get_Contact_Details.Birthdate}\",\"{{{case.Date_Cleared_from_Isolation__c}}}\":\"{!Get_Case_Details.Date_Cleared_from_Isolation__c}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef11"
+            },
+            "Name": "Case at a workplace setting",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Case at a workplace - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef12"
+            },
+            "Name": "Outbreak in an Aged Care Facility",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Outbreak in an Aged Care Facility - Victorian Health Department Alert - {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef13"
+            },
+            "Name": "Notify Close contacts team of a case's release",
+            "From_Address__c": "existingconfirmedcase@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Internal referral - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Account.FirstName}}}\":\"{!Get_Contact_Details.FirstName}\",\"{{{case.Account.LastName}}}\":\"{!Get_Contact_Details.LastName}\",\"{{{case.PHESS_ID__c}}}\":\"{!Get_Case_Details.PHESS_ID__c}\",\"{{{case.Date_Cleared_from_Isolation__c}}}\":\"{!Get_Case_Details.Date_Cleared_from_Isolation__c}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef14"
+            },
+            "Name": "Case at a Childcare setting",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Case at childcare - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef15"
+            },
+            "Name": "Worksafe notification",
+            "To_Address__c": "info@worksafe.vic.gov.au,hygieneunit@worksafe.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Worksafe notification - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef16"
+            },
+            "Name": "Outbreak at a workplace",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Outbreak at a workplace - Victorian Health Department Alert - {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef17"
+            },
+            "Name": "Outbreak at healthcare setting",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Team 4 Outbreak at a healthcare setting - Victorian Health Department Alert- {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef18"
+            },
+            "Name": "Formal closure of outbreak",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Formal closure of COVID-19 {!Get_Case_Details.Subject} Outbreak - Victorian Health Department Alert - Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef19"
+            },
+            "Name": "Notification to DET - Victorian Health Department Alert",
+            "To_Address__c": "Lisa.gandolfo@education.vic.gov.au,Kate.simmons@education.vic.gov.au,Janet.cardell@education.vic.gov.au,Megan.knowles@education.vic.gov.au,Kim.ryan@education.vic.gov.au,Louise.hallahan@education.vic.gov.au,Nicole.Ellis@education.vic.gov.au,Joanne.marshall@education.vic.gov.au,Claire.tobin@education.vic.gov.au,Rocco.Fonzi@education.vic.gov.au,Fiona.oliver@eduation.vic.gov.au,sue.walker@education.vic.gov.au,Caitlin.mill@education.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Notification to DET - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef20"
+            },
+            "Name": "Request for accommodation",
+            "To_Address__c": "iiats@justice.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Request for accommodation after end of quarantine - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "CC_Addresses__c": "semc@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.PHESS_ID__c}}}\":\"{!Get_Case_Details.PHESS_ID__c}\",\"{{{Case.ContactMobile}}}\":\"{!Get_Case_Details.ContactMobile}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.ContactEmail}}}\":\"{!Get_Case_Details.ContactEmail}\",\"{{{Case.Home_isolation_date_Commenced__c}}}\":\"{!Get_Case_Details.Home_isolation_date_Commenced__c}\",\"Case_DOB\":\"{!Get_Contact_Details.DoB_Text__c}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanPersonMailingAddress}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Account_Details.PersonMailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Account_Details.PersonMailingPostalCode}\",\"{{{Recipient.MailingState}}}\":\"{!Get_Account_Details.PersonMailingState}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef21"
+            },
+            "Name": "Interstate Referral",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Close contact – Interstate Referral - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"Case_DOB\":\"{!Get_Contact_Details.DoB_Text__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.ContactMobile}}}\":\"{!Get_Case_Details.ContactMobile}\",\"Case_First_Name\":\"{!Get_Contact_Details.FirstName}\",\"Case_Last_Name\":\"{!Get_Contact_Details.LastName}\",\"Home_State\":\"{!Get_Contact_Details.MailingState}\",\"{{{Case.Address_Related__c}}}\":\"{!Get_Case_Details.Address_Related__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef22"
+            },
+            "Name": "Request for room separation",
+            "To_Address__c": "dhhsopsoteriaeoc@dhhs.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Request for room separation - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"Case_First_Name\":\"{!Get_Contact_Details.FirstName}\",\"Case_Last_Name\":\"{!Get_Contact_Details.LastName}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef23"
+            },
+            "Name": "Case summary",
+            "To_Address__c": "publichealth.intellignece@dhhs.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Summary of case – {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "CC_Addresses__c": "Caillean.Michael@dhhs.vic.gov.au, Nectaria.Tzimourtas@dhhs.vic.gov.au, Carrie.Barnes@dhhs.vic.gov.au, Simon.Crouch@dhhs.vic.gov.au, Clare.Looker@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Recipient.DoB_Text__c}}}\":\"{!Get_Contact_Details.DoB_Text__c}\",\"{{{Recipient.HealthCloudGA__Gender__c}}}\":\"{!Get_Contact_Details.HealthCloudGA__Gender__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Account.Aboriginal_or_Torres_Strait_Islander__c}}}\":\"{!Get_Contact_Details.Account.Aboriginal_or_Torres_Strait_Islander__c}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Case.Date_of_Test__c}}}\":\"{!Get_Case_Details.Date_of_Test__c}\",\"{{{Case.Symptoms_Onset_Date__c}}}\":\"{!Get_Case_Details.Symptoms_Onset_Date__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef24"
+            },
+            "Name": "End of isolation for case",
+            "From_Address__c": "covid-19.health@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) End of isolation for case - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber} {!Get_Contact_Details.Name}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Todays_Date__c}}}\":\"{!Get_Case_Details.Todays_Date__c}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef25"
+            },
+            "Name": "End of isolation - alternative accomodtion_approved",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) - End of isolation for case - Alternative accommodation - Victorian Health Department Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"Case_DOB\":\"{!Get_Contact_Details.DoB_Text__c}\",\"{{{case.PHESS_ID__c}}}\":\"{!Get_Case_Details.PHESS_ID__c}\",\"{{{Case.Hotel__c}}}\":\"{!str_CleanHotelName}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef26"
+            },
+            "Name": "End of isolation for case - hotel accommodation",
+            "To_Address__c": "COVIDdirections@dhhs.vic.gov.au, COVIDquarantine@dhhs.vic.gov.au",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) End of isolation for case – hotel accommodation - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "CC_Addresses__c": "DHHSOpSoteriaEOC@dhhs.vic.gov.au, murray.smith@dhhs.vic.gov.au, leanne.hughson@dhhs.vic.gov.au, Michelle.Harris@dhhs.vic.gov.au, Estelle.Russ@dhhs.vic.gov.au ",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Hotel__c}}}\":\"{!str_CleanHotelName}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef27"
+            },
+            "Name": "Internal referral - cleared case impacting close contacts",
+            "To_Address__c": "closecontactwhispir@dhhs.vic.gov.au",
+            "Sender_Display_Name__c": "Existing Confirmed Cases Team",
+            "From_Address__c": "existingconfirmedcase@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Internal referral - cleared case impacting close contacts - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Date_Cleared_from_Isolation__c}}}\":\"{!Get_Case_Details.Date_Cleared_from_Isolation__c}\",\"Case_First_Name\":\"{!Get_Contact_Details.FirstName}\",\"Case_Last_Name\":\"{!Get_Contact_Details.LastName}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef28"
+            },
+            "Name": "Outbreak at a childcare",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Outbreak at a childcare - Victorian Health Department Alert – Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\r\n\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef29"
+            },
+            "Name": "Request for accommodation after end of quarantine",
+            "To_Address__c": "IIATS@justice.vic.gov.au",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Request for accommodation after end of quarantine - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "CC_Addresses__c": "semc@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef30"
+            },
+            "Name": "Close Contact",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Close contact - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{Case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef31"
+            },
+            "Name": "Confirmed Case_Arabic",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - إشعار – فيروس كورونا المستجد",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef32"
+            },
+            "Name": "Close Contact - Cruise ship",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Close contact – XX Cruise - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef33"
+            },
+            "Name": "Close Contact_Dinka",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Ki kɔrba ŋicɣic - Tuanyde Coronavirus ye kɔc döm ɣum (2019-nCoV) — Case ID  {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef34"
+            },
+            "Name": "Send Reopening of site (school)",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Reopening a school - Victorian Health Department Alert – Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.Todays_Date__c}}}\":\"{!Get_Case_Details.Todays_Date__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef35"
+            },
+            "Name": "Confirmed Case_Dari",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID  {!Get_Case_Details.CaseNumber} – (2019-nCoV) موضوع: اطلاعیه – کروناویروس جدید*",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": false
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef36"
+            },
+            "Name": "Case at a healthcare setting",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Team 4 Confirmed case - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{Case.Health_Care_Facility__c}}}\":\"{!Get_Case_Details.Health_Care_Facility__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef37"
+            },
+            "Name": "Confirmed Case_Dinka",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Ki kɔrba ŋicɣic - Tuanyde Coronavirus ye kɔc döm ɣum (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef38"
+            },
+            "Name": "Send Reopening of site (non-school)",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Reopening a workplace - Victorian Health Department Alert – Outbreak Record ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.LocationAddress__c}}}\":\"{!str_CleanLocationName}\",\"{{{Case.Subject}}}\":\"{!Get_Case_Details.Subject}\",\"{{{Case.Todays_Date__c}}}\":\"{!Get_Case_Details.Todays_Date__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef39"
+            },
+            "Name": "Confirmed Case_Chinese - Simplified",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Notification - Novel Coronavirus (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef40"
+            },
+            "Name": "Close Contact_Persian",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - (2019-nCoV) موضوع: اعلامیه - کروناویروس نوول",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef41"
+            },
+            "Name": "Close Contact_Chinese - Simplified",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "冠状病毒肺炎（COVID-19）确诊病例密切接触者 — 维多利亚州卫生部警报 — Case 编号 {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef42"
+            },
+            "Name": "Close Contact_Hakha Chin",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Theihternak – Coronavirus Thar (2019-nCoV)  - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef43"
+            },
+            "Name": "Close Contact_Chinese - Traditional",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "冠狀病毒肺炎（COVID-19）確診病例密切接觸者 — 維多利亞州衛生部警報 — Case 編號 {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef44"
+            },
+            "Name": "Confirmed Case",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Notification - Novel Coronavirus (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef45"
+            },
+            "Name": "Close Contact_Vietnamese",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Thông báo - Siêu vi Corona Mới (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef46"
+            },
+            "Name": "Close Contact_Arabic",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - (2019-nCoV)  إشعار – فيروس كورونا المستجد",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef47"
+            },
+            "Name": "Confirmed case_Chinese - Traditional",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Notification - Novel Coronavirus (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef48"
+            },
+            "Name": "Confirmed case_Punjabi",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Notification - Novel Coronavirus (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef49"
+            },
+            "Name": "Close Contact_Somali",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Ogeysiis - Koronafayraska Cusub (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef50"
+            },
+            "Name": "Close Contact_Punjabi",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "ਕੋਰੋਨਾਵਾਈਰਸ ਬਿਮਾਰੀ (COVID-19) ਨੇੜਲਾ ਸੰਪਰਕ - ਵਿਕਟੋਰੀਅਨ ਸਿਹਤ ਵਿਭਾਗ ਚਿਤਾਵਨੀ - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef51"
+            },
+            "Name": "Close Contact_Pashto",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID  {!Get_Case_Details.CaseNumber} - (2019-nCoV) خبرتیا – نوی کورونا ویروس **",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef52"
+            },
+            "Name": "Close Contact - GP Clinic",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Close contact XX GP Clinic - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\", \"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",  \"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\", \"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\", \"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\", \"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\", \"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\", \"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef53"
+            },
+            "Name": "E-mail for confirmed case",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Coronavirus disease (COVID-19) Team 4 Confirmed case - Victorian Health Department Alert - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "teamfour.ccom@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef54"
+            },
+            "Name": "Close Contact - Letter of Clearance",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Re:Clearance - Novel Coronavirus (2019-nCoV) — Record ID  {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\",\"{{{Case.Todays_Date__c}}}\":\"{!Get_Case_Details.Todays_Date__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef55"
+            },
+            "Name": "Confirmed Case_Burmese",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "အသိပေးချက် - နိုဗယ် ကိုရိုနာဗိုင်းရပ်စ် (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef56"
+            },
+            "Name": "Confirmed Case_Pashto",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - (2019-nCoV) ځواب:     خبرتیا – نوی کورونا ویروس",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef57"
+            },
+            "Name": "Disability outbreak facility clearance",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "COVID-19 Disability Outbreak Facility Clearance",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef58"
+            },
+            "Name": "Close Contact_Dari",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - (2019-nCoV) اطلاعیه – کروناویروس جدید",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef59"
+            },
+            "Name": "Confirmed Case_Somali",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Ogeysiis - Koronafayraska Cusub (2019-nCoV) - ** Case ID  {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef60"
+            },
+            "Name": "Confirmed Case_Hakha Chin",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Theihternak – Coronavirus Thar (2019-nCoV) - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef61"
+            },
+            "Name": "Close Contact_Burmese",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "အသိပေးချက် - နိုဗယ် ကိုရိုနာဗိုင်းရပ်စ် (2019-nCoV) — Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef62"
+            },
+            "Name": "No Test Day 14 Email – Close Contacts",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "No Test Day 14 Email – Close Contacts - Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{Sender.Name}}}\":\"{!Get_Sender_Details.Name}\",\"{{{Sender.Team__c}}}\":\"{!Get_Sender_Details.Team__c}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Case.Address_Related__c}}}\":\"{!Get_Case_Details.Address_Related__c}\",\"{{{Case.Day_21__c}}}\":\"{!Get_Case_Details.Day_21__c}\",\"{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}\":\"{!Get_Case_Details.Day14_Anticipated_last_day_of_quarantine__c}\",\"{{{Case.Day_11_Test__c}}}\":\"{!Get_Case_Details.Day_11_Test__c}\",\"{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}\":\"{!Get_Case_Details.Day_0_Exposure_to_the_confirmed_case__c}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef63"
+            },
+            "Name": "Confirmed Case_Persian",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Case ID {!Get_Case_Details.CaseNumber} - (2019-nCoV) موضوع: اعلامیه - کروناویروس نوول",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        },
+        {
+            "attributes": {
+                "type": "Email_Template_Settings__c",
+                "referenceId": "Email_Template_Settings__cRef64"
+            },
+            "Name": "Confirmed Case_Vietnamese",
+            "Sender_Display_Name__c": "Victoria Department of Health and Human Services",
+            "From_Address__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Alternate_Subject__c": "Thông báo - Siêu vi Corona Mới (2019-nCoV) - **  Case ID {!Get_Case_Details.CaseNumber}",
+            "Reply_To__c": "covid-19.health_test@dhhs.vic.gov.au",
+            "Merge_Field_Map__c": "{\"{{{case.Account}}}\":\"{!Get_Contact_Details.Name}\",\"{{{Recipient.MailingStreet}}}\":\"{!str_CleanMailingAddress}\",\"{{{case.CaseNumber}}}\":\"{!Get_Case_Details.CaseNumber}\",\"{{{Recipient.MailingCity}}}\":\"{!Get_Contact_Details.MailingCity}\",\"{{{Recipient.MailingPostalCode}}}\":\"{!Get_Contact_Details.MailingPostalCode}\"}",
+            "Send_as_Org_Wide_Email__c": true
+        }
+    ]
+}

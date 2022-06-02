@@ -1,0 +1,37 @@
+<template>  
+    <lightning-card icon-name={iconDetails}>
+        <h1 slot="title"> <b>{title}</b></h1>
+        <!-- Search Action -->
+        <lightning-input type = "search" slot="actions" onkeypress = {handleKeywordSeach} class = "slds-m-bottom_small" label = "Search" >  
+        </lightning-input> 
+        <template if:true = {listRecs}> 
+            <div class="data-table-container">  
+                <!-- Data Table for list view -->
+                <lightning-datatable key-field="Id"  
+                                        selected-rows={preSelectedRows}
+                                        data={listRecs}  
+                                        columns={columns}
+                                        default-sort-direction={defaultSortDirection}
+                                        sorted-direction={sortDirection}
+                                        sorted-by={sortedBy}
+                                        onsort={handleSortingAction}
+                                        onrowaction={handleRowAction}
+                                        onrowselection={handleRowSelection}
+                                        max-row-selection = "1">  
+                </lightning-datatable>  
+            </div> 
+        </template>  
+        <template if:true={createExposureSite}>
+            <c-modal onclosedialog={handleDialogClose}>
+                <span slot="header">Create Exposure Site</span>
+                    <slot>
+                        <c-create-exposure-site contactencounterid={cerecordid} onclosedialog={handleDialogClose}></c-create-exposure-site>
+                    </slot>
+            </c-modal>
+        </template>
+        <!-- Error -->
+        <template if:true = {error}> 
+            {error} 
+        </template>  
+    </lightning-card> 
+</template>

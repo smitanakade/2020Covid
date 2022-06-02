@@ -1,0 +1,87 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference&nbsp;{{{case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}</span></span></p>
+&nbsp;
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ku Saabsan: Ogeysiis - Koronafayraska Cusub (2019-nCoV) - Case ID {{{case.CaseNumber}}}</span></span></b></p>
+
+<p dir="ltr"><i><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ogeysiiskan waxaa lagu soo saaray iyadoo la raacayo Tilmaamaha lagu soo saaray s200 ee Sharciga Daryeelka iyo Caafimaadka Dadweynaha 2008 (Vic)&nbsp;</span></span></i></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Qaali {{{case.Account}}}</span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Tani waa ogeysiin ku saabsan in lagaa helay cudurka koronafayras (COVID-19).&nbsp;</span><br />
+<br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Hadda waxaa jirta khatar sare oo ah inaad ku faafiso cudurka koronafayras (COVID-19) dadka kale, oo ay ku jiraan kuwa aad la nooshahay. Si aad u ilaaliso naftaada iyo dadka kaleba waxaan soo bandhignay talaabooyin muhiim kuu ah inaad raacdo.</span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">MAXAAN SAMEEYAA HADDA?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Sii wad inaad isku karantiisho gurigaaga ama hoygaaga, kana fogow dadka kale, oo ay ku jiraan kuwa aad la nooshahay sida ugu macquulsan.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waaxdu si joogto ah ayey kuula soo xiriiri doontaa iyadoo loo marayo adeegga fariin qoraaleedka ama wicitaano dhanka taleefanka ah si ay kuu taageeraan. Fadlan ka jawaab fariimaha qoraalka ah kana jawaab wicitaanada.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waaxdu way kula shaqeyn doontaa si loo go'aamiyo goorta is karantiilkaagu dhammaan karo. Waxay ku siin doonaan oggolaansho qoraal ah.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Akhriso xaashida xaqiiqda kiisaska la xaqiijiyay Kiisaska la xaqiijiyay ee Koronafayras (COVID-19) – waxaad u baahan tahay inaad ogaato (Erey) si aad u hubiso inaad buuxisay shuruudaha karantiilka: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">SIDEE ISKU KARANTIILAA?</span></span></b></p>
+<b dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waa inaad joogtaa gurigaaga ama hoygaaga.</span></span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waa inaad isku karantiishaa gurigaaga ama hoygaaga illaa aad oggolaansho kaga heleyso waaxda ama dhaqtar oggolaansho heysta taasoo aad dib ugu laaban karto howlahaagii caadiga ahaa. Tilmaantan waa mid waajib ku ah qof kasta oo lagu xaqiijiyo inuu ku dhacay cudurka koronafayras (COVID-19) ganaax ayaana la marsiinaya kuwa diida ama u hogaansami waayo tilmaantan.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waa inaadan ka bixin gurigaaga ama hoygaaga sabab kastoo jirta, marka laga reebo:</span></span>
+	<ul>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii lagu dhigo isbitaal ama xarun kale iyadoo sababtuna tahay ujeedooyin ku saabsan helitaanka daryeel caafimaad.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad helayso daryeel caafimaad, agabyo caafimaad ama baaritaan caafimaad tusaale COVID-19.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad gasho xaalad degdeg ah.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii sharci ahaan lagaa doonayo inaad sidaa sameyso.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad bukaan ku booqanayso isbitaalka oo laguuna oggol yahay inaad booqato iyadoo la raacayo Tilmaamaha Booqdayaasha Isbitaalka (Lambar 9).</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad ka shaqeyneyso xarun daryeel oo laguu oggol yahay inaad booqato iyadoo la raacayo Tilmaamaha Xarumaha Daryeelka (Lambar 9).&nbsp;</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waa inaadan aadin shaqo, iskuul, jaamacad, shaqo ama aadan tagin goobaha dadweynaha ama munaasabadaha.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waa inaad joogtaa oo aad seexataa qol ka duwan kuwa dadka kale ee aad la nooshahay sida ugu macquulsan. Isticmaal musqul gooni ah haddii la heli karo.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad raadsaneyso daryeel caafimaad ama aad isbaareysid, waa inaadan isticmaalin gaadiidka dadweynaha, taksi ama gaadiid kasta oo la wadaago. Haddii aadan haysan gaari kuu gaar ah, baaritaan dhanka guriga ah ayaa la ballansan karaa adigoo wacayo 1300 651 160.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Mar kasta xiro maaskaro haddii aadan ka fogaan karin inaad qol la joogto qof kale iyo marka aad raadsanayso daryeel caafimaad.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kama bixi kartid gurigaaga si aad jimicsi u soo samayso. Haddii aad ku nooshahay guri gaar ah, markaa ammaan ayey kuu tahay inaad bannaanka u baxdo oo aad aado beertaada, balakoonka ama deyrkaaga. Haddii aad ku nooshahay guri dabaq ah ammaan ayey kuu tahay inaad u baxdo balakoonkaaga gaarka ah. Waxaad sidoo kale aadi kartaa jardiinada ama deyrka la wadaago laakiin waxaad u baahan doontaa inaad maaskaro xirato. Si kastaba ha noqotee, waa inaad si dhakhso leh ugu dhex martaa goobaha guud ee jidka. Mar kasta waa inaad xirataa maaskaro haddii aad u baahan tahay inaad ka gudubto meel kasta oo la wadaago.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Weydiiso dadka kale sida asxaabta ama qoyska, kuwaas oo aan looga baahneyn inay is karantiilaan ama is go'doomiyaan, inay kuu soo adeegaan cuntada ama waxyaabaha kale ee aad u baahan tahay. Qof kasta oo alaabahan kuu keenaya waa inuusan soo galin gurigaaga ama uusan ku taabanin – haddii ay suurogal tahay, waa iney alaabta kaga tagaan albaabkaaga hortiisa.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii ay dhibaato kaa haysato helitaanka cuntada ama waxyaabaha aad u baahan tahay, ka wac khadka tooska ah ee koronafayras taleefankan 1800 675 398 si aad taageero u hesho.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Haddii aad u baahan tahay turjumaan, ka wac TIS National lambarkan 131 450 kadibna ka codso khadka tooska ah ee koronafayras lambarkan 1800 675 398.&nbsp;</span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Si aad u hesho macluumaad faahfaahsan oo ku saabsan sida la isku karantiilo iyo taageerada aad heli karto, fadlan booqo: </span></span></b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">XAGEE KA HELI KARAA MACLUUMAAD DHEERAAD AH?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Xaashida xaqiiqda ee loogu talagalay dadka qaba koronafayras (COVID-19): <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Macluumaadka nadaafadda iyo kala fogaanshaha jir ahaaneed: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Taageerada maaliyadeed iyo taageerada kale oo loogu talagalay dadka uu ku dhacay cudurka koronafayras (COVID-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Macluumaad guud oo ku saabsan koronafayras (COVID-19): <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Fadlan ha ka waaban inaad kala xiriirto waaxda haddii aad qabto wax su'aalo dheeraad lambarkan 1300 651 160.&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Mahadsanid,</span></span></p>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Daacadnimo leh<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 709.175px; width: 172px; height: 36px;" title="image1" /></span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ku Xigeenka Madaxa Caafimaadka ee COVID-19 (Maareynta Kiisaska, Xiriirada iyo Cudurada)&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waaxda Caafimaadka iyo Adeegyada Aadanaha</span></span></p></body></html>

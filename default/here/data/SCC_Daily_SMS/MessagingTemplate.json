@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "MessagingTemplate",
+                "referenceId": "MessagingTemplateRef1"
+            },
+            "DeveloperName": "Daily_SCC_Notification",
+            "MasterLabel": "Daily Secondary Close Contact Notification",
+            "Message": "Reference number:  {!Case.CaseNumber} \r\n\r\nDear {!Account.FirstName} \r\n\r\nThank you for supporting Victoria by helping to slow the spread of coronavirus (COVID-19). You are required to respond by visiting {!Case.SurveyLinkURL__c} to let us know how you are feeling. If you are severely unwell, seek urgent medical attention. If it's a medical emergency, call 000."
+        }
+    ]
+}

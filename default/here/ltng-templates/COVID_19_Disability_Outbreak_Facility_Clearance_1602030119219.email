@@ -1,0 +1,48 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Case.Account}}}<br />
+<br />
+Thank you for the discussion just now. We have assessed that the outbreak of coronavirus disease (COVID-19) at your facility can be cleared, and your infection control measures can be lifted.&nbsp;<br />
+<br />
+For clearance of a facility outbreak:&nbsp;</span></span>
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">positive cases must have been individually cleared by the Department</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Close contacts must have completed their 14-day quarantine and returned a negative day 11 test.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">A deep clean of the facility has been conducted&nbsp;</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">From our discussion these criteria have been met. In summary of the outbreak,&nbsp;<br />
+<span style="color:#ff0000;">&lt;summarise number of cases. For each case – symptom onset date, dates worked (while infectious) date tested, date test returned, date cleared by DHHS. For each close contact, Day 11 test results. Day 14 (date) elapsed. Deep clean completed (date). &gt;&nbsp;</span><br />
+<br />
+The following management actions should be adhered to over the next 14 days (and beyond where relevant) until XX/XX/2020 &nbsp;and should be considered along with the department’s Coronavirus (COVID-19) Plan for the Disability Care Sector; &nbsp;&nbsp;</span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Residents are no longer required to isolate in their rooms and may use the common areas in the facility. &nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Residents may also attend off-site medical appointments where necessary in accordance with the policy of the facility.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">New residents may be admitted. There are no additional requirements on admission other than routine symptom screening.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Resident transfers may occur and there are no additional requirements relating to this.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Remain vigilant for symptoms of COVID-19.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Contact the Department immediately if any residents become symptomatic and undertake prompt Coronavirus (COVID-19) testing and isolation of residents that are unwell. &nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All staff need to be vigilant for symptoms. If staff are unwell, they should not attend work, self-isolate immediately, inform the facility of symptoms, and seek prompt testing. &nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Internal close contact staff may return to work where they have undertaken all testing as recommended by the Department and the results of these tests are negative.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Where staff have tested positive, a letter of return-to-work clearance will be issued by the Department and must be sighted by the facility prior to these staff members returning to work.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Visiting staff (such as general practitioners and allied health) may attend the facility as required. &nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Full Personal protective equipment (PPE) need only be worn when caring for new suspected cases.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Continue to follow the state-wide governmental restrictions and guidelines.&nbsp;</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The Department will not provide any further correspondence unless new issues are raised by the facility. &nbsp;<br />
+<br />
+General Information can also be found on our webpage at https://www.dhhs.vic.gov.au/novelcoronavirus. &nbsp;&nbsp;<br />
+<br />
+Thank you for your assistance in managing and controlling the COVID-19 outbreak. If you have any further concerns relating to this matter, please contact us via our email (TeamFour.CCOM@dhhs.vic.gov.au) or call us on 0409 812 257 between 8am and 8pm every day.<br />
+&nbsp;<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+Public Health Operations | Novel Coronavirus (COVID-19) Response&nbsp;<br />
+Health Protection Branch | Regulation, Health Protection and Emergency Management Division&nbsp;<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000&nbsp;<br />
+t. 0409 812 257| &nbsp;f. 1300 651 170 | e. teamfour.CCOM@dhhs.vic.gov.au &nbsp;<br />
+w. www.dhhs.vic.gov.au&nbsp;<br />
+&nbsp;&nbsp;</span></span><br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited&nbsp;</span></span></body></html> 

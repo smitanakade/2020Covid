@@ -1,0 +1,26 @@
+.addresscol{
+width: 90% !important;
+text-align: left;
+}
+.radiocol{
+width: 5%;
+align-items: center;
+}
+.editcol{
+width: 5%;
+align-items: center;
+}
+.actiondiv{
+    height: 30px;
+}
+.slds-modal__container {
+    max-width: 80rem !important;
+    width: 80% !important;
+}
+.slds-modal__content {
+		max-height: 500px !important;
+}
+.slds-box {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}

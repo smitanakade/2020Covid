@@ -1,0 +1,19 @@
+<template>
+    <template if:true={refineSearchMsg}>
+      <p class="errorMsg">{label.searchResultWarning}</p>
+    </template>
+    <template if:true={isLoading}>
+        <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+        </lightning-spinner>
+    </template>
+    <template if:true={recordExists}>
+      <lightning-layout multiple-rows="true">
+        <template for:each={records} for:item="record">
+          <lightning-layout-item key={record.Id} padding="around-small" flexibility="auto">
+            <c-result-card search-type={searchType} onrecordselect={updateSelectedCard} record={record} selected-record-id={selectedRecordId}>
+            </c-result-card>
+          </lightning-layout-item>
+        </template>
+      </lightning-layout>
+    </template>
+  </template>

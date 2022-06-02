@@ -1,0 +1,19 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{case.Account}}},<br /> <br /> Thank you for your time earlier today.<br /> <br /> As discussed, you have met the Department of Health and Human Service’s criteria to end isolation.&nbsp;<br /> <br /> A clearance email will be sent shortly.<br /> <br /> Thank you for your cooperation during this time.&nbsp;<br /> <br /> Please do not hesitate to contact the department if you have any further questions on 1300 651 160. Information can also be found on our webpage at </span></span> 
+  <a href="https://www.dhhs.vic.gov.au/novelcoronavirus"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">https://www.dhhs.vic.gov.au/novelcoronavirus</span></span></a> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}</span></span> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Existing Confirmed Cases Team</span></span> 
+  <br /> 
+  <span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Public Health Operations | Novel Coronavirus (COVID-19) Response</b><br /> Health Protection Branch | Regulation, Health Protection and Emergency Management Division<br /> Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br /> t. 1300 651 160 | &nbsp;f. 1300 651 170 | e.&nbsp;<a href="mailto:publichealth.operations@dhhs.vic.gov.au">teamfour.CCOM@dhhs.vic.gov.au</a>&nbsp;&nbsp;<br /> w.&nbsp;<a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:9px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span>
+ </body>
+</html>

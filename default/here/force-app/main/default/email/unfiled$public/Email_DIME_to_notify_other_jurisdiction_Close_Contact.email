@@ -1,0 +1,5 @@
+In accordance with the Communicable Diseases Network Australia (CDNA) Cross-border Notification Protocol, the following information has been identified and must be forwarded to {!Case.Jurisdiction_Name__c} as it relates to one or more residents or venues within that jurisdiction. Please extract the information from Salesforce in the required data specification format and share with the relevant jurisdiction using Accellion.
+
+Salesforce record number: {!Case.CaseNumber}
+
+This document contains confidential information intended only for the Public Health Unit named above. It may also be subject to legal privilege. If you are not the named recipient, any disclosure, copying or use of the contents of this document is prohibited. If you have received this document in error please notify this office by telephone immediately on 1300 651160.

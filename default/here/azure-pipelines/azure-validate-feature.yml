@@ -1,0 +1,63 @@
+parameters:
+- name: env
+  displayName: Target Environment
+  default: dev3
+  values:
+  - test
+  - sit
+  - production
+  - staging
+  - dev3
+  - validate
+  - datamigrat
+
+- name: compare
+  displayName: Compare With Branch
+  type: string
+
+- name: level
+  displayName: Test Level
+  default: RunLocalTests
+  values:
+  - RunLocalTests
+  - NoTestRun
+
+pr: none
+
+trigger: none
+
+stages:
+- stage: VALIDATE_PR
+  jobs:
+  - deployment: Validate_PR # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: Validate_PR #friendly name
+    variables:  #using variable group to store auth url for authentication to target org
+    - group: sf_config
+    pool:
+      vmImage: 'ubuntu-latest'
+    # creates an environment if it doesnt exist
+    environment: ${{ parameters.env }}
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+          #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(${{ parameters.env }}_auth) 
+              targetEnv: ${{ parameters.env }}
+          - template: templates/sfdx-delta.yml 
+            parameters:
+              deltaMode: 'branch'
+              compareWith: ${{ join('origin/', parameters.env) }}
+              testlevel: ${{ parameters.level }}   
+          - template: templates/sfdx-deploy.yml 
+            parameters:
+              targetEnv: ${{ parameters.env }}
+              testlevel: ${{ parameters.level }}
+              option: '-c'

@@ -1,0 +1,27 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">CRM ID: {!Case.CaseNumber}<br />
+{!Case.Contact}<br />
+{!Contact.MailingStreet}<br />
+{!Contact.MailingCity} VIC {!Contact.MailingPostalCode}<br />
+<br />
+Dear {!Case.Account},<br />
+Thank you for helping to keep our community safe by staying in quarantine. <br />
+
+Your quarantine period finishes at 11:59 PM on {!Case.Day14_Anticipated_last_day_of_quarantine__c}. This means from this time you can leave your home and return to normal activities.<br />
+
+Please note this email is only about you {!Case.Account}. Other people in your household in isolation or quarantine must stay in isolation or quarantine until they are specifically told by an Authorised Officer that they can leave. <br />
+
+Your employer or educational facility might want to see evidence that you can return to work or study. You can show them this email.<br />
+If you have any questions, please call us at the Department of Health on <b>1300 651 160 </b>(press 0 for COVID-19, then once connected, and if required, please request an interpreter).<br />
+<br />
+<br />
+Yours sincerely<br />
+<br />
+<b>An Authorised Officer under the Public Health and Wellbeing Act 2008 (Vic).</b><br />
+This Notice is issued in accordance with Directions issued under section 200 of the Public Health and Wellbeing Act 2008 (Vic).<br />
+<br />
+</body>
+</html>

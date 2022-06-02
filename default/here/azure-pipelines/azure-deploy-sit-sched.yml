@@ -1,0 +1,56 @@
+schedules:
+- cron: "0 1 * * 1-5"
+  displayName: Daily Midday Schedulable Full Deployment
+  branches:
+    include:
+    - master         #this is base on a single team branching startegy, if you have multiple teams with corresponding QA branch, you might want to replace this by qa branch team.
+  always: true
+- cron: "0 7 * * 1-5"
+  displayName: Daily COB Schedulable Full Deployment
+  branches:
+    include:
+    - master         #this is base on a single team branching startegy, if you have multiple teams with corresponding QA branch, you might want to replace this by qa branch team.
+  always: true
+
+pr: none
+
+trigger: none
+
+stages:
+- stage: DEPLOY_SIT
+  jobs:
+  - deployment: SIT_Deployment # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: SIT_Deployment #friendly name
+    variables:
+    - group: sf_config #using variable group to store auth url for authentication to target org
+    pool:
+      vmImage: 'ubuntu-latest'
+    # creates an environment if it doesn’t exist
+    environment: sit
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+          #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(sit_auth) 
+              targetEnv: 'sit'
+          #set full deployment 
+          - script: | #only need this if not using delta
+              echo "force-app" > package
+            displayName: "Init force-app package"
+          - template: templates/sfdx-deploy.yml 
+            parameters:
+              targetEnv: 'sit'
+              testlevel: 'RunLocalTests'
+              
+              
+          
+
+          

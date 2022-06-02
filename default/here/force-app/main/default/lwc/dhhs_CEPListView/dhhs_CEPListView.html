@@ -1,0 +1,46 @@
+<template>  
+    <lightning-card icon-name={iconDetails}>  
+        <h1 slot="title"> <b>{title}</b></h1>
+        <!-- Search Action -->
+        <lightning-input type = "search" slot="actions" onkeypress = {handleKeywordSeach} class = "slds-m-bottom_small" label = "Search" >  
+        </lightning-input> 
+        <!-- Data Table for list view with selectable row 
+        <template if:true = {listRecs}> 
+            <div style="height: 300px;">  
+                <lightning-datatable key-field="Id"  
+                                        selected-rows={preSelectedRows}
+                                        data={listRecs}  
+                                        columns={columns}
+                                        default-sort-direction={defaultSortDirection}
+                                        sorted-direction={sortDirection}
+                                        sorted-by={sortedBy}
+                                        onsort={handleSortingAction}
+                                        onrowaction={handleRowAction}
+                                        onrowselection={handleRowSelection}
+                                        max-row-selection = "1">  
+                </lightning-datatable>  
+            </div> 
+        </template> 
+        -->
+        <!-- Data Table for list view with hide-checkbox-column --> 
+        <template if:true = {listRecs}> 
+            <div style="height: 250px;">  
+                <lightning-datatable key-field="Id"  
+                                        hide-checkbox-column
+                                        data={listRecs}  
+                                        columns={columns}
+                                        default-sort-direction={defaultSortDirection}
+                                        sorted-direction={sortDirection}
+                                        sorted-by={sortedBy}
+                                        onsort={handleSortingAction}
+                                        onrowaction={handleRowAction}
+                                        >  
+                </lightning-datatable>  
+            </div> 
+        </template>  
+        <!-- Error -->
+        <template if:true = {error}> 
+            {error} 
+        </template>  
+    </lightning-card> 
+</template>

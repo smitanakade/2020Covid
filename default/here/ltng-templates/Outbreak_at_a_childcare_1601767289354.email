@@ -1,0 +1,109 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ff0000;">To:&nbsp;{{{Recipient.Email}}}<br />
+Subject: Coronavirus disease (COVID-19) Outbreak at a childcare - Victorian Health Department Alert – {{{Case.CaseNumber}}}<br />
+Attachments:<br />
+•&nbsp;&nbsp; &nbsp;COVID-19 Close Contact Spreadsheet&nbsp;<br />
+•&nbsp;&nbsp; &nbsp;COVID-19 Testing Spreadsheet Daily (if applicable) – remove if not necessary&nbsp;<br />
+<br />
+<b>IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY&nbsp;<br />
+ENSURE YOU ATTACH LETTERS FOR FAMILIES<br />
+DELETE THIS LINE AND ABOVE BEFORE SENDING</b></span><br />
+<br />
+<br />
+Dear {{{Case.Account}}},<br />
+<br />
+Thank you for your time today.&nbsp;<br />
+&nbsp;<br />
+As discussed, we are investigating an outbreak of coronavirus (COVID-19) at {{{Case.LocationAddress__c}}}. The outbreak name for your facility is {{{Case.Subject}}}.<br />
+<br />
+Please read and regularly refer to the information attached to this email and on our website (links in email). &nbsp;It is important that you follow these guidelines, particularly the infection control measures to control the outbreak.<br />
+<br />
+We understand you have already:</span></span>
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Closed the childcare centre</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Commenced the environmental clean</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Commenced restriction of movements of staff across the childcare centre&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Liaised with<span style="color:#c0392b;"> </span><span style="color:#e74c3c;">&lt;stakeholders if relevant&gt; </span>for support</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Commenced planning for further testing of <span style="color:#e74c3c;">&lt;students/staff&gt;</span> in consultation with our department.</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department has formed an Outbreak Management Team to manage this outbreak. The outcomes of the initial meeting are as follows:<br />
+<br />
+<b>Contacts</b></span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Provide a full list of close contacts at the school (children, staff, visiting staff, visitors etc) on the attached spreadsheet and send back to us.</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All close contacts will be contacted by the Department of Health and Human Services and will be required to quarantine for 14 days post most recent exposure to the case while infectious.</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><i><b>Close contact</b> = Close contact = &nbsp;greater than 15 minutes face-to-face, cumulative, or the sharing of a closed space for more than two hours, with a confirmed case during their infectious period. Contact needs to have occurred during the period of 48 hours prior to onset of symptoms (or if asymptomatic, 48 hours prior to test date) of the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact.<br />
+<br />
+<b>Period for contact tracing</b> = Contact needs to have occurred during the period of 48 hours prior to onset of symptoms in the confirmed case until the confirmed case is no longer considered infectious to be deemed close contact. &nbsp; &nbsp;</i><br />
+<br />
+<b>Infection control measures / cleaning&nbsp;</b></span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;advise on closing the childcare centre and for what timeframe&gt;</span></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;advise on cleaning both during shutdown and following re-opening&gt;</span></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The department requests you close {{{Case.LocationAddress__c}}} from <span style="color:#e74c3c;">XX Month 2020 until XX</span></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ensure you undertake an environmental clean using an appropriate disinfectant in accordance with ‘Cleaning and disinfecting to reduce COVID-19 transmission – tips for non-healthcare settings’ fact sheet, available at: https://www.dhhs.vic.gov.au/staying-safe-covid-19&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Exclude ill children and staff until symptom free (or if confirmed cased of COVID-19, until they meet the release from isolation criteria)</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reinforce standard precautions (hand hygiene, cough etiquette) throughout the childcare centre</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;advise on restricting movement for remaining staff/workers/students or a defined period of time&gt;</span></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Appropriate signage on prevention of the spread of COVID-19 should be visible across the site (available on the department website https://www.dhhs.vic.gov.au/coronavirus)&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;other information as needed&gt;</span></span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Outbreak squad</b></span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;detail visit from outbreak squad if needed&gt;&nbsp;</span></span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Additional information</b>&nbsp;<br />
+Please provide the following additional information:</span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Indicate if you believe any close contacts require translation services&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Add in any other relevant information/remove this sentence</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Testing</b>&nbsp;</span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">&lt;testing advice – who should be tested and where they need to go&gt;</span></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">To assist in identifying the potential source of this infection, the department requests XX get tested. Additional information is provided in the attached letter.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Update the attached testing spreadsheet to monitor for close contacts returning to childcare. This is for your purpose only and does not need to be returned to us. &nbsp;&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All identified close contacts will be required to test at day 11 or after of their quarantine period. They will require a negative result prior their quarantine ending.&nbsp;</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Declaring an outbreak over</b><br />
+<br />
+Generally, a COVID-19 outbreak can be declared over if no new cases occur within 28 days 2 incubation periods) since the last confirmed case was present on site, all required test results have returned a negative result, and no further cases have occurred. A decision to declare the outbreak over should be made by the Outbreak Management Team (OMT), in consultation with the department.<br />
+<br />
+<br />
+<b>Attachments:</b></span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Close Contact Spreadsheet</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Testing Spreadsheet Daily</span></span></li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Close contact information can be found at </span></span><a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</span></span></a><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">General Information can also be found on our webpage at </span></span><a href="https://www.dhhs.vic.gov.au/novelcoronavirus."><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">https://www.dhhs.vic.gov.au/novelcoronavirus.</span></span></a><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please note, privacy is of the utmost importance to the department. While every effort to maintain privacy is taken, your facility may be named in the media if deemed by the department to be in the interest of public health safety.&nbsp;<br />
+Thank you for your assistance. If you have any further concerns relating to this matter, contact Communicable Disease Prevention and Control on 1300 651 160.&nbsp;<br />
+<br />
+Kind Regards,<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:#e74c3c;">&lt;team email&gt;</span><br />
+w. </span></span><a href="www.dhhs.vic.gov.au"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">www.dhhs.vic.gov.au</span></span></a><br />
+<br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span><br />
+&nbsp;</body></html>

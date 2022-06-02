@@ -1,0 +1,27 @@
+<template>
+  <template if:true={showMessage}>
+    <div class="demo-only" style="height:4rem">
+  <div class="slds-notify_container slds-is-relative">
+    <div class="slds-notify slds-notify_toast slds-theme_warning" role="status">
+      <span class="slds-assistive-text">warning</span>
+      <span class="slds-icon_container slds-icon-utility-warning slds-m-right_small slds-no-flex slds-align-top" title="Description of icon when needed">
+         
+                           <lightning-icon icon-name="utility:warning" alternative-text="Warning!" title="Warning"></lightning-icon>
+          
+                          </span>   
+      <div class="slds-notify__content">
+        <h2 class="slds-text-heading_small ">{validationMessage}
+         </h2>
+      </div>
+      <div class="slds-notify__close">
+        <button class="slds-button slds-button_icon slds-button_icon-inverse" title="Close">
+        
+                        <lightning-icon icon-name="utility:close" alternative-text="close!" title="close" onclick={handleMessage}></lightning-icon >
+          <span class="slds-assistive-text">Close</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
+</template>

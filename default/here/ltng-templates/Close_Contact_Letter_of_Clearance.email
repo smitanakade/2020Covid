@@ -1,0 +1,57 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title> 
+</head>
+<body style="height: auto; min-height: auto;"><img alt="HeaderV1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/HeaderV14?oid=00D5P0000009HKg" style="max-width: 1640.6499999999999px" title="HeaderV1" />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="page-break-after:avoid"><span style="line-height:14pt"><span style="font-family:Calibri,sans-serif"><a><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="">Reference  {!Case.CaseNumber}</span></span></a></span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:14pt"><span style="font-family:Calibri,sans-serif"><a><span style="font-family:&quot;Arial&quot;,sans-serif"><span>{!Case.Case_Contact__c}</span></span></a></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:14pt"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Arial&quot;,sans-serif">{!Case.Contact_Address__c}<span></span></span></span></span></span><br />
+
+<br />
+<b><span style="font-family:&quot;Arial&quot;,sans-serif">Re: Clearance - Novel Coronavirus (2019-nCoV) &mdash; <span>Record ID 
+ {!Case.CaseNumber}</span></span></b></span></span></span>
+<table class="MsoTableGrid" style="border-collapse:collapse; border:undefined">
+	<tbody> 
+		<tr>
+			<td style="width:407.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="543">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+
+Thank you for your cooperation during your recent period of quarantine following exposure to a confirmed case of novel coronavirus (COVID-19).<br />
+<br />
+You have now completed your period of quarantine. &nbsp;<br />
+<br />
+This letter can be shown to your employer should you be required to provide evidence that you can now return to work.<br />
+<br />
+If you have any questions or wish to discuss this information in more detail, please call 1300 651 160.<br />
+<br />
+Yours sincerely<br />
+<br />
+<img alt="Sign" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/Sign?oid=00D5P0000009HKg" style="max-width: 681.15px; width: 247px; height: 96px;" title="Sign" /><br />
+<br />
+<br />
+Dr Simon Crouch&nbsp;<br />
+COVID-19 Deputy Chief Health Officer (Case, Contact and Outbreak Management)&nbsp;<br />
+Department of Health and Human Services&nbsp;<br />
+<br />
+{!TODAY()}
+<div id="" style="left: 8px; top: 224px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 224px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="FooterLogo" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/FooterLogo1?oid=00D5P0000009HKg" style="max-width: 1640.6499999999999px" title="FooterLogo" /></div>
+
+<div id="" style="left: 8px; top: 984px;">&nbsp;</div>
+&nbsp;
+
+<div id="" style="left: 8px; top: 984px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 894px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 8px;">&nbsp;</div>
+
+<div id="" style="left: 8px; top: 8px;">&nbsp;</div>
+</body>
+</html> 

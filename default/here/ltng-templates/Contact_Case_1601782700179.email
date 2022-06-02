@@ -1,0 +1,31 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}<br />
+<br />
+{{{Recipient.MailingCity}}} {{{Recipient.State}}} {{{Recipient.MailingPostalCode}}}&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear Mr./Ms./Mrs/Mx {{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Our reference:&nbsp; {{{case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">A Public Health Officer of the Department of Health &amp; Human Services would like to speak with you to discuss an important matter relating to your health. We have not been able to reach you by telephone.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please contact at the department on 1300 651 160. This is a confidential matter, so we need to speak with you directly.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">All information collected is treated confidentially and is protected by legislation.</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yours sincerely<br />
+<br />
+<img alt="signature" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/signature?oid=00D5P0000009HKg" style="max-width: 1508.6px; width: 170px; height: 100px;" title="signature" /></span></span><meta /></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Brett Sutton</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Deputy Chief Health Officer (Communicable Disease)</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health and Human Services</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.Todays_Date__c}}}</span></span></p></body></html>

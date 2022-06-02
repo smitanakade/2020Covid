@@ -1,0 +1,74 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 06-28-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   06-28-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+
+
+<template>
+    <table class="slds-table slds-table--bordered
+                                  slds-table--cell-buffer 
+                                  slds-max-medium-table--stacked-horizontal
+                                  slds-p-top--medium">
+                        <thead>
+                            <tr class="slds-text-titles slds-grid slds-wrap">
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Have you had a COVID-19 vaccine?"><b>Have you had a COVID-19 vaccine?</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Vaccine"><b>Vaccine</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Date Administered"><b>Date Administered</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Country"><b>Country</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Validation Status"><b>Validation Status</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Dose Received"><b>Dose Received</b></div>
+                                </td>
+                                <td scope="col" width="25%" class="slds-col slds-size_1-of-7">
+                                    <div class="slds-truncate" title="Notes"><b>Notes</b></div>
+                                </td>
+                            </tr>
+                        </thead>
+                      <tbody>
+                            <template for:each={lstehremmunizationdetals} for:item=objlstehremmunizationdetals for:index=index>
+                                <tr key={objlstehremmunizationdetals} class="slds-hint-parent slds-grid slds-wrap">
+                                    <td scope="col" data-label="Have you had a COVID-19 vaccine?" class="slds-col slds-size_1-of-7">
+                                        <lightning-input type="checkbox"  disabled="true" checked={objlstehremmunizationdetals.ehrRecord.Have_you_had_a_COVID_19_vaccine__c}> </lightning-input>                                       
+                                    </td>
+                                    <td scope="col" data-label="Vaccine" class="slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Country" value={objlstehremmunizationdetals.vaccineName}></lightning-formatted-text>
+                                    </td>
+                                  
+                                    <td scope="col" data-label="Date Administered" class="slds-cell-wrap slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Date Administered" value={objlstehremmunizationdetals.ehrRecord.Date_Administered__c}></lightning-formatted-text>
+                                    </td>
+                                    <td scope="col" data-label="Country" class="slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Country" value={objlstehremmunizationdetals.ehrRecord.Country__c}></lightning-formatted-text>
+                                    </td>
+                                    <td scope="col" data-label="Validation Status" class="slds-cell-wrap slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Validation Status" value={objlstehremmunizationdetals.ehrRecord.Validation_Status__c}></lightning-formatted-text>                   
+                                    </td>
+                                    <td scope="col" data-label="Dose Received" class="slds-cell-wrap slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Dose Received" value={objlstehremmunizationdetals.ehrRecord.Dose_Received__c}></lightning-formatted-text>
+                                    </td>
+                                    <td scope="col" data-label="Notes" class="slds-cell-wrap slds-col slds-size_1-of-7">
+                                        <lightning-formatted-text label="Notes" value={objlstehremmunizationdetals.ehrRecord.Notes__c}></lightning-formatted-text>
+                                    </td>
+                                   
+                                </tr>
+                            </template>
+                        </tbody> 
+                    </table>
+    
+</template>

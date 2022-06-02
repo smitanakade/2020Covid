@@ -1,0 +1,28 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Attachments: </span></span></span></span></span>
+<ul>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif">ECECPrimarySecondarySchool Formal Reopening Letter</span></span></span></li>
+</ul>
+<span style="color:#e74c3c;"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b>IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY</b></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b>PLEASE ADD OUTBREAK RECORD ID IN SUBJECT LINE. EDIT/REMOVE NECESSARY INFORMATION.<br />
+DELETE THIS LINE AND ABOVE BEFORE SENDING</b></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Dear <span style="color:#e74c3c;">&lt;Principal Name&gt;</span>,</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Please see the attached letter confirming that </span></span></span><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.LocationAddress__c}}}</span></span><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="color:red"> </span>can return to normal operations. Thank you for your cooperation during this time.</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">If you require any additional information, please call 1300 651 160.</span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="color:black">Kind regards,</span></span></span></span><br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">t. 1300 651 160 |&nbsp; f. 1300 651 170 | e. <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><span style="color:blue"><a href="mailto:Teamtwo.CCOM@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline"><span style="color:blue">Teamtwo.CCOM@dhhs.vic.gov.au</span></a></span></span></span>&nbsp;<br />
+w. <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><span style="color:blue"><a href="http://www.dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline"><span style="color:blue">www.dhhs.vic.gov.au</span></a></span></span></span></span></span></span><br />
+<span style="font-size:11pt"><span style="background:white"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></span></span><br />
+<span style="font-size:11pt"><span style="background:white"><span style="line-height:12.65pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:8.0pt"><span style="color:#5f5f5f">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span>&nbsp;</span></span></span></span><br />
+&nbsp;</body></html>

@@ -1,0 +1,132 @@
+<template>
+    <template if:true={firstSubmit}>
+        <div class="slds-box slds-box_small slds-is-relative">
+            <!--SPINNER-->
+        <template if:true={showSpinner}>
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            <span class="spinner-text bottom medium">
+                Please Wait...
+            </span>
+        </template>
+            <lightning-record-edit-form object-api-name="HealthCloudGA__EhrEncounter__c">
+                <template if:true={haveSymptomsOptions.data}>
+                    <lightning-combobox 
+                        name="Did_person_have_symptoms" 
+                        value={haveAnySymptoms}
+                        label="Did the case have any symptoms"
+                        options={haveSymptomsOptions.data.values} 
+                        onchange={handleChange1}>
+                    </lightning-combobox>
+                    <template if:true={showDateOfFirstSymptoms}>
+                        <br/>
+                        <lightning-input type="date" name="HealthCloudGA__OnsetOfSymptoms" value={dateOfFirstSymptoms} label="Date of first symptoms" onchange={handleChange3}></lightning-input>
+                        <template if:true={showDateOfFirstSymptoms_error}>
+                            <label class="slds-form-element__label" style="color: red;">The date should not be a future date.</label>
+                        </template>
+                    </template>
+                    <br/>
+                    <lightning-input type="checkbox" name="Have_you_had_a_COVID_19_vaccine" label="Have you had a COVID-19 vaccine?" onchange={handleChange2}></lightning-input>
+                    <template if:true={showDose}>
+                        <br/>
+                        <lightning-combobox 
+                            name="Dose_Received" 
+                            label="Dose" value=""
+                            options={doseReceivedOptions.data.values} 
+                            onchange={handleChange4}>
+                        </lightning-combobox>
+                    </template>
+                    <br/>
+                    <lightning-combobox 
+                        name="Was_aware_of_contact_with_ve_case" 
+                        label="Was aware of contact with +ve case?" value=""
+                        options={wasAwareOptions.data.values} 
+                        onchange={handleChange9}>
+                    </lightning-combobox>
+                    <br/>
+
+                    <!--334338-->
+                    <lightning-combobox 
+                    name="Recent_Travel_Overseas" 
+                    label="Returned from overseas in the past 14 days?" value=""
+                    options={recentTravelOverseasOptions.data.values} 
+                    onchange={handleChangeForTravel}> 
+                    </lightning-combobox>
+                    <br/>
+                    <template if:true={showCountry}>
+                        <lightning-combobox 
+                        name="Country" 
+                        label="Country" value=""
+                        options={countryOptions.data.values} 
+                        onchange={handleChangeForCountry}>
+                        </lightning-combobox>
+                    </template>
+                    <br/>
+
+                    <lightning-combobox 
+                        name="Isolation_Quarantine_48_hrs_prior_to_sym" 
+                        label="From 48 hrs prior to symptoms were you in quarantine?" value=""
+                        options={isolationQuarantineOptions.data.values} 
+                        onchange={handleChange10}>
+                    </lightning-combobox>
+                    <template if:true={showCommencedOn}>
+                        <br/>
+                        <lightning-input type="date" name="If_yes_Commenced_on" label="Commenced on" value={ifYesCommencedOn} onchange={handleChange11}></lightning-input>
+                        <template if:true={showCommencedOn_error}>
+                            <label class="slds-form-element__label" style="color: red;">The date should not be a future date.</label>
+                        </template>
+                    </template>
+                    <template if:true={showStartDate}>
+                        <br/>
+                        <lightning-input type="date" name="StartDate" label="When did you commence home isolation?" value={startDate} onchange={handleChange6}></lightning-input>
+                        <template if:true={showStartDate_error}>
+                            <label class="slds-form-element__label" style="color: red;">The date should not be a future date.</label>
+                        </template>
+                    </template>
+                    <br/>
+                    <lightning-combobox 
+                        name="Contact_hospital_14_days_prior_symptoms" 
+                        label="Did you work, visit, study or attend a hospital/healthcare setting in the 14 days prior to symptom onset?" value=""
+                        options={contacthospitalOptions.data.values} 
+                        onchange={handleChange7}
+                        field-level-help="Did you work, visit or attend a hospital setting">
+                    </lightning-combobox>
+                    <br/>
+                    <lightning-input type="date" name="date_admitted" label="If you are currently in Hospital, what date were you admitted?" value={dateAdmitted} onchange={handleChange5}></lightning-input>
+                    <template if:true={showDateAdmitted_error}>
+                        <label class="slds-form-element__label" style="color: red;">The date should not be a future date.</label>
+                    </template>
+                    <template if:true={showHospital}>
+                        <br/>
+                        <label class="slds-form-element__label">Hospital</label>
+                        <lightning-input-field field-name="HealthCloudGA__Account__c" variant="label-hidden" onchange={handleChange8}></lightning-input-field>
+                        <template if:true={showHospitalError}>
+                            <label class="slds-form-element__label" style="color: red;">Please select a hospital.</label>
+                        </template>
+                        <!--
+                        <c-type-ahead-component
+                                display-field="Name"
+                                display-field-json={jsonText}
+                                display-title-field-json=""
+                                iconname="standard:avatar"
+                                no-rec-display="10"
+                                object-name="Account"
+                                label="Hospital"
+                                plural-label="Hospitals"
+                                record-type-id={accountRecordType}
+                                record-type="Place Or Organisation"
+                                searchfield="Name"
+                                create-record="false"
+                                create-fields=""
+                                is-required="false"
+                                onselect={handleChange8}>
+                            </c-type-ahead-component>
+                        -->
+                    </template>
+
+                </template>
+            </lightning-record-edit-form>
+            <br/>
+            <lightning-button class="slds-m-top_small" disabled={showSpinner} variant="brand" label="Save" onclick={handleSave}></lightning-button>
+        </div>
+    </template>
+</template>

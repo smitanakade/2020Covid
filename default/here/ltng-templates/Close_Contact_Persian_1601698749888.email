@@ -1,0 +1,101 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Reference {{{Case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}};</span></span></p>
+
+<p dir="ltr" style="text-align: right;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="rtl"><br />
+<b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">موضوع: اعلامیه - کروناویروس نوول (2019-nCoV) - &nbsp;Case ID {{{Case.CaseNumber}}}</span></span></b></p>
+
+<p dir="rtl"><i><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">این اعلامیه در مطابقت با دستورات صادر شده تحت s200 قانون بهداشت و تندرستی عمومی مصوب 2008 (ویکتوریا) صادر شده است</span></span></i></p>
+
+<p dir="rtl"><br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;{{{case.Account}}}گرامی</span></span></p>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">ما ارزیابی کرده ایم که شما در تماس نزدیک با فردی بوده اید که تشخیص داده شده است کروناویروس (کووید-19) دارد، و در تاریخ {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}} در معرض این بیماری قرار گرفته اید.</span></span></p>
+
+<p dir="rtl"><br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>الآن چه کارهایی را باید انجام بدهم؟</b>&nbsp;</span></span></p>
+
+<ul>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما باید خود را سریعاً برای مدت 14 روز تا تاریخ {{{case.Day14_Anticipated_last_day_of_quarantine__c}}} در آدرس بالا قرنطینه کنید. اگر قصد دارید در آدرسی دیگر خود را قرنطینه کنید یا نمی توانید به صورت ایمن خود را در آدرس بالا قرنطینه کنید، باید سریعاً با شماره 1300 651 160 تماس بگیرید.</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما باید در روز 11 قرنطینه خود {{{Case.Day_11_Test__c}}} آزمایش کروناویروس (کووید-19) را انجام دهید. لطفاً نامه به پیوست ارسال شده را بخوانید و وقتی برای انجام آزمایش خود می روید، آن را به همراه داشته باشید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر بعد از انجام آزمایش کروناویروس (کووید-19) خود نتیجه ای منفی دریافت کنید، باید به قرنطینه خود تا پایان دوره 14 روز ادامه دهید. پس از آماده بودن نتایج آزمایش، به شما اطلاع داده خواهد شد که آیا می توانید از قرنطینه خارج شوید یا خیر. علت آن این است که ممکن است حتی پس از دریافت نتیجه آزمایش منفی، به کروناویروس (کووید-19) مبتلا شوید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر تشخیص داده شود که کروناویروس (کووید-19) دارید یا در تماس نزدیک با فردی دیگر قرار بگیرید که تشخیص داده شده مبتلا به بیماری است، دوره قرنطینه شما تمدید خواهد شد.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">از طریق خدمات پیامک یا تماس تلفنی به صورت منظم با شما تماس گرفته خواهد شد. این تماس تلفنی از طرف یک شماره خصوصی برقرار خواهد شد. لطفاً به پیامک ها و تماس های تلفنی پاسخ دهید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">از علائم کروناویروس (کووید-19) آگاه باشید. علائم می توانند بین 0 تا 14 روز بعد از قرار گرفتن در معرض بیماری ظاهر شوند، که آخرین روز {{{case.Day14_Anticipated_last_day_of_quarantine__c}}} است. اگر هر یک از علائم کروناویروس (کووید-19) را دارید، باید جویای دریافت مراقبت پزشکی شوید و هر چه سریعتر آزمایش دهید.&nbsp;&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">برگه اطلاع رسانی - فرد در تماس نزدیک با فردی مبتلا به کروناویروس (وورد داکیومنت) را بخوانید تا اطمینان حاصل کنید از الزامات قرنطینه بر می آیید: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+
+<div style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span></div>
+
+<p dir="rtl"><span style="font-size:12px;"><b><span style="font-family:Arial,Helvetica,sans-serif;">چگونه خود را قرنطینه کنم؟&nbsp;</span></b></span></p>
+
+<ul>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">در خانه یا مسکن خود بمانید تا اجازه خروج را از اداره دریافت کنید. افرادی که از این دستورات پیروی نکنند ممکن است جریمه ای تا سقف 20,000 دلار دریافت کنند.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما نباید به هیچ دلیلی از خانه یا مسکن خود خارج شوید، به جز:&nbsp;</span></span>
+	<ul>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">برای پذیرش در بیمارستان یا تسهیلاتی دیگر به منظور دریافت مراقبت های پزشکی.&nbsp;</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">برای دریافت مراقبت های پزشکی، تدارکات پزشکی یا آزمایشات پزشکی، برای مثال، آزمایش کووید-19.&nbsp;</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">قرار گرفتن در هرگونه موقعیت اضطراری.&nbsp;</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر قانون حکم کند که از خانه خارج شوید.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">از بیماری در بیمارستان دیدن می کنید و به موجب دستورات مراجعه کنندگان به بیمارستان (شماره 9) اجازه انجام این کار را دارید.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">در تسهیلات مراقبتی کار می کنید و به موجب دستورات تسهیلات مراقبتی (شماره 9) اجازه انجام این کار را دارید.</span></span></li>
+	</ul>
+	</li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما نباید به محل کار، مدرسه یا دانشگاه بروید یا در اماکن یا رویدادهای عمومی حضور داشته باشید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما باید تا حد امکان در اتاقی مجزا از افراد دیگری که با آنها زندگی می کنید، بمانید و بخوابید. در صورت امکان، از دستشویی و حمام مجزا استفاده کنید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر جویای دریافت مراقبت پزشکی یا انجام آزمایش هستید، نباید از وسایل حمل و نقل عمومی، تاکسی یا خدمات سفری مشترک استفاده کنید. اگر خودرویی ندارید، می توانید از طریق تماس با شماره 1300 651 160، ترتیبات انجام آزمایش را در خانه خود هماهنگ کنید.</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما نمی توانید برای ورزش کردن خانه خود را ترک کنید. اگر در خانه ای شخصی زندگی می کنید، بیرون رفتن به داخل باغ، بالکن یا حیاط خود ایمن می باشد. اگر در یک آپارتمان زندگی می کنید، بیرون رفتن به بالکن شخصی تان ایمن می باشد. شما همچنین می توانید به باغ یا محوطه حیاطی عمومی بروید ولی باید از ماسک یا پوشش صورت استفاده کنید. با این وجود، باید سریع از محوطه های عمومی عبور کنید. اگر مجبور هستید از محوطه های عمومی عبور کنید، باید همیشه از ماسک یا پوشش صورت استفاده کنید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">از سایر افراد، مانند دوستان یا اعضای خانواده، که نباید خود را منزوی کنند بخواهید که مواد غذایی یا سایر ضروریات را برای شما بیآورند. افرادی که این اقلام را برای شما می آورند نباید وارد خانه شما شوند یا با شما تماسی نزدیک داشته باشند - در صورت امکان، باید مواد غذایی و ضروریات را جلوی در خانه شما بگذارند.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر برای دسترسی به مواد غذایی یا چیزهایی که لازم دارید با مشکل روبرو هستید، برای دریافت خدمات حمایتی با خط اطلاع رسانی کروناویروس به شماره 1800 675 398 تماس بگیرید.&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اگر نیاز به مترجمی شفاهی دارید، با TIS National به شماره 131 450 تماس بگیرید و بخواهید با خط اطلاع رسانی کروناویروس به شماره 1800 675 398 تماس بگیرند.&nbsp;</span></span><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span></li>
+</ul>
+
+<p dir="rtl"><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">برای کسب اطلاعات مفصل تر در مورد نحوه قرنطینه کردن و خدمات حمایتی موجود، لطفاً به سایت: <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a> <b>مراجعه کنید.&nbsp;</b></span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">شما نباید به هیچ فرد دیگری اجازه دهید وارد مکان قرنطینه شما شود، مگر آنکه:&nbsp;</span></span></p>
+
+<ul>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">آن فرد دیگر معمولاً در آن مکان زندگی می کند یا باید به موجب این دستورات در همان مکان خود را منزوی یا قرنطینه کند؛ یا&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">ضروری باشد که آن فرد برای مقاصد پزشکی یا اضطراری وارد مکان شود؛ یا&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">آن فرد دیگر یک مددکار معلولیت یا ناتوانی است، و ضروری است که این مددکار معلولیت یا ناتوانی برای مقاصد ارائه خدمات معلولیت یا ناتوانی به فرد دارای معلولیت یا ناتوانی وارد مکان شود؛ یا&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">ضروری است که آن فرد دیگر برای مقاصد ارائه مراقبت های شخصی یا کمک خانگی به فرد به علت سن، معلولیت یا ناتوانی یا عارضه پزشکی مزمن، وارد خانه شود؛ یا&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">در غیر این صورت، قانون حکم یا اجازه ورود را صادر کند.&nbsp;</span></span></li>
+</ul>
+
+<div style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span></div>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">از کجا می توانم اطلاعات بیشتری دریافت کنم؟&nbsp;</span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<ul>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">برگه های اطلاع رسانی در مورد افراد در تماس نزدیک با فردی مبتلا به کروناویروس:&nbsp; <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اطلاعات در مورد بهداشت و فاصله گیری اجتماعی:&nbsp; <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">حمایت های مالی و سایر حمایت ها برای افرادی که تحت تأثیر کروناویروس (کووید-19) قرار گرفته اند:&nbsp; <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اطلاعات کلی در مورد کروناویروس (کووید-19):&nbsp; <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+
+<p dir="rtl"><br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">چنانچه نگرانی های بیشتری در ارتباط با این مورد دارید، لطفاً با اداره به شماره 1300 651 160 تماس بگیرید.</span></span></p>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">با احترام<br />
+<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 1546.6px; width: 153px; height: 32px;" title="image1" /></span></span></p>
+
+<p dir="rtl"><meta /></p>
+
+<p dir="rtl"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">دکتر سایمون کراوچ&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">معاون مدیر ارشد بهداشت کووید-19 (مدیریت مورد، تماس نزدیک و شیوع)</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">اداره بهداشت و خدمات انسانی&nbsp;</span></span></p></body></html>

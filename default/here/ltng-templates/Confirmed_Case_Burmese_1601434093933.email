@@ -1,0 +1,80 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;">Case reference&nbsp;{{{case.CaseNumber}}}</span></p>
+
+<p dir="ltr"><span style="font-size:11px;">{{{case.Account}}}</span></p>
+
+<p dir="ltr"><span style="font-size:11px;">{{{Recipient.MailingStreet}}}</span></p>
+
+<p dir="ltr"><span style="font-size:11px;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}</span></p>
+&nbsp;
+
+<p dir="ltr"><b><span style="font-size:11px;">ရည်ညွှန်း- အသိပေးချက် - နိုဗယ် ကိုရိုနာဗိုင်းရပ်စ် (2019-nCoV) — Case ID {{{Case.CaseNumber}}}&nbsp;</span></b></p>
+
+<p dir="ltr"><i><span style="font-size:11px;">၂၀၀၈ ခုနှစ်၊ ပြည်သူ့ကျန်းမာရေးနှင့် ဘေးကင်းလုံခြုံရေး အက်ဥပဒေ (ဗစ်တိုးရီးယားပြည်နယ်) ၏ ပုဒ်မ 200 အောက်တွင် ထုတ်ပြန်ထားသည့် လမ်းညွှန်ချက်များနှင့်အညီ ဤအသိပေးချက်ကို ထုတ်ပြန်လိုက်ပါသည်&nbsp;</span></i></p>
+
+<p dir="ltr"><span style="font-size:11px;">လေးစားရပါသော {{{case.Account}}}</span></p>
+<span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">သင့်တွင် ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) ရှိသည်ဟု စစ်ဆေးတွေ့ရှိရသည့်အတွက် ဤအသိပေးချက်ကို ထုတ်ပြန်ရခြင်းဖြစ်ပါသည်။&nbsp;</span><br />
+<br />
+<span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">ယခုဆိုလျှင် ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) သည် သင်နှင့်အတူနေသူများ အပါအဝင် အခြားလူများကို ကူးစက်ပျံ့နှံ့သွားနိုင်မည့် အန္တရာယ် အလွန်ရှိနေပါသည်။ သင်နှင့်အခြားသူများ ဘေးကင်းလုံခြုံစေရန် သင်လိုက်နာရမည့် အရေးကြီးသော ဆောင်ရွက်ချက်များကို ကျွန်ုပ်တို့ ဖော်ပြပေးထားသည်။</span><br />
+<br />
+<b><span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">ယခု ကျွန်ုပ် ဘာလုပ်သင့်လဲ။</span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;">အိမ်တွင် သို့မဟုတ် သင်နေထိုင်သည့် နေရာတွင် ဆက်လက်၍ သီးခြားခွဲနေပြီး သင်နှင့်အတူနေသူများ အပါအဝင် အခြားသူများနှင့် တတ်နိုင်သမျှ ဝေးဝေးနေပါ။&nbsp;</span></li>
+	<li><span style="font-size:11px;">ဌာနသည် သင့်ထံ မက်ဆေ့ချ်ပို့၍ဖြစ်စေ၊ ဖုန်းခေါ်၍ဖြစ်စေ သင်နှင့် ပုံမှန် အဆက်အသွယ်ပြုလုပ်ပြီး ကူညီပေးနေပါမည်။ မက်ဆေ့ချ်များကို စာပြန်ပြီး ဖုန်းများကို ပြန်လည်ဖြေကြားပေးပါ။</span></li>
+	<li><span style="font-size:11px;">သင်သည် မည်သည့်အချိန်တွင် သီးခြားခွဲနေမှု အဆုံးသတ်နိုင်မည်ကို ဆုံးဖြတ်ရန် ဌာနက သင်နှင့်အတူ ပူးပေါင်းလုပ်ဆောင်ပါမည်။ ၎င်းတို့သည် ခွင့်ပြုမိန့်စာကို ထုတ်ပေးပါမည်။</span></li>
+	<li><span style="font-size:11px;">သီးခြား ခွဲ၍ နေထိုင်ရန် သတ်မှတ်ချက်များနှင့် ကိုက်ညီကြောင်းသေချာစေရန် အတည်ပြုလူနာ သတင်းလွှာ ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) အတည်ပြုလူနာ - သင် သိထားရမည့်အရာများ (Word) ကို ဖတ်ပါ-<a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></li>
+</ul>
+<span style="font-size:11px;">&nbsp;&nbsp;</span><b><span style="font-size:11px;">ကျွန်ုပ် ဘယ်လို သီးခြားခွဲနေရမလဲ။</span></b> <b dir="ltr"><span style="font-size:11px;">အိမ် သို့မဟုတ် သင်နေထိုင်ရာ နေရာတွင် နေထိုင်ရပါမည်။</span><br />
+&nbsp;</b>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;">ဌာန သို့မဟုတ် တရားဝင်ခွင့်ပြုချက်ရ ဆေးပညာရှင်ထံက သင်သည် ပုံမှန်လုပ်ငန်းဆောင်တာများ ပြန်လုပ်ကိုင်နိုင်ပြီဖြစ်ကြောင်း ခွင့်ပြုမိန့်စာ ထုတ်မပေးမချင်း အိမ် သို့မဟုတ် သင်နေထိုင်ရာနေရာတွင် သီးခြားခွဲနေရပါမည်။ ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) ရောဂါရှိကြောင်း အတည်ပြုထားသည့် မည်သူမဆို ဤလမ်းညွှန်ချက်ကို လိုက်နာရမည်ဖြစ်ပြီး ဤလမ်းညွှန်ချက်ကို လိုက်နာရန် ငြင်းပယ်သူ သို့မဟုတ် ပျက်ကွက်သူသည် ပြစ်ဒဏ်များ ကျခံရပါမည်။</span></li>
+	<li><span style="font-size:11px;">သင်သည် အောက်ပါအကြောင်းရင်းကြောင့်မှလွဲ၍ အခြားမည်သည့်အကြောင်းရင်းကြောင့်မဆို သင့်အိမ် သို့မဟုတ် ကွာရန်တင်းဝင်နေသည့် နေရာမှ ထွက်ခွာခြင်းမပြုရ-</span>
+	<ul>
+		<li><span style="font-size:11px;">သင် ဆေးကုသမှုခံယူရန် ဆေးရုံ သို့မဟုတ် အခြားကုသဆောင်တစ်ခုတွင် တက်ရောက်ရပါက။</span></li>
+		<li><span style="font-size:11px;">ဆေးကုသမှု၊ ဆေးပစ္စည်းများ ရယူရန်လိုအပ်ပါက သို့မဟုတ် ဆေးစစ်ချက်၊ ဥပမာ COVID-19 ရောဂါ စစ်ဆေးမှု ခံယူရမည်ဆိုပါက။</span></li>
+		<li><span style="font-size:11px;">သင် အရေးပေါ်အခြေအနေ ဖြစ်နေပါက။</span></li>
+		<li><span style="font-size:11px;">ဥပဒေအရ ထိုသို့အပြင်ထွက်ရန် လိုပါက။</span></li>
+		<li><span style="font-size:11px;">ဆေးရုံရှိ လူနာတစ်ဦးကို လာရောက်တွေ့ဆုံရန် ဆေးရုံ ဧည့်တွေ့သူ လမ်းညွှန်ချက်များ (နံပါတ် 9) အရ ထိုသို့အပြင်ထွက်ခွင့်ပြုထားပါက။</span></li>
+		<li><span style="font-size:11px;">ကုသဆောင်တစ်ခုတွင် တာဝန်ထမ်းဆောင်နေပြီး ကုသဆောင်များဆိုင်ရာ လမ်းညွှန်ချက်များ (နံပါတ် 9) အရ ထိုသို့အပြင်ထွက်ခွင့်ပြုထားပါက။&nbsp;</span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:11px;">သင်သည် အလုပ်၊ ကျောင်း၊ တက္ကသိုလ်သို့ မသွားရပါ၊ အများဆိုင် နေရာများတွင် အလုပ်မလုပ်ရပါ သို့မဟုတ် ပွဲလမ်းသဘင်များသို့ မသွားရပါ။&nbsp;</span></li>
+	<li><span style="font-size:11px;">သင်သည် တတ်နိုင်သမျှ သင်နှင့်အတူနေသည့် အခြားလူများနှင့် အခန်းခွဲ၍ နေထိုင်အိပ်စက်သင့်ပါသည်။ ဖြစ်နိုင်လျှင် ရေချိုးခန်း၊ အိမ်သာကို သပ်သပ်သုံးပါ။</span></li>
+	<li><span style="font-size:11px;">ဆရာဝန်နှင့် ပြသတော့မည်ဆိုပါက သို့မဟုတ် စစ်ဆေးမှု ခံယူတော့မည်ဆိုပါက အများပြည်သူ ယာဉ်လိုင်း၊ တက္ကစီ သို့မဟုတ် အခြားသူနှင့် အငှားယာဉ်မျှစီးသည့် ဝန်ဆောင်မှုများကို အသုံးမပြုရ။ ကိုယ်ပိုင်ကားမရှိလျှင် 1300 651 160 သို့ ဖုန်းခေါ်ဆိုပါ။ အိမ်သို့လာရောက်၍ စစ်ဆေးမှု ပြုလုပ်ရန် စီစဉ်ပေးနိုင်ပါသည်။</span></li>
+	<li><span style="font-size:11px;">မတတ်သာ၍ အခြားသူတစ်ဦးနှင့် တစ်ခန်းတည်း အတူနေရပြီး ဆေးကုသမှု ခံယူမည်ဆိုလျှင် မျက်နှာအကာအကွယ်တစ်ခု အမြဲတပ်ဆင်ပါ။</span></li>
+	<li><span style="font-size:11px;">သင့်အိမ်အပြင်ထွက်၍ လေ့ကျင့်ခန်းမလုပ်နိုင်ပါ။ သင်သည် လုံးချင်းအိမ်တွင် နေထိုင်သည်ဆိုလျှင် သင့်ကိုယ်ပိုင်ဥယျာဉ်၊ လသာဆောင် သို့မဟုတ် ခြံဝင်းထဲသို့ ဆင်းနိုင်ပါသည်။ သင်သည် တိုက်ခန်းတစ်ခုတွင် နေထိုင်သည်ဆိုပါက သင့်တိုက်ခန်း သီးသန့်လသာဆောင်သို့ ထွက်နိုင်ပါသည်။ သင်သည် ဘုံပိုင် ပန်းခြံ သို့မဟုတ် ခြံဝင်းဧရိယာသို့လည်း သွားနိုင်ပါသည်။ သို့သော် မျက်နှာကာ တပ်ဆင်ထားရန်လိုသည်။ သို့သော် လမ်းတွင် အများပြည်သူ သွားလာနေကြသော နေရာများကို ဖြတ်သွားရာတွင် ခပ်သွက်သွက် သွားသင့်ပါသည်။ အများများသူ သွားလာနေကြသော နေရာများကို ဖြတ်သွားရမည်ဆိုလျှင် မျက်နှာအကာအကွယ်ကို အမြဲတပ်ဆင်ရပါမည်။</span></li>
+	<li><span style="font-size:11px;">သီးခြားနေထိုင်ရန် သို့မဟုတ် ကွာရန်တင်းလုပ်ရန် မလိုအပ်သော သူငယ်ချင်းများ သို့မဟုတ် မိသားစုကဲ့သို့ အခြားသူများကို အစားအစာ သို့မဟုတ် သင်လိုအပ်သည့် အခြားအရာများကို လာပို့ခိုင်းပါ။ ထိုပစ္စည်းများလာပို့သူ မည်သူမဆိုသည် သင့်အိမ်ထဲသို့ မဝင်သင့်သလို သင်နှင့် အထိအတွေ့ မလုပ်သင့်ပါ - ဖြစ်နိုင်လျှင် ၎င်းတို့သည် ပစ္စည်းများကို သင့်တံခါးရှေ့တွင် ထားခဲ့သင့်ပါသည်။&nbsp;</span></li>
+	<li><span style="font-size:11px;">သင်သည် အစားအစာများ သို့မဟုတ် သင်လိုအပ်သည့် ပစ္စည်းများကို ရယူရန် အခက်အခဲများရှိပါက အကူအညီတောင်းရန် ကိုရိုနာဗိုင်းရပ်စ် ဟော့လိုင်းနံပါတ် 1800 675 398 သို့ ခေါ်ဆိုပါ။</span></li>
+	<li><span style="font-size:11px;">သင်သည် ဘာသာပြန်တစ်ဦး လိုအပ်လျှင် 131 450 မှတစ်ဆင့် TIS National သို့ ခေါ်ဆိုပြီး ကိုရိုနာဗိုင်းရပ်စ် ဟော့လိုင်းနံပါတ် 1800 675 398 သို့ဆက်သွယ် တောင်းဆိုပါ။&nbsp;</span></li>
+</ul>
+<span style="font-size:11px;"> &nbsp;</span>
+
+<p dir="ltr"><span style="font-size:11px;"><b>သီးခြားခွဲ၍နေရန် နည်းလမ်းနှင့် သင် ရရှိနိုင်သော အကူအညီအကြောင်း နောက်ထပ် အသေးစိတ်သိရှိရန် ဝင်ရောက်ကြည့်ရှုနိုင်သည့် နေရာများ-</b> <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></p>
+<b><span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">နောက်ထပ် အချက်အလက်များကို ဘယ်နေရာမှာ တွေ့နိုင်သလဲ။</span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;">ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) ဖြစ်ပွားသော လူများအတွက် အချက်အလက်စာတမ်းများ- <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></li>
+	<li><span style="font-size:11px;">တစ်ကိုယ်ရေ သန့်ရှင်းရေးနှင့် လူချင်းခပ်ခွာခွာနေမှု အချက်အလက်များ- <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></li>
+	<li><span style="font-size:11px;">ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) ရောဂါကူးစက်ခံရသူများအတွက် ငွေကြေးထောက်ပံ့မှုနှင့် အခြားအကူအညီ- <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></li>
+	<li><span style="font-size:11px;">အထွေထွေ ကိုရိုနာဗိုင်းရပ်စ် (COVID-19) အချက်အလက်များ- <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></li>
+</ul>
+<span style="font-size:11px;"> &nbsp;</span>
+
+<p dir="ltr"><span style="font-size:11px;">နောက်ထပ်မေးမြန်းလိုသည်များ ရှိပါက 1300 651 160 မှတစ်ဆင့် ဌာနသို့ အချိန်အခါမရွေး ဆက်သွယ်နိုင်ပါသည်။&nbsp;</span></p>
+<span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">အကြင်နာမေတ္တာဖြင့်၊</span><br />
+<br />
+<span style="font-size:11px;">&nbsp;&nbsp;</span><span style="font-size: 11px;">လေးစားစွာဖြင့်</span>
+
+<p dir="ltr"><span style="font-size:11px;"><img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 1615.95px; width: 219px; height: 46px;" title="image1" /></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:11px;">Dr Simon Crouch&nbsp;<br />
+COVID-19 လက်ထောက် ကျန်းမာရေး အရာရှိချုပ် (ရောဂါ၊ ထိတွေ့မှုနှင့် ရောဂါဖြစ်ပွားမှု စီမံခန့်ခွဲရေး)&nbsp;<br />
+ကျန်းမာရေးနှင့် ပြည်သူ့ဝန်ဆောင်မှုများ ဌာန&nbsp;</span></p></body></html>

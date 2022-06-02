@@ -1,0 +1,85 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference {{{Case.CaseNumber}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Re: Notification - Novel Coronavirus (2019-nCoV) — Case ID {{{Case.CaseNumber}}}&nbsp;</span></span></b></p>
+
+<p dir="ltr"><i><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">This Notice is issued in accordance with Directions issued under s200 of the Public Health and Wellbeing Act 2008 (Vic)&nbsp;</span></span></i></p>
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Dear </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">{{{case.Account}}}</span><br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">We have assessed that you are a close contact of a person who has been diagnosed with coronavirus (COVID-19), being exposed on </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">{{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">.&nbsp;</span><br />
+<br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><b><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">WHAT SHOULD I DO NOW?</span></span></b>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You are required to quarantine at the above address immediately for 14 days until {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. If you intend to quarantine at an alternative address or you cannot safely quarantine the address above, you must immediately call 1300 651 160.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must get tested for coronavirus (COVID-19) on day 11 {{{Case.Day_11_Test__c}}}. Please read the attached letter and bring it with you when you go and get tested.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are tested for coronavirus (COVID-19) and receive a negative result, you must continue your quarantine until the end of the 14-day period. You will be informed whether you will be able to leave quarantine once your test results are available. The reason for this is that it is possible you could develop coronavirus (COVID-19) even after a negative test result.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are diagnosed with coronavirus (COVID-19) or come in close contact with another person who becomes diagnosed your quarantine period will be extended.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You will be regularly contacted through an automated text messaging service or a phone call. The phone call will appear as a private number. Please respond to the text messages and answer the calls.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Be aware of the symptoms of coronavirus (COVID-19). Symptoms can develop between zero to 14 days after the exposure, last day ending {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. If you have any of the symptoms of coronavirus (COVID-19), you should seek medical attention and get tested as soon as possible.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Read the close contact Factsheet - close contact (Word) to ensure you meet the quarantine requirements: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><b style="font-size: 12px;"><span style="font-family:Arial,Helvetica,sans-serif;">HOW DO I QUARANTINE?</span></b>
+
+<ul>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Stay at home or in your accommodation until you receive clearance from the department. People who do not comply with these directions may be fined up to $20,000.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must not leave your house or accommodation for any reason, except:</span></span>
+	<ul>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are admitted to a hospital or other facility for the purposes of receiving medical care.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are obtaining medical care, medical supplies or medical testing e.g. COVID-19.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are in any emergency.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are required to do so by law.</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are visiting a patient in hospital and permitted to do so under the Hospital Visitor Directions (No 9).</span></span></li>
+		<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are working in a care facility and permitted to do so under the Care Facilities Directions (No 9).&nbsp;</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must not go to work, school, university, or attend public places or events.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You should stay and sleep in a different room to other people you live with as much as possible. Use a separate bathroom if available.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are going to seek medical attention or get tested, you must not use public transport, taxi or any rideshare services. If you do not have your own car, in-home testing can be arranged by calling 1300 651 160.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">You cannot leave your home for exercise. If you live in a private house, then it is safe for you to go outside into your own garden, balcony or courtyard. If you live in an apartment it is safe for you to go outside onto your private balcony. You can also go into a communal garden or courtyard area but will need to wear a face covering. You should, however, go quickly through any common areas on the way. You must always wear a face covering if you have to move through any communal areas.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Ask others such as friends or family, who are not required to be isolated, to drop off food or other necessities for you. Anyone delivering these items should not enter your house or come in contact with you – if possible, they should leave the supplies at the front of your door.&nbsp;</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you have difficulties accessing food or the things you need, call the coronavirus hotline on 1800 675 398 for support.</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you need a translator, call TIS National on 131 450 then request the coronavirus hotline on 1800 675 398.&nbsp;</span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span><b style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">For more detailed information about how to quarantine and what support is available to you, please visit:</b><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;"> </span><a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19" style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a><br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">You must not permit any other person to enter your quarantine location unless:</span>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">the other person ordinarily resides at the premises or is required to self-isolate or quarantine at the premises under these directions; or</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">it is necessary for the other person to enter for medical or emergency purposes; or</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">the other person is a disability worker, and it is necessary for the disability worker to enter for the purpose of providing a disability service to a person with a disability; or</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">it is necessary for the other person to enter for the purpose of providing personal care or household assistance to the person as a result of that person's age, disability or chronic health condition; or</span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">the entry is otherwise required or authorised by law.&nbsp;</span></span></li>
+</ul>
+&nbsp;
+
+<p dir="ltr"><b><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">WHERE CAN I FIND MORE INFORMATION?</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Factsheets for close contacts: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hygiene and physical distancing information: <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Financial and other support for people affected by coronavirus (COVID-19): <a href="https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">General coronavirus (COVID-19) information: <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">If you have any further concerns relating to this matter, please contact the department on 1300 651 160.&nbsp;</span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px;">Yours sincerely</span>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 1413.6px; width: 186px; height: 39px;" title="image1" /></span></span></p>
+
+<p dir="ltr"><meta /></p>
+
+<p dir="ltr"><span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dr Simon Crouch&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">COVID-19 Deputy Chief Health Officer (Case, Contact and Outbreak Management)&nbsp;</span></span><br />
+<span style="font-size:10px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health and Human Services</span></span></p></body></html>

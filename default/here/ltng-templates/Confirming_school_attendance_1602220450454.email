@@ -1,0 +1,51 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:12.65pt"><span style="font-family:Calibri,sans-serif"><b><span style="color:black">From:</span></b><b> <span style="color:red"><a href="mailto:covid-19.health@dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline"><span style="color:red">covid-19.health@dhhs.vic.gov.au</span></a></span></b></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><b><span style="color:black">Send to Contact at DET: tobin.claire.l@edumail.vic.gov.au; Fonzi, Rocco R &lt;fonzi.rocco.r@edumail.vic.gov.au&gt;; Walker, Susan K </span></b><a href="mailto:walker.susan.k@edumail.vic.gov.au" style="color:#0563c1; text-decoration:underline"><b>walker.susan.k@edumail.vic.gov.au</b></a></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><b><span style="color:black">Subject: </span></b><span style="color:black">Coronavirus disease (COVID-19) Confirming school attendance - Victorian Health Department Alert - </span>Case ID {{{Case.CaseNumber}}}</span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif">Dear <i><span style="color:red">[key contact DET]</span></i></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif">Thank you for your time today. As discussed, we need are currently investigating a confirmed case of coronavirus disease 2019 (COVID-19) that may have attended <span style="color:black">school during their </span><span style="color:red">infectious and/or acquisition period. </span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><b>Details are as follows:</b></span></span></span>
+<table class="MsoTableGrid" style="width:453.35pt; border-collapse:collapse; border:solid windowtext 1.0pt" width="604">
+	
+		<tr style="height:13.3pt">
+			<td style="border:solid windowtext 1.0pt; width:104.65pt; padding:0cm 5.4pt 0cm 5.4pt; height:13.3pt" valign="top" width="140"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Case name </b></span></span></span></td>
+			<td style="border:solid windowtext 1.0pt; width:348.7pt; border-left:none; padding:0cm 5.4pt 0cm 5.4pt; height:13.3pt" valign="top" width="465"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:12px;">{{{Case.Account}}}</span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:104.65pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="140"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Date of Birth </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:348.7pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="465"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b><span style="color:#00b0f0">Case_DOB</span></b></span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:104.65pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="140"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Acquisition period</b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:348.7pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="465">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:104.65pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="140"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>Infectious period </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:348.7pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="465">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border:solid windowtext 1.0pt; width:104.65pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="140"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b>School&nbsp; </b></span></span></span></td>
+			<td style="border-bottom:solid windowtext 1.0pt; width:348.7pt; border-top:none; border-left:none; border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="465">&nbsp;</td>
+		</tr>
+	
+</table>
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif">Can you please confirm if the case attended and the dates they were there? Respond to <span style="color:red">&lt;team email&gt;.</span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif">Please let me know if you require any additional information.</span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">Kind Regards,</span></span></span></span><br />
+<br />
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">{{{Sender.Name}}}</span><br />
+{{{Sender.Team__c}}}</span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:red">&lt;team email&gt;</span></span></span></span></span><br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif">w. <a href="http://www.dhhs.vic.gov.au" style="color:#0563c1; text-decoration:underline">www.dhhs.vic.gov.au</a></span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span style="font-size:8.0pt"><span style="color:#5f5f5f">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></span></span></span><br />
+<br />
+&nbsp;</body></html>

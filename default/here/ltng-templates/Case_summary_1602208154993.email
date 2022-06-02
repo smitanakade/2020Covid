@@ -1,0 +1,95 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ff0000;">The recipient list for these escalations should only include </span><a href="mailto:publichealth.operations@dhhs.vic.gov.au"><span style="color:#ff0000;">publichealth.operations@dhhs.vic.gov.au</span></a><span style="color:#ff0000;">, the Deputy Public Health Commander for the day (i.e. Simon Crouch OR Clare Looker), the Strategy Policy Planning Lead (i.e. Naveen Tenneti or Sarah McGuinness), and the Ops Leads for the day (Nectaria and/or Caillean and/or Carrie).</span></span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ff0000;">Please send summaries for all cases that attended a sensitive or high-risk setting during their infectious period or are working in high-risk occupations (i.e. schools, hospitals including any HCW, aged care residents and workers, childcare, any other site that could attract media attention or be linked to an outbreak).&nbsp;.</span></span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ff0000;">SEE BOTTOM OF PAGE FOR EXAMPLE – ENTER CASE ID IN SUJECT LINE. DELTE THIS LINE AND EXAMPLE BEFORE SENDING</span>.&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">PHESS ID:&nbsp;</span></b></span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">Overview</span></b></span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.DoB_Text__c}}}/{{{Recipient.HealthCloudGA__Gender__c}}}/{{{Recipient.MailingCity}}}/{{{Account.Aboriginal_or_Torres_Strait_Islander__c}}}&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Onset date: {{{Case.Symptoms_Onset_Date__c}}}&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Swab date: {{{Case.Date_of_Test__c}}} at …..</span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#004c97;"><b>Infectious Period</b></span></span></span></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Attended a high risk setting e.g. schools, hospitals including any HCWs, aged care residents and workers, childcare&nbsp;</span></span></p>
+	</li>
+</ul>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#004c97;"><b>Action taken</b></span></span></span></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Contacting workplace/sensitive setting</span></span></p>
+	</li>
+</ul>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#004c97;"><b>Plan</b></span></span></span></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Outstanding actions</span></span></p>
+	</li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ff0000;">example</span></span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">Overview</span></b></span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">23YO female from Broadmeadows. Non-ATSI</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Onset date: 27/06/2020&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Swab date: 27/06/2020</span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">Infectious Period</span></b></span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">HCW – works at Sunshine hospital. Worked while infectious – 23/6-27/6</span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">Action taken</span></b></span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Contacted IC at Sunshine Hospital</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b><span style="color:#004c97;">Plan</span></b></span></span></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Waiting for contacts to be sent back from Sunshine Hospital&nbsp;</span></span></p>
+	</li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kind Regards,</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Team__c}}}</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:#ff0000;">&lt;team email&gt;</span></span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">w. <a href="http://www.dhhs.vic.gov.au">www.dhhs.vic.gov.au</a></span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></p></body></html>

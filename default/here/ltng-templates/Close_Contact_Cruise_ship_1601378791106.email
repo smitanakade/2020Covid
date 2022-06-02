@@ -1,0 +1,85 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">IF SENDING BULK EMAIL – BCC RECIPENTS – DO NOT CC AS IT BREACHES PRIVACY&nbsp;</span></span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#e74c3c;">ENTER PHESS ID IN SUBJECT LINE. DELETE THIS BEFORE SENDING.&nbsp;</span></span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear Passenger,</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">We have been advised that you or a family member of yours travelled on&nbsp;<b>xxx cruise disembarking xx xx 2020</b>. &nbsp;We have been notified of a passenger confirmed with&nbsp;<b>coronavirus (COVID-19)</b>&nbsp;on the cruise. The passenger may have been infectious during this cruise.&nbsp;</span></span></p>
+
+<p dir="ltr"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">WHAT YOU SHOULD DO:</span></span></b></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Read the close contact factsheet (link below) ‘Coronavirus disease (COVID-19) - close contact’&nbsp;to ensure you meet the quarantine requirements.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Be aware of the symptoms of COVID-19 as outlined in the factsheet ‘Coronavirus disease (COVID-19) - close contact.’ Symptoms may develop anytime&nbsp;between zero to 14 days&nbsp;after the exposure,&nbsp;<b>last day ending&nbsp;{{{case.Day14_Anticipated_last_day_of_quarantine__c}}}.</b> If symptoms develop, you should seek medical attention for coronavirus testing.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">You must be tested for COVID-19 on or after day 11 or your quarantine period (on or after&nbsp;{{{Case.Day_11_Test__c}}}).</span></span></li>
+	<li><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please read attached letter and take with you when you go and get tested.&nbsp;</span></span></b></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you are tested for COVID-19 and receive a negative result, you&nbsp;must&nbsp;continue your isolation until the end of the 14-day period.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">You will be informed whether you will be able to leave quarantine once your test results are available.</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">You will be regularly contacted through an automated text messaging service or a phone call.&nbsp; Please provide the best number for this to occur (preferably a mobile).&nbsp;</span></span></li>
+</ul>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">HOW TO QUARANTINE:</span></span></b></p>
+
+<p dir="ltr"><span style="color:#004c97;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:12px;">Stay at home or in your hotel room or healthcare setting&nbsp;</span></span></span></p>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Quarantine yourself at home or in your accommodation until 14 days after you were last exposed to the infectious person. The Department of Health and Human Services will be in contact with you to inform you of your quarantine dates.&nbsp;</span></span>
+
+	<ul>
+		<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">You should not leave your house or accommodation except to seek medical attention.</span></span></li>
+		<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">You should stay in a different room to other people as much as possible. Sleep in a separate bedroom and use a separate bathroom if available.</span></span></li>
+		<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Do not go to work, school, university, or attend public places or events. Do not use public transport or taxi services.</span></span></li>
+		<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Where possible, get others such as friends or family, who are not required to be quarantined, to get food or other necessities for you.&nbsp;</span></span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you have difficulties getting food or necessities, call 1800 675 398 for support.&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you need a translator, call 131 450, then request the hotline on 1800 675 398. More information is available on our website:&nbsp;<a href="https://www.dhhs.vic.gov.au/coronavirus">https://www.dhhs.vic.gov.au/coronavirus</a></span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Please keep Triple Zero (000) for emergencies only.</span></span></li>
+</ul>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#004c97;"><span style="font-size:12px;">Going outside</span></span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">If you live in a private house, then it is safe for you to go outside into your garden, balcony or courtyard.&nbsp;</span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">If you live in an apartment it is also safe for you to go outside into the garden or courtyard while wearing a surgical mask. You should, however, go quickly through any common areas on the way to the garden. Wear a surgical mask if you have to move through these areas.</span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Make sure you keep a distance of 1.5 metres between yourself and any other people you encounter in common areas.&nbsp;</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Close contact information can be found at&nbsp;<a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">General Information can also be found on our webpage at&nbsp;<a href="https://www.dhhs.vic.gov.au/novelcoronavirus">https://www.dhhs.vic.gov.au/novelcoronavirus</a>.</span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Thank you for your assistance. If you have any further concerns relating to this matter, contact Communicable Disease Prevention and Control on 1300 651 160.&nbsp;</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Kind Regards,</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">{{{Sender.Name}}}</span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Team&nbsp;&lt;number&gt;</span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"><b>Public Health Operations&nbsp;|&nbsp;Novel Coronavirus (COVID-19) Response</b></span></span><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Health Protection Branch | Regulation, Health Protection and Emergency Management Division</span></span><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+<b>t.</b>&nbsp;1300 651 160&nbsp;|&nbsp;&nbsp;<b>f.</b>&nbsp;1300 651 170&nbsp;|&nbsp;<b>e.</b>&nbsp;<a href="mailto:publichealth.operations@dhhs.vic.gov.au">publichealth.operations@dhhs.vic.gov.au</a>&nbsp;&nbsp;</span></span><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"><b>w.</b>&nbsp;<a href="http://www.dhhs.vic.gov.au/">www.dhhs.vic.gov.au</a></span></span></p>
+
+<p dir="ltr"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:8px;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></p></body></html>

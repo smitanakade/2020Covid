@@ -1,0 +1,122 @@
+<template> 
+        <!--Displays Search Field-->
+        <template if:false={hasSelected}>
+            <div class="" style="max-width: 320px;">
+                <div class="slds-combobox__form-element slds-input-has-icon 
+                                slds-input-has-icon_right">
+                    <lightning-input disabled={disableInput}
+                        label={label} value={searchKey} type="search" required={isRequired}
+                        onchange={handleChange}>
+                    </lightning-input>
+                </div>
+            </div>
+        </template>
+        <template if:true={hasSelected}>            
+            <div class="slds-combobox_container slds-has-selection slds-p-around_x-small" style="max-width: 320px;">
+                <label class="slds-form-element__label" for="combobox-id-5">{label}</label>
+                <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left-right" role="none">
+                    <span class="slds-icon_container slds-icon-standard-account slds-combobox__input-entity-icon">
+                        <lightning-icon icon-name={iconname} size="small"></lightning-icon>
+                    </span>
+                    <input type="text" class="slds-input slds-combobox__input slds-combobox__input-value" id="combobox-id-5" aria-controls="listbox-id-5" 
+                        autocomplete="off" role="textbox" placeholder="Select an Option…" readonly value={selectedRecordName}
+                    />
+                    <button class="slds-button slds-button_icon slds-input__icon slds-input__icon_right" title="Remove selected option" onclick={restartSearch}>
+                        <lightning-icon icon-name="utility:close" size="x-small"></lightning-icon>
+                        <span class="slds-assistive-text">Remove selected option</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </template>
+        
+        <!--Displays Results list-->
+        <div class="slds-is-relative" style="max-width: 320px;">  <!--result overlap-->
+            <template if:false={selectedRecord}>
+                <template if:true={records}>
+                        <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" aria-expanded="true" aria-haspopup="listbox" role="combobox">
+                            <div id="listbox-id-1" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" style="max-width: 320px;">
+                                <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                                    <template if:false={disableInput}>
+                                        <template if:false={disableCreate}>
+                                            <span onclick={openModal}>
+                                                <li role="presentation" class="slds-listbox__item" >
+                                                    <div id="create" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                                                        <div class="slds-m-around_small">
+                                                            <lightning-icon icon-name="utility:record_create" size="small"></lightning-icon>
+                                                        </div>                        
+                                                        <span class="slds-m-around_small">
+                                                            Create a new {objectName}
+                                                        </span>
+                                                    </div>                                        
+                                                </li>   
+                                            </span>
+                                        </template>
+                                    </template>
+                                    <template for:each={records} for:item="record">                                        
+                                        <c-type-ahead-results-component key={record.Id} record={record} 
+                                            onselect={handleSelect} iconname={iconname} hidelist ={disableInput}
+                                            fieldname={searchfield}
+                                            object-api-name={objectName}>
+                                        </c-type-ahead-results-component>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>                        
+                </template>
+            </template>
+        </div>
+
+        <!-- Modal -->
+        <template if:true={showModal}>           
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open" style="overflow-y: scroll;max-height: -webkit-fill-available;">                                              
+                    <div class="slds-modal__container">
+                        <div class="slds-is-relative">
+                            <!-- <lightning-spinner if:true={isLoaded} alternative-text="Loading..." variant="brand"></lightning-spinner> -->
+                            <!-- modal header start -->
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={closeModal}>
+                                    <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                        size="small"></lightning-icon>
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Create {objectName}</h2>
+                            </header>
+
+                            <!-- modal body start -->
+                            <div class="slds-modal__content slds-p-around_large" id="modal-content-id-1">                        
+                                <!-- error message  -->
+                                <template if:true={error}>
+                                    <div class="slds-notify_container slds-is-relative">
+                                        <lightning-icon icon-name="utility:error"
+                                        alternative-text="error"
+                                        size="small" ></lightning-icon>
+                                        <div class="slds-notify slds-notify_toast slds-theme_error" role="status">
+                                            <span class="slds-assistive-text">error</span>                                      
+                                            <div class="slds-notify__content slds-align_absolute-center">
+                                            <h2 class="slds-text-heading_small ">{error}</h2>
+                                            </div>                                      
+                                        </div>
+                                    </div>
+                                    <br/>
+                                </template>
+
+                                <!-- body content -->
+                                <c-record-detail-flow-screen-component 
+                                    mode="edit" object-api-name={objectName} 
+                                    show-cancel-button={showCancelButton} record-type-id={recordTypeId} 
+                                    fields={createFields} oncancel={closeModal} onsave={setLookup}>
+                                </c-record-detail-flow-screen-component>
+                                                                   
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+        <!-- modal end -->
+        
+    </template>

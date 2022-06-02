@@ -1,0 +1,89 @@
+<template>
+
+<article class="slds-card">
+<div class="slds-card__header slds-grid">
+    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+        <div class="slds-col slds-size_2-of-12 ">
+            <h2 slot="title">
+            <lightning-icon icon-name="standard:report" alternative-text="Event" title="Event" size="Medium"></lightning-icon>
+                <p style = "font-weight: bold;"> Current Address Report </p> 
+    </h2>
+</div>
+<div class="slds-col slds-size_1-of-12 "></div>
+<div class="slds-form-element slds-col slds-size_2-of-12">
+    <label class="slds-form-element__label" for="select-01">Record Type</label>
+<div class="slds-form-element__control">
+<div class="slds-select_container">
+    <select class="slds-select" id="selected" onchange={handleSelect}>
+         <option>Confirmed Case</option>
+         <option>Close Contact</option>
+         <option>Confirmed Case and Close Contact</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="slds-col slds-size_1-of-12 "></div>
+    <div class="slds-col slds-size_2-of-12">
+        <lightning-input type="date" name="startdate" class="startdate" label="Start Date" value={start_date} onchange={handleDateChange}></lightning-input>
+    </div>
+<div class="slds-col slds-size_1-of-12 "></div>
+<div class="slds-col slds-size_2-of-12">
+    <lightning-input type="date" name="enddate" class="enddate" label="End Date" id ='end' value={end_date} onchange={handleDateChange}></lightning-input>
+</div>
+
+<div class="slds-col slds-size_1-of-12 buttonmargin">
+        <lightning-button-icon name="Download" icon-name="utility:download" 
+        onclick={downloadCSVFile} ></lightning-button-icon>  
+</div>
+</header>
+
+</div>
+<div class = "slds-grid">
+<div  class="slds-col slds-size_6-of-12"></div>
+<div class="slds-col slds-size_6-of-12 ">
+    <p style = "color: blue; ">The date range is based upon the 'Calculated Onset Date'.</p>
+</div>
+</div>
+<div class="slds-card__body slds-scrollable--y">
+<div class="spinner">
+<template if:true={isLoaded}>
+        <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+        </lightning-spinner>
+</template>
+</div>
+<div>
+    <template if:true={areDetailsVisible}>
+    <lightning-datatable
+    key-field="id"
+    columns={columns}
+    data={data}
+    hide-checkbox-column
+    default-sort-direction={defaultSortDirection}
+    sorted-direction={sortDirection}
+    sorted-by={sortedBy}
+    onsort={onHandleSort}
+    enable-infinite-loading={isLoaded}
+    onloadmore={loadMoreData}>
+</lightning-datatable>
+</template>
+
+</div>
+</div>
+<div><template if:false={areDetailsVisible}>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">  
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-col slds-size_5-of-12 "></div>
+                <div class="slds-col slds-size_3-of-12 ">
+                <h2 slot="title">
+                <p style = "font-weight: bold; float:center; color: red;"> No Data Found </p> 
+                </h2>
+                </div>
+                <div class="slds-col slds-size_4-of-12 "></div>
+            </header>
+        </div>
+        </article>
+</template></div>
+</article>
+
+</template>

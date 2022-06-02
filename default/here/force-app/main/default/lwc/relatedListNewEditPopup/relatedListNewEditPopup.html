@@ -1,0 +1,20 @@
+<template>
+    <template if:true={showModal}>
+        <c-modal onclosedialog={handleDialogClose}>
+            <span slot="header">{header}</span>
+            <slot>
+                <lightning-record-form
+                                class="record-form"
+                                record-id={recordId}
+                                object-api-name={sobjectApiName}
+                                layout-type="Full" 
+                                columns="2"
+                                density="compact"
+                                mode="edit"
+                                onsuccess={handleSuccess}
+                                oncancel={handleClose}>
+                </lightning-record-form>
+            </slot>
+        </c-modal>
+    </template>
+</template>

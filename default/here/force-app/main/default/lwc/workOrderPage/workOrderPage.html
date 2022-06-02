@@ -1,0 +1,85 @@
+<template>
+    <!--div class="slds-box slds-theme_shade">
+        <lightning-record-edit-form object-api-name="WorkOrder">
+            <div class="slds-grid slds-p-left_x-small">
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input-field field-name="WorkOrderId" value={workOrderId} onchange={handleWorkOrderIdChange}>
+                    </lightning-input-field>
+                </div>
+            </div>            
+        </lightning-record-edit-form>
+    </div-->    
+    <template if:true={showCardIsClinical}>
+        
+   
+
+        <c-work-order-related-list 
+            record-id={recordId}
+            sobject-api-name="HealthCloudGA__Clinical_Assessment_Response__c"        
+            sorted-by="Name"
+            related-field-api-name="WorkOrderId" 
+            fields="Name, Did_person_have_symptoms__c, HealthCloudGA__OnsetOfSymptoms__c"
+            columns={clinicalAssessmentResponseColumns}>
+        </c-work-order-related-list>
+        
+
+        <c-work-order-related-list 
+            record-id={recordId}
+            sobject-api-name="HealthCloudGA__EhrImmunization__c"        
+            sorted-by="Name"
+            related-field-api-name="WorkOrderId" 
+            fields="Name, Have_you_had_a_COVID_19_vaccine__c, Dose_Received__c"
+            columns={ehrImmunizationColumns}
+            >
+        </c-work-order-related-list>
+
+       
+        <c-work-order-related-list 
+            record-id={recordId}
+            sobject-api-name="HealthCloudGA__EhrEncounter__c"        
+            sorted-by="Name"
+            related-field-api-name="WorkOrderId" 
+            fields="Name, Presented_to__c, StartDate__c,Date_admitted__c"
+            columns={hmipColumns}
+            >
+        </c-work-order-related-list>
+
+        <c-work-order-related-list 
+            record-id={recordId}
+            sobject-api-name="ContactEncounter"        
+            sorted-by="Name"
+            related-field-api-name="WorkOrderId" 
+            fields="Name,StartTime,Recent_Travel_Overseas__c,tolabel(Country__c)"
+            columns={travelHistoryColumns}
+            type="travelhistory"
+        >
+        </c-work-order-related-list>
+
+       
+    </template>
+        <template if:true={showCardIsMovement}>
+            <c-work-order-related-list 
+                record-id={recordId}
+                sobject-api-name="ContactEncounter"        
+                sorted-by="Name"
+                related-field-api-name="WorkOrderId" 
+                fields="CalculatedDay__c,Name,Location_Name__c,StartTime,Duration__c,Exposure_Site_ID__r.CaseNumber,Exposure_Site_ID__r.Subject,Incorrect_Information_Provided__c,Movement_Notes__c"
+                columns={caseMovementColumns}
+                type="casemovement">
+            </c-work-order-related-list>
+            </template>                
+            <template if:true={showWorkStudyCare}>
+                <c-work-order-related-list 
+                    record-id={recordId}
+                    sobject-api-name="ContactEncounter"        
+                    sorted-by="Name"
+                    related-field-api-name="WorkOrderId" 
+                    fields="Employment_Status__c, Name, Location_Name__c,Description"
+                    columns={workStudyCareColumns}
+                    type="workstudycare">
+                </c-work-order-related-list>
+                </template>
+
+               
+  
+</template>

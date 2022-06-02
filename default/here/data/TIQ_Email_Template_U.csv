@@ -1,0 +1,329 @@
+Description,DeveloperName,Encoding,EnhancedLetterheadId,FolderId,HtmlValue,IsActive,Markup,Name,RelatedEntityType,Subject
+"Ability to send a notification email to a confirmed case, i.e. someone who has tested Covid positive",Confirmed_case_notification_English_1615863240245,UTF-8,,00l2e000000MBnfAAG,"<html><head>
+	<title></title>
+</head>
+<body style=""height: auto; min-height: auto;""><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">CRM ID {{{Case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.MailingStreet}}}<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}<br />
+<br />
+Dear {{{case.Account}}},<br />
+<br />
+This notice is issued in accordance with section 200 of the <i>Public Health and Wellbeing Act 2008</i> (Vic).<br />
+Thank you for talking to an Authorised Officer from the Department of Health.<br />
+As discussed, you have tested positive for COVID-19.<br />
+COVID-19 is very contagious. This means there is a high risk that you could spread the virus to other people, including people you live with.<br />
+To protect your family and the community, you must follow these directions.<br />
+<br />
+<b>What you must do now</b></span></span>
+<ul>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Isolate immediately or keep isolating if you are already. This means you need to stay at home or in your accommodation and stay at least 1.5 metres apart from others. Avoid sharing spaces with other people.</span></span>
+	<ul>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Isolation protects the community by keeping people who have COVID-19 away from people who do not have it.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Always wear a face mask when moving through or using any shared areas in your home.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Stay at home or in your accommodation until an Authorised Officer tells you that you no longer need to isolate.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Do not leave your home or accommodation, except for these lawful reasons:</span></span>
+	<ul>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">for medical reasons (to get medical care or supplies, or get tested for COVID-19);</span></span></li>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">in an emergency or if you are unsafe;&nbsp;or</span></span></li>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">as specified by the Chief Health Officer or delegate.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">If you leave isolation before an Authorised Officer tells you that you can leave, and you do not have a lawful reason, you will be breaking the law and may be fined.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Do not go to work, school, higher education, shopping, or to any public places or events, even if they are outdoors.</span></span>
+	<ul>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">If you are worried about losing income while you isolate, you may be able to get a $1500 support payment. For more information call the coronavirus hotline <b>1800 675 398</b> (press 0 for an interpreter).</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Do not use public transport, ride share or taxi services.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Do not have visitors to your home.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Do not leave your home for exercise.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Tell anyone you are living with, and anyone who moves into the place where you are isolating, that you have COVID-19.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Call us on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter)to:</span></span>
+	<ul>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">ask us any questions about isolating;</span></span></li>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">tell us if you plan to isolate at a different address;</span></span></li>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">arrange somewhere safe to stay if you cannot safely isolate at the address above;</span></span></li>
+		<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">tell us if someone moves into your place of isolation - we will contact the people you live with and tell them what they need to do.</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>How to isolate safely</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Keep away from people, including anyone you live with.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Stay and sleep in a different room to other people and use a separate bathroom.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Wash your hands often.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Cover your coughs and sneezes with a tissue or cough or sneeze into your elbow.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Always wear a face mask if you need to be in the same room as another person or if you must leave home.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you need any personal protective equipment (PPE), such as face masks or gloves, please call <b>1800 675 398</b> (press 0 for an interpreter).</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For more information, see 'What to do if you have tested positive for COVID-19'&nbsp;factsheet - attached.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Looking after your health</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We want to help you take care of your health and wellbeing while you are in isolation.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you have serious symptoms, such as difficulty breathing, call triple zero (000) and ask for an ambulance. Tell them that you have COVID-19.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For medical care,&nbsp;contact either:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">the <b>coronavirus hotline</b> on <b>1800 675 398</b> (press 0 for an interpreter);</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">the medical service at your hotel (if you are isolating in a hotel); or</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">your GP. Let them know you have COVID-19 so they can prepare for you.</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>What happens next?</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We will talk with you by phone or text message over the coming days. Please reply to our text messages and answer our calls.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We will visit your home once or twice a week to check if you are OK and if you need anything.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We will call and email you to tell you when you can stop isolating.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you have any questions, please contact us on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter).</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>How can I get food and essential items?</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Ask friends or family, who are not in isolation or quarantine, to drop off food or other things you need.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">They should not come inside or have any contact with you. They should leave items outside your door if possible.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you are struggling to get the things you need, call the <b>coronavirus hotline</b> on <b>1800 675 398</b> (press 0 for an interpreter). You can get a free emergency relief package with basic food and essentials (such as nappies or personal care items) if you need it.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For more information see 'Emergency relief packages' factsheet - attached.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Can I go outside for exercise?</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You cannot leave your home for exercise.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you live in a private house or apartment, you can go outside to your own garden, balcony or courtyard. You cannot go into a garden or courtyard area that you share with other households, such as common garden or courtyard in an apartment building or other accommodation.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Where can I find more information?</b><br />
+If you have any questions, please call us at the Department of Health on <b>1300 651 160 </b>(press 0 for COVID-19, then once connected, and if required, please request an interpreter).</span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">'What to do if you have tested positive for COVID-19' factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">'Emergency relief packages' factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">'$1500 Pandemic Leave Disaster Payment' factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><a href=""https://www.dhhs.vic.gov.au/what-to-do-if-you-have-coronavirus-covid-19"">What to do if you have COVID-19</a></span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><a href=""http://www.dhhs.vic.gov.au/staying-safe-covid-19""><span style=""font-size:12px;"">Hygiene and physical distancing</span></a><span style=""font-size: 12px;"">&nbsp;</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><a href=""https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19""><span style=""font-size:12px;"">Financial and other support</span></a>&nbsp;<span style=""font-size:12px;"">for people affected by COVID-19&nbsp;</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><a href=""https://www.coronavirus.vic.gov.au/"">General COVID-19 information</a>&nbsp;</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Thank you for reading this information. Isolation can be challenging but it helps keep your family and community safe.</span></span><br />
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Yours sincerely,</span><br />
+<br />
+<span style=""font-size:12px;""><b>An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</b></span></span><br />
+&nbsp;</body></html>",TRUE,,Confirmed case - notification - English,Case,COVID-19 - confirmed case notification  CRM ID {{{Case.CaseNumber}}}
+Ability to quarantine extension email to any primary close contact,Primary_close_contact_extension_of_quarantine_English_1615868905456,UTF-8,,00l2e000000MBnfAAG,"<html style=""overflow-y: hidden;"">
+<head>
+	<title></title>
+</head>
+<body style=""height: auto; min-height: auto;""><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">CRM ID {{{Case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.MailingStreet}}}<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}</span></span><br />
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Dear {{{case.Account}}},<br />
+You are a primary close contact of a person who has COVID-19.<br />
+According to our records, you have not had your Day 13 test for COVID-19.<br />
+This means you must stay in quarantine for an extra 14 days, ending on <span style=""color:#e74c3c;"">&lt;extended end of quarantine dd/mm/yyyy&gt;</span> or until you receive a negative test result.<br />
+<br />
+<b>What you must do now</b></span></span>
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Stay at home or in your accommodation in quarantine for an extra 14&nbsp;days until <span style=""color:#e74c3c;"">&lt;extended end of quarantine dd/mm/yyyy&gt;</span></span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Quarantine protects the community by keeping people who might have COVID-19 away from people who do not have it.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not leave your home or accommodation, except for these lawful reasons:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">for medical reasons (to get medical care or supplies, or get tested for COVID-19));</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">in an emergency or if you are unsafe; or</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">as specified by the Chief Health Officer or delegate.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not leave quarantine until an Authorised Officer tells you that you can leave.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you leave quarantine before an Authorised Officer tells you that you can leave, and you do not have a lawful reason, you will be breaking the law and may be fined.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not go to work, school, higher education, shopping, or to any public places or events, even if they are outdoors.</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you are worried about losing income while you quarantine, you may be able to get a $1500 support payment. For more information, call the coronavirus hotline <b>1800 675 398</b>&nbsp;(press 0 for an interpreter).</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not use public transport, ride share or taxi services.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not have visitors to your home.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not leave your home for exercise.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For more information on how to quarantine safely, please refer to the email where we told you that you are a primary close contact.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Call us on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter) to:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">tell us if you no longer have the email where we told you that you are a primary close contact;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">ask us any questions about quarantine;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">arrange somewhere safe to stay if you cannot safely continue to quarantine at the address listed at the top of this email;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">tell us if someone moves into your place of quarantine - we will contact the people you live with and tell them what they need to do.</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Get tested as soon as possible</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You should get tested as soon as possible and call the department on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter) as soon as you receive your test result. You will then be told when you can leave quarantine.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For information on testing, please read the letter you received about day 13&nbsp;testing, which was attached to the email where we told you that you are a primary close contact. Remember to take the letter with you when you get tested - you can show an electronic copy.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you do not get tested, you must stay in quarantine until <span style=""color:#e74c3c;"">&lt;extended end of quarantine dd/mm/yyyy&gt;</span>.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you need to talk to someone about this email, please call us at the Department of Health on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter).</span></span><br />
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Yours sincerely,</span><br />
+<br />
+<span style=""font-size:12px;""><b>An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</b></span></span><br />
+<i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">This Notice is issued in accordance with Directions issued under section 200 of the </span></span></i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Public Health and Wellbeing Act 2008 </span></span><i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">(Vic).</span></span></i></body>
+</html>",TRUE,,Primary close contact - extension of quarantine - English,Case,COVID-19 - primary close contact - quarantine extension  CRM ID {{{Case.CaseNumber}}}
+Ability to send clearance email to any of the confirmed case contact,Confirmed_case_notification_end_of_isolation_English_1615936746754,UTF-8,,00l2e000000MBnkAAG,"<html style=""overflow-y: hidden;"">
+<head>
+	<title></title>
+</head>
+<body style=""height: auto; min-height: auto;""><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">CRM ID {{{Case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.MailingStreet}}}<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}<br />
+<br />
+Dear {{{case.Account}}},<br />
+Thank you for isolating while you had COVID-19.<br />
+As discussed with an Authorised Officer, you can now stop isolating. This means you can now leave your home or accommodation and return to normal activities.&nbsp;<br />
+Your employer or educational facility might want to see evidence that you can return to work or study. You can show them this email.&nbsp;<br />
+Please note this email is only about you {{{case.Account}}}. Other people in your household in isolation or quarantine must stay in isolation or quarantine until they are specifically told by an Authorised Officer that they can leave.<br />
+If you have any questions, please call us at the Department of Health on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter).&nbsp;<br />
+Thank you for your cooperation during this time, you have helped to keep our community safe.&nbsp;<br />
+Kind regards,</span></span><br />
+<br />
+<span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;""><b>An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</b></span></span><br />
+&nbsp;</body>
+</html>",TRUE,,Confirmed case - notification - end of isolation - English,Case,COVID-19 - end of isolation notification - CRM ID {{{Case.CaseNumber}}}
+Ability to send COVID 19 notification email to any primary close contact,Primary_close_contact_notification_English_1617617698932,UTF-8,,00l2e000000MBnfAAG,"<html style=""overflow-y: hidden;"">
+<head>
+	<title></title>
+</head>
+<body style=""height: auto; min-height: auto;""><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">CRM ID {{{Case.CaseNumber}}}<br />
+{{{case.Account}}}<br />
+{{{Recipient.MailingStreet}}}<br />
+{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}</span></span><br />
+<br />
+<span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Dear {{{case.Account}}},<br />
+You are a primary close contact of a person who has coronavirus (COVID-19) or you have been exposed to an exposure site where there has been the risk of transmission of COVID-19. An Authorised Officer has determined this under section 200 of the Public Health and Wellbeing Act 2008 (Vic).<br />
+You were exposed to COVID-19 on {{{Case.Day_0_Exposure_to_the_confirmed_case__c}}}. This date may change if your exposure is ongoing (for example, if you stay in the same accommodation as a confirmed case while they are unwell).<br />
+There is a high chance that people who have been close to someone with COVID-19 will have the virus and can spread it to other people. The best way to protect yourself, your family and the community is to stay at home and stay away from other people.<br />
+We recommend that you get tested now to see if you have COVID-19 - please see further information below and attached on where to get tested.<br />
+This email will help you understand what you must do to keep separate from other people (quarantine) safely. If you need to talk to someone about this email, please call <b>1300 651 160</b> (press 0 for COVID-19, then once connected, please request an interpreter).</span></span><br />
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>What you must do now</b></span></span>
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You must stay at home or in your accommodation in quarantine for at least 14 days until 11:59pm on {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}.</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Quarantine protects the community by keeping people who might have COVID-19 away from people who do not have it.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not leave your home or accommodation, except for these lawful reasons:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">for medical reasons (to get medical care or supplies,&nbsp;or get tested for COVID-19);</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">in an emergency or if you are unsafe;&nbsp;or</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">as specified by the Chief Health Officer or delegate.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not go to work, school, higher education, shopping, or to any public places or events, even if they are outdoors.</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you are worried about losing income while you quarantine, you may be able to get a $1500 support payment. For more information, call the coronavirus hotline <b>1800 675 398</b> (press 0 for an interpreter).</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not use public transport, ride share or taxi services.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not have visitors to your home.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Do not leave your home for exercise.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You cannot leave quarantine until an Authorised Officer tells you your quarantine is finished.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you do not quarantine or leave quarantine before an Authorised Officer tells you that you can leave, and you do not have a lawful reason, you will be breaking the law and may be fined.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Call us on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter) to:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">ask us any questions about quarantine;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">tell us if you plan to quarantine at a different address;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">arrange somewhere safe to stay if you cannot safely quarantine at the address listed at the top of this email;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">tell us if someone moves into your place of quarantine - we will contact the people you live with and tell them what they need to do.</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Look after yourself and seek help if you need it</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We want to help you take care of your health and wellbeing while you are in quarantine.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">We will send you a text message or call you each day with a survey asking about your health and wellbeing.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Watch out for symptoms. You may have COVID-19 if you have any of the following: fever, chills or sweats, cough, sore throat, shortness of breath, runny nose and loss or change in sense of smell or taste.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you have any symptoms of COVID-19, even if they are mild, please get tested. You can leave your house to get tested.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For medical care or getting tested, contact either:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">the <b>coronavirus hotline</b> on <b>1800 675 398</b> (press 0 for an interpreter);</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">the medical service at your hotel (if you are in hotel quarantine); or</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">your GP to let them know you have been assessed as a COVID-19 close contact so they can prepare for you.</span></span></li>
+	</ul>
+	</li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you develop serious symptoms, such as difficulty breathing, call triple zero (000) and ask for an ambulance. Tell them that you are a primary close contact of COVID-19.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Get tested on day 13 of quarantine</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You must get tested on or just after day 13 of quarantine, which is {{{Case.Day_11_Test__c}}}.This is because you are most likely to develop COVID-19 within 14 days of your contact with COVID-19.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You must not use public transport, taxis or rideshare services when you go to get tested. You should drive or walk yourself. If you cannot travel safely to get tested, you can get tested at home by calling <b>1800 675 39</b>8 (press 0 for an interpreter).</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you test negative, an Authorised Officer will confirm that you can finish quarantine on day 14 {{{case.Day14_Anticipated_last_day_of_quarantine__c}}}. You must stay in quarantine until this date.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you do not get tested, then you must stay in quarantine for an extra 14 days. This means you will stay in quarantine for a total of 28 days.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If your day 13 test comes back positive and you have COVID-19 or if you have been in close contact with another person who has COVID-19, you will need to stay in quarantine for longer. We will tell you if this happens.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Please bring the attached letter with you when you go for your test - you can show an electronic copy on your phone.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>How to quarantine safely</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Stay at home or in your accommodation until an Authorised Officer tells you that you can leave.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Keep away from people, including anyone you live with.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Stay and sleep in a different room to other people and use a separate bathroom.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Wash your hands often.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Always wear a face mask if you need to be in the same room as another person or if you must leave home.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you need any personal protective equipment (PPE),&nbsp;such as face masks or gloves, please call <b>1800 675 398</b> (press 0 for an interpreter).</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For more information, see &#39;What to do if you have been in close contact with someone who has COVID-19&#39;&nbsp;factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">No one is permitted to enter where you are in quarantine unless they:</span></span>
+	<ul>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">normally live there or need to isolate or quarantine there;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">need to provide medical or emergency care or services;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">need to provide care as a disability worker;</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">need to provide personal care or household assistance as a result of a person&#39;s age, disability or chronic health condition; or</span></span></li>
+		<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">must enter as required or authorised by law.</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>How can I get food and essential items?</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Ask friends or family, who are not in isolation or quarantine, to drop off food or other things you need.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">They should not come inside or have any contact with you. They should leave items outside your door if possible.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you are struggling to get the things you need, call the <b>coronavirus hotline</b> on <b>1800 675 398</b> (press 0 for an interpreter). You can get a free emergency relief package with basic food and essentials (such as nappies or personal care items) if you need it.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">For more information see &#39;Emergency relief packages&#39;&nbsp;factsheet - attached.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Can I go outside for exercise?</b></span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">You cannot leave your home for exercise.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">If you live in a private house or apartment, you can go outside to your own garden, balcony or courtyard. You cannot go into a garden or courtyard area that you share with other households, such as a common garden or courtyard in an apartment building or other type of accommodation.</span></span></li>
+</ul>
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><b>Where can I find more information?</b><br />
+<br />
+If you have any specific questions, please call us at the Department of Health on <b>1300 651 160</b> (press 0 for COVID-19, then once connected, and if required, please request an interpreter).</span></span>
+
+<ul>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">&#39;What to do if you have been in close contact with someone who has COVID-19&#39;&nbsp;factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">&#39;Emergency relief packages&#39;&nbsp;factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">&#39;$1500 Pandemic Leave Disaster Payment&#39;&nbsp;factsheet - attached.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><a href=""https://www.dhhs.vic.gov.au/what-to-do-close-contact-coronavirus-covid-19"">What to do if you are a close contact</a>.&nbsp;</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><a href=""http://www.dhhs.vic.gov.au/staying-safe-covid-19"">Hygiene and physical distancing</a>.</span></span></li>
+	<li><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;""><a href=""https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19"">F</a><a href=""https://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19"">inancial and other support</a> for people affected by COVID-19.</span></span></li>
+	<li><span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;""><a href=""https://www.coronavirus.vic.gov.au"">General COVID-19 information</a>.&nbsp;</span></span></li>
+</ul>
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Thank you for reading this information. Quarantine can be challenging but it helps keep your family and community safe.</span></span><br />
+<br />
+<span style=""font-family:Arial,Helvetica,sans-serif;""><span style=""font-size:12px;"">Yours sincerely,</span><br />
+<br />
+<span style=""font-size:12px;""><b>An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</b></span></span><br />
+<i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">This Notice is issued in accordance with Directions issued under section 200 of the </span></span></i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">Public Health and Wellbeing Act 2008 </span></span><i><span style=""font-size:12px;""><span style=""font-family:Arial,Helvetica,sans-serif;"">(Vic).</span></span></i></body>
+</html>",TRUE,,Primary close contact - notification - English,Case,COVID-19 - primary close contact notification - CRM ID {{{Case.CaseNumber}}}

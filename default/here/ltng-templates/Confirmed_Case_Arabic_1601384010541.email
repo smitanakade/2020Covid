@@ -1,0 +1,96 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<meta />
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case reference {{{case.CaseNumber}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{case.Account}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingStreet}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Recipient.MailingCity}}} VIC {{{Recipient.MailingPostalCode}}}&nbsp;</span></span></p>
+&nbsp;
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>الموضوع:&nbsp; &nbsp; &nbsp; &nbsp; إشعار – فيروس كورونا المستجد(2019-nCoV)&nbsp; —&nbsp; Case ID {{{case.CaseNumber}}}</b>&nbsp;</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><i>تم إصدار هذا الإشعار وفقاً للتوجيهات الصادرة بموجب البند 200 من قانون الصحة والرفاهية العامة لعام 2008 (فيكتوريا)</i></span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">حضرة السيد/السيدة {{{case.Account}}}</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">هذا إخطار بإصابتك بفيروس كورونا (كوفيد-19).</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يوجد الآن خطر كبير لانتقال فيروس كورونا (كوفيد-19) إلى أشخاص آخرين، بمن فيهم الأشخاص الذين تعيش معهم. وللحفاظ على سلامتك وسلامة الآخرين، قمنا بتحديد تدابير مهمة عليك اتباعها.</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">ما الذي يتوجّبُ عليّ فعله الآن؟</span></span></b></p>
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يجب عليك مواصلة عزل نفسك في المنزل أو في مكان إقامتك، بعيداً عن الآخرين، بمن فيهم الاشخاص الذين يعيشون معك قدر الإمكان.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">سيتواصل معك موظفو الدائرة بانتظام من خلال رسائل نصية أو عبر مكالمات هاتفية لتقديم الدعم لك. يُرجى الردّ على الرسائل النصية وعلى المكالمات الهاتفية.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">سيعمل موظفو الدائرة معك لتحديد موعد إنهاء عزلتك. وسوف يعطونك تصريحاً مكتوباً.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يُرجى قراءة Coronavirus (COVID-19) confirmed case – what you need to know (Word) (صحيفة الوقائع – الأشخاص المُصابين بفيروس كورونا (كوفيد-19) – ما الذي يتوجّب عليك معرفته) للتأكد من أنك تلبّي مُتطلّبات العزل: <a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+</ul>
+
+<div dir="rtl"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">كيف أعزل نفسي؟&nbsp;</span></span></b></div>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">يجب عليك البقاء في المنزل أو في مكان إقامتك.</span></span><br />
+&nbsp;</p>
+
+<ul dir="rtl">
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يجب أن تعزل نفسك في المنزل أو في مكان إقامتك حتى تحصل على تصريح من الدائرة أو من ممارس صحي مُعتمد يخوّلك العودة إلى ممارسة أنشطتك المُعتادة. ويجب على أي شخص ثَبُتت إصابته بفيروس كورونا (كوفيد-19) الامتثال لهذه التوجيهات وتُطبّق العقوبات على أولئك الذين يرفضون أو لا يمتثلون لهذه التوجيهات.</span></span></li>
+	<li dir="ltr">&nbsp;</li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">لا يجوز لك مغادرة منزلك أو مكان إقامتك لأي سبب كان، إلّا إذا:</span></span>
+	<ul>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">دخلت إلى المستشفى أو منشأة صحية أخرى بهدف الحصول على الرعاية الطبية.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">كنت تتلقّى الرعاية الطبية أو المستلزمات الطبية أو لإجراء الفحوصات الطبية كفحص فيروس كورونا (كوفيد-19).</span></span></li>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">كنت تواجه حالة طارئة.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">طُلب منك مغادرة منزلك بموجب القانون.</span></span></li>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">كنت تزور مريضاً في المستشفى ويُسمح لك بذلك بموجب التوجيهات إلى زوّار المستشفى (رقم 9).</span></span></li>
+		<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">كنت تعمل في منشأة لتقديم الرعاية ويُسمح لك بذلك بموجب توجيهات المنشآت التي تقدّم الرعاية (رقم 9).</span></span></li>
+	</ul>
+	</li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">لا تذهب إلى العمل أو المدرسة أو الجامعة ولا تذهب إلى الأماكن أو الفعاليات العامة.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يجب عليك قدر الإمكان البقاء والنوم في غرفة منفصلة عن الغرفة التي يتواجد فيها الأشخاص الآخرون الذين يعيشون معك. واستخدم حماماً منفصلاً إذا كان متوفّراً.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">لا تستخدم خدمات النقل العام أو سيارات الأجرة أو خدمات الرحلات المُشتركة إذا كنت تخرج للحصول على الرعاية الطبية أو لإجراء الفحص. إذا لم يكن لديك سيارة، فيمكن ترتيب إجراء الفحص في المنزل عن طريق الاتصال بالرقم 1300 651 160.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">قم دائماً بارتداء الكمّامة أو غطاء الوجه إذا كنت لا تستطيع تجنّب التواجد في نفس الغرفة مع شخص آخر وعند طلب الرعاية الطبية.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">لا يمكنك مغادرة المنزل لمزاولة الرياضة. إذا كنت تعيش في منزل خاص، يمكنك الخروج إلى حديقة منزلك أو الشرفة أو الفناء. وإذا كنت تعيش في شقة، يمكنك الخروج إلى شرفة شقتك. ويمكنك أيضاً الذهاب إلى الحديقة العامة أو الفناء ولكن يجب عليك ارتداء الكمامة/غطاء الوجه. ومع ذلك، يجب أن تمرّ بسرعة عبر أي مناطق مُشتركة وأنت متّجه نحو الحديقة. ويجب عليك دائماً ارتداء الكمّامة/غطاء الوجه إذا كان عليك المرور عبر أي مناطق عامة.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">اطلب من الآخرين كالأصدقاء أو العائلة، الذين لا يتوجّب عليهم الخضوع للحجر الصحي أو العزل، توصيل الطعام أو الأشياء الأخرى التي تحتاج إليها لك. ويجب على أي شخص يقوم بتوصيل هذه الأشياء عدم الدخول إلى منزلك أو الاحتكاك بك – يجب عليه ترك هذه الأشياء أمام باب منزلك إذا كان من الممكن له القيام بذلك.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">إذا كان من الصعب عليك الحصول على الطعام أو الأشياء التي تحتاج إليها، اتصل بالخط الساخن الخاص بفيروس كورونا على الرقم 398 675 1800 للحصول على المساعدة.</span></span></li>
+	<li style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">إذا كنت بحاجة إلى مترجم شفهي، اتصل بخدمةTIS National&nbsp; على الرقم 450 131، ثم اطلب منهم الاتصال بالخط الساخن الخاص بفيروس كورونا على الرقم 398 675 1800.</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">للحصول على المزيد من المعلومات المفصّلة حول كيفية العزل والدعم المتوفّر لك، يُرجى زيارة الموقع الإلكتروني: <a href="http://www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19">www.dhhs.vic.gov.au/self-quarantine-coronavirus-covid-19</a></span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">أين يمكنني العثور على المزيد من المعلومات؟</span></span></p>
+
+<ul>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">صحائف وقائع للأشخاص المُصابين بفيروس كورونا:<a href="https://www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19#factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts">www.dhhs.vic.gov.au/assessment-and-testing-criteria-coronavirus-covid-19 - factsheets-for-patients-with-coronavirus-covid-19-and-close-contacts</a></span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>معلومات عن النظافة والتباعد الجسدي:</b> <a href="http://www.dhhs.vic.gov.au/staying-safe-covid-19">www.dhhs.vic.gov.au/staying-safe-covid-19</a>&nbsp;</span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>الدعم المالي وأشكال الدعم الأخرى للأشخاص المتأثرين بفيروس كورونا (كوفيد-19)</b>: <a href="http://www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19">www.dhhs.vic.gov.au/financial-support-coronavirus-covid-19</a></span></span></li>
+	<li dir="rtl" style="text-align: right;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>معلومات عامة عن فيروس كورونا (كوفيد-19)</b>: <a href="https://www.dhhs.vic.gov.au/novelcoronavirus">www.dhhs.vic.gov.au/novelcoronavirus</a></span></span></li>
+</ul>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">يُرجى عدم التردّد بالاتصال بالدائرة إذا كانت لديك أيّ أسئلة أخرى على الرقم 1300 651 160.</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">مع أطيب التحيات،</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">تفضّل بقبول فائق الاحترام</span></span><br />
+<br />
+<img alt="image1" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/image1?oid=00D5P0000009HKg" style="max-width: 709.175px; width: 162px; height: 34px;" title="image1" /><br />
+<meta /></p>
+
+<p dir="rtl"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:11px;"><b>دكتور سيمون كراوتش</b> (Simon Crouch)&nbsp;</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">نائب كبير مسؤولي الصحة أثناء تفشي فيروس كورونا (كوفيد-19) (إدارة الحالة والاتصال والتفشّي)</span></span></p>
+
+<p dir="rtl"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">دائرة الصحة والخدمات الإنسانية</span></span></p>
+
+<div id="gtx-trans" style="position: absolute; left: 1501.5px; top: 165.5px;">
+<div class="gtx-trans-icon">&nbsp;</div>
+</div></body></html>

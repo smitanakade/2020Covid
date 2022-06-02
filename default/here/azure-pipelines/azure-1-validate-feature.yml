@@ -1,0 +1,40 @@
+pr: 
+  - master
+
+trigger: none
+
+stages:
+- stage: VALIDATE_PR
+  jobs:
+  - deployment: Validate_PR # only alphanumeric plus underscores allowed, may not start with a number
+    displayName: Validate_PR #friendly name
+    variables:  #using variable group to store auth url for authentication to target org
+    - group: sf_config
+    pool:
+      vmImage: 'Covid19-CRM-Pool'
+    # creates an environment if it doesnt exist
+    environment: sit
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          #install sfdx and plugins
+          - template: templates/sfdx-install.yml 
+            parameters:
+              installDeltaCli: true
+          #authenticate to target
+          - template: templates/sfdx-authenticate.yml 
+            parameters:
+              authUrl: $(sit_auth) 
+              targetEnv: 'sit'
+          - template: templates/sfdx-delta.yml 
+            parameters:
+              deltaMode: 'branch'
+              compareWith: 'origin/master'
+              testlevel: 'NoTestRun'   
+          - template: templates/sfdx-deploy.yml 
+            parameters:
+              targetEnv: 'sit'
+              testlevel: 'NoTestRun'
+              option: '-c'

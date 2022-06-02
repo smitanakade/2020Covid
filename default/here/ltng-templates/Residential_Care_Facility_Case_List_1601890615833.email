@@ -1,0 +1,55 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><meta /><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><i>PLEASE ATTACH LINE LIST.&nbsp; THIS IS ONLY FOR POSITIVE RESIDENTS DO NOT INCLUDE STAFF OR NEGATIVE RESIDENTS</i></span></span><br />
+<br />
+<meta />
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi intelligence and informatics,</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">The attached line list contains the interview information for confirmed resident cases of COVID-19 in <span style="color:#ff0000;">“Name of Aged Care Facility here”</span>.</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Can you please upload this to PHESS and complete the wizard?</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please link to this exposure site {{{Case.CaseNumber}}}</span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Please Turn WHISPER off for all these cases.&nbsp;</span></span></p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Home isolation commenced on <span style="color:#ff0000;">XX/XX/XXXX</span></span></span></p>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="color:#ff0000;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">There is also a tab of CLOSE CONTACTS to be uploaded as per usual instructions:</span></span></span></p>
+
+<ul dir="ltr">
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Event classification=At risk&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case found by=contact tracing&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Contact with a confirmed case=&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Relationship to case=</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Last date of contact=&nbsp;</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Case linked to a cluster= as above</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Relationship to cluster=</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;</span></span>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Kind regards,</span></span></p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Name}}}</span></span></p>
+
+<p dir="ltr"><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Team 1 – Aged Care<br />
+Public Health Operations&nbsp;|&nbsp;Novel Coronavirus (COVID-19) Response</span></span></b><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Health Protection Branch | Regulation, Health Protection and Emergency Management Division</span></span><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+<b>t.</b>&nbsp;1300 651 160&nbsp;|&nbsp;<b>&nbsp;f.</b>&nbsp;1300 651 170&nbsp;|&nbsp;<b>e.&nbsp;</b><span style="color:#ff0000;">&lt;team email&gt;&nbsp;</span></span></span><br />
+<b style="font-family: Arial, Helvetica, sans-serif; font-size: 11px;">w.</b><span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px;">&nbsp;</span><a href="http://www.dhhs.vic.gov.au/" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px;">www.dhhs.vic.gov.au</a></p>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="DHHS Big footer" src="https://dhhsdtti--dev--c.documentforce.com/file-asset-public/DHHS_Big_footer?oid=00D5P0000009HKg" style="max-width: 734.3499999999999px" title="DHHS Big footer" /></span></span><br />
+<br />
+<meta />
+<p dir="ltr"><span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#800000;">I acknowledge the Traditional Owners of country throughout Victoria and pay my respects to them, their culture and their Elders, past, present and future.</span></span></span><br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited.</span></span></p>
+
+<p dir="ltr"><span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">If you have received this fax / this email in error, please contact the author whose details appear above.</span></span></p></body></html>

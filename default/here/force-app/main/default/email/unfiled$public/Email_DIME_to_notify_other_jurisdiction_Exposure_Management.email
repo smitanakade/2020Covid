@@ -1,0 +1,24 @@
+In accordance with the Communicable Diseases Network Australia (CDNA) Cross-border Notification Protocol, the following information has been identified and must be forwarded to  {!Account.Jurisdiction_Name__c} as it relates to one or more residents or venues within that jurisdiction. Please extract the information from Salesforce in the required data specification format and share with the relevant jurisdiction using Accellion.
+
+Salesforce record number: {!Case.CaseNumber}
+
+Sending Jurisdiction: VIC
+Date sent: {!Today}
+Contact exposure category: {!Case.Parent_Record_Type_Name__c}
+Source Case unique identifier: {!Case.Parent}
+
+Venue Name: {!Case.Subject}
+
+Venue exposure setting details: {!Case.Setting_type__c} - {!Case.Setting_sub_type__c}
+
+Venue address: {!Account.PersonMailingAddress}
+
+Venue contact number: {!Account.Phone}
+
+Venue person to contact: {!Account.Contact_person__c}
+
+Venue other details: {!Account.Description}
+
+Date/time venue exposed: {!Case.Last_date_of_Exposure__c}
+
+This document contains confidential information intended only for the Public Health Unit named above. It may also be subject to legal privilege. If you are not the named recipient, any disclosure, copying or use of the contents of this document is prohibited. If you have received this document in error please notify this office by telephone immediately on 1300 651160.

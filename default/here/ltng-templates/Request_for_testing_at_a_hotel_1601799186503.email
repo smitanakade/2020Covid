@@ -1,0 +1,77 @@
+<html><head>
+	<title></title>
+	<style type="text/css">table, th, td {
+           border: 1px solid black;
+           border-collapse: collapse;
+           }
+	</style>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"><meta />Hi,<br />
+<br />
+The following<span style="color:#ff0000;"> person/people</span> are currently in mandatory quarantine and have been identified as close contacts of a confirmed case of COVID-19.&nbsp;<br />
+<br />
+As they have now developed symptoms, can you please arrange for the following to be tested for SARS-CoV-2? &nbsp;</span></span><br />
+&nbsp;
+<table>
+	<colgroup>
+		<col width="104" />
+		<col width="104" />
+		<col width="104" />
+		<col width="104" />
+		<col width="104" />
+	</colgroup>
+	
+		<tr>
+			<td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Record ID</span></span></b></td>
+			<td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">First name&nbsp;</span></span></b></td>
+			<td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Last name&nbsp;</span></span></b></td>
+			<td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hotel name&nbsp;</span></span></b></td>
+			<td><b><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Room number</span></span></b></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	
+</table>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;<br />
+Can you please respond to <a href="mailto:publichealth.opeartions@dhhs.vic.gov.au"><span style="color:#ff0000;">&lt;Team</span></a><span style="color:#ff0000;"> email&gt;</span> once testing has been completed?<br />
+<br />
+Thank you for your assistance.<br />
+<br />
+Kind Regards, &nbsp;<br />
+<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Team__c}}}<br />
+Case, Contact and Outbreak Management Branch | COVID-19 Public Health Division<br />
+Department of Health &amp; Human Services | 50 Lonsdale Street, Melbourne, Victoria, 3000<br />
+t. 1300 651 160 | f. 1300 651 170 | e. <span style="color:#ff0000;">&lt;team email&gt;</span><br />
+w. www.dhhs.vic.gov.au &nbsp;</span></span><br />
+<br />
+<span style="font-size:8px;"><span style="font-family:Arial,Helvetica,sans-serif;">IMPORTANT - Please note that the content of this fax / this email is for the addressee's use only. It is confidential and may be legally privileged. It must not be copied or distributed to anyone outside DHHS without the permission of the author. If you are not the intended recipient, any disclosure, copying or use of this information is prohibited</span></span></body></html>

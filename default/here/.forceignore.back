@@ -1,0 +1,93 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+# Ignored bc of email template folders
+ltng-templates/
+
+# Case layout causing an Invalid field:SOLUTION.ISSUE in related list:RelatedSolutionList
+force-app/main/default/layouts/Case-Case Layout.layout-meta.xml
+
+# Ignored causing permission issue
+#force-app/main/default/permissionsets/LiveMessage.permissionset-meta.xml
+
+# Ignore listViews to unless needed for new feature
+force-app/main/default/objects/Task/listViews/Close_Contact_Team_Lead_task_queue_Task.listView-meta.xml
+force-app/main/default/objects/Task/listViews/Close_Contacts_Task_Queue_Task.listView-meta.xml
+
+# Ignore content assets unless new ones need to be added
+force-app/main/default/contentassets
+
+# Ignored potentially deprecated
+# force-app/main/default/queueRoutingConfigs/Cases_Routing_Configuration.queueRoutingConfig-meta.xml
+force-app/main/default/queues/Employee_Cases.queue-meta.xml
+force-app/main/default/objects/HealthCloudGA__Clinical_Assessment_Response__c/fields/HealthCloudGA__Diarrhoea__c.field-meta.xml
+
+# Ignored as a scheduled job is running
+# force-app/main/default/classes/DHHS_MessageDeliveryErrorScheduler.cls
+# force-app/main/default/classes/GenerateSMSSurvey.cls
+# force-app/main/default/classes/GenerateSMSSurveyBatchProcess.cls
+force-app/main/default/classes/SendSMSSurveyScheduledJob.cls
+
+# force-app/main/default/recordActionDeployments/WorkOrder.deployment-meta.xml
+# force-app/main/default/flexipages/Work_Order_Record_Page.flexipage-meta.xml
+#force-app/main/default/entitlementProcesses
+#force-app/main/default/customMetadata/DHHS_Default_Ids.Default.md-meta.xml
+
+#healt coud update
+force-app/main/default/objects/HealthCloudGA__Clinical_Assessment_Response__c/fields/HealthCloudGA__Diarrhoea__c.field-meta.xml
+
+#surveys
+force-app/main/default/flows/clearcase.flow-meta.xml
+force-app/main/default/flows/closecontactsurvey.flow-meta.xml
+force-app/main/default/flows/confirmedcasesurvey.flow-meta.xml
+force-app/main/default/flows/day0close.flow-meta.xml
+force-app/main/default/flows/dailycase.flow-meta.xml
+force-app/main/default/flows/dailyclose.flow-meta.xml
+force-app/main/default/flows/day10n11close.flow-meta.xml
+force-app/main/default/flows/day11close.flow-meta.xml
+force-app/main/default/flows/day12close.flow-meta.xml
+#survey dm 
+force-app/main/default/flows/dm_casesurvey.flow-meta.xml
+force-app/main/default/flows/dm_clearc.flow-meta.xml
+force-app/main/default/flows/dm_clsconsurvey.flow-meta.xml
+force-app/main/default/flows/dm_dailyc.flow-meta.xml
+force-app/main/default/flows/dm_dailycls.flow-meta.xml
+force-app/main/default/flows/dm_day0cls.flow-meta.xml
+force-app/main/default/flows/dm_day10n11cls.flow-meta.xml
+force-app/main/default/flows/dm_day11cls.flow-meta.xml
+force-app/main/default/flows/dm_day12cls.flow-meta.xml
+
+# Particular standard value set which cannot deploy without hitting error "An unexpected error occurred. Please include this ErrorId if you contact support: 256057459-81651 (1248573338)"
+force-app/main/default/standardValueSets/WorkOrderStatus.standardValueSet-meta.xml
+
+# Classes which must not be deployed because they cause "Script too large" errors related to "Dependent class is invalid and needs recompilation"
+force-app/main/default/classes/fbc_DeployMetadata.cls
+force-app/main/default/classes/fbc_DeployMetadata.cls-meta.xml
+force-app/main/default/classes/fbc_MetadataService.cls
+force-app/main/default/classes/fbc_MetadataService.cls-meta.xml
+force-app/main/default/classes/fbc_MetadataServiceTest.cls
+force-app/main/default/classes/fbc_MetadataServiceTest.cls-meta.xml
+force-app/main/default/classes/fbc_RetrieveMetadata.cls
+force-app/main/default/classes/fbc_RetrieveMetadata.cls-meta.xml
+force-app/main/default/classes/MetadataDataController.cls
+force-app/main/default/classes/MetadataDataController.cls-meta.xml
+force-app/main/default/classes/MetadataDeployController.cls
+force-app/main/default/classes/MetadataDeployController.cls-meta.xml
+force-app/main/default/classes/MetadataRetrieveController.cls
+force-app/main/default/classes/MetadataRetrieveController.cls-meta.xml
+force-app/main/default/classes/MetadataService.cls
+force-app/main/default/classes/MetadataService.cls-meta.xml
+force-app/main/default/classes/MetadataServiceExamples.cls
+force-app/main/default/classes/MetadataServiceExamples.cls-meta.xml
+force-app/main/default/classes/MetadataServiceTest.cls
+force-app/main/default/classes/MetadataServiceTest.cls-meta.xml

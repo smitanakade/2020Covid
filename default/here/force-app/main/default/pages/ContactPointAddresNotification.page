@@ -1,0 +1,24 @@
+<!--
+    Author : Rahul Ankireddypalli
+    PBI 3041093 : AddressManagement UI Changes
+    This Page is Used to Invoke ContactPointAddressValidation LWC component from VF PAge
+
+-->
+<apex:page standardcontroller="ContactPointAddress">
+    <apex:includeLightning />    
+    <div id="LightningComponentid" />    
+    <script>
+    var recordId = '{!ContactPointAddress.id}';
+    $Lightning.use("c:contactPointAddressValidationForVF", function() {
+        $Lightning.createComponent("c:contactPointAddressValidation",
+          { 
+              recordId : recordId
+          },
+          "LightningComponentid",
+          function(cmp) {
+             console.log('ContactPointAddressValidation LWC Component added in VF page');
+          });
+    });
+    </script>
+
+</apex:page>

@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "MessagingTemplate",
+                "referenceId": "MessagingTemplateRef1"
+            },
+            "DeveloperName": "Cleared_Secondary_Close_Contact_Notification",
+            "MasterLabel": "Cleared Secondary Close Contact Notification",
+            "Message": "{!Case.LastModifiedDate} \r\n\r\nReference Number: {!Case.CaseNumber} \r\n\r\nThis is a written notification from the Victorian Department of Health and Human Services.\r\n\r\nHi {!Account.FirstName} {!Account.LastName},\r\n\r\nThank you for remaining in quarantine and for helping us to slow the spread of coronavirus (COVID-19) in the Victorian community. You are now at the end of your quarantine period.\r\n\r\nIf you are experiencing any coronavirus (COVID-19) symptoms, have been exposed again to coronavirus (COVID-19) during your quarantine period or you are waiting on test results, you must remain in quarantine and please call 1300 651 160 immediately.\r\n\r\nVisit {!Case.SurveyLinkURL__c} for more information on what to do now."
+        }
+    ]
+}

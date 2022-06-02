@@ -1,0 +1,27 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">{{{Case.CaseNumber}}}</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">{{{case.Account}}}<br />
+{{{Recipient.Birthdate}}}</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">{{{Recipient.MailingAddress}}}</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Dear {{{case.Account}}}</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Thank you for isolating while you had COVID-19.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">As discussed with an Authorised Officer, you can now stop isolating. This means you can now leave your accommodation and return to normal activities outside of hotel quarantine.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Your employer or educational facility might want to see evidence that you can return to work or study. You can show them this email.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Please note this email is only about you {{{case.Account}}}. Other people in your accommodation in isolation or quarantine must stay in isolation or quarantine until they are specifically told by an Authorised Officer that they can leave.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">If you have any questions, please <a name="_Hlk63512128">call us at</a></span></span> <span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">the Department of Health on <b>1300 651 160 </b>(press 0 for COVID-19, and please request an interpreter if needed).</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Thank you for your cooperation during this time, you have helped to keep our community safe.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Kind regards,</span></span></span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"> </span></span><br />
+<span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> <b>An Authorised Officer under the <i>Public Health and Wellbeing Act 2008</i> (Vic).</b></span></span></span></span><br />
+<br />
+<i><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">This Notice is issued in accordance with Directions issued under section 200 of the</span></span></i><span style="font-size:12.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"> Public Health and Wellbeing Act 2008 <i>(Vic)</i>.</span></span></body></html>
